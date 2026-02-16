@@ -1,88 +1,107 @@
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f1a17;
-  color: white;
+body{
+    margin:0;
+    background:#000;
+    font-family:Arial, sans-serif;
+    color:white;
 }
 
-.sticky-header {
-  position: sticky;
-  top: 0;
-  background: #111;
-  padding: 10px;
-  z-index: 100;
+.top-header{
+    padding:16px;
+    text-align:center;
 }
 
-.progress-container {
-  max-width: 600px;
-  margin: auto;
+.logo-slot{
+    height:50px;
+    color:#ccff00;
+    margin-bottom:8px;
 }
 
-.progress-bar {
-  height: 10px;
-  background: #333;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-top: 5px;
+.nav-shell{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    font-size:14px;
 }
 
-.progress-fill {
-  height: 100%;
-  background: orange;
+.banner{
+    padding:10px;
 }
 
-.filters {
-  display: flex;
-  overflow-x: auto;
-  padding: 10px;
-  gap: 10px;
+.banner-placeholder{
+    height:100px;
+    border:1px dashed #333;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
-.filters button {
-  padding: 8px 12px;
-  border: none;
-  border-radius: 20px;
-  background: #222;
-  color: white;
+.rarity-columns{
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  padding: 10px;
+.rarity-column{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
-.tile {
-  background: #1b2a25;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  position: relative;
+.rarity-header{
+    padding:10px 24px;
+    border-radius:30px;
+    margin-bottom:12px;
+    font-weight:bold;
 }
 
-.tile.locked {
-  filter: grayscale(100%);
-  opacity: 0.6;
+.silver{ background:silver; color:black; }
+.gold{ background:gold; color:black; }
+.orange{ background:orange; color:black; }
+
+.deck{
+    width:100%;
+    margin-bottom:12px;
 }
 
-.badge {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  padding: 3px 6px;
-  font-size: 10px;
-  border-radius: 5px;
-  color: black;
+.card-shape{
+    width:100%;
+    padding-top:140%;
+    background:#111;
+    border-radius:8px;
 }
 
-.badge.beginner { background: silver; }
-.badge.advanced { background: gold; }
-.badge.expert { background: orange; }
+.border-silver .card-shape{ border:2px solid silver; }
+.border-gold .card-shape{ border:2px solid gold; }
+.border-orange .card-shape{ border:2px solid orange; }
 
-.card-reference {
-  margin-top: 5px;
-  font-size: 10px;
-  color: #aaa;
+.locked{ opacity:0.35; }
+
+.progress-container{
+    position:sticky;
+    bottom:0;
+    background:#000;
+    padding:10px;
+}
+
+.progress-pill{
+    position:relative;
+    border:2px solid white;
+    border-radius:30px;
+    height:28px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    background:#ccff00;
+    width:6.25%;
+    height:100%;
+}
+
+.progress-text{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    top:5px;
+    font-size:12px;
 }

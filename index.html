@@ -1,32 +1,227 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Polyhedron Character Select</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polyhedron Precons</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="sticky-header">
-  <div class="progress-container">
-    <div class="progress-label">Unlocked: <span id="progressText">4 / 64</span></div>
-    <div class="progress-bar">
-      <div class="progress-fill" style="width: 6.25%;"></div>
-    </div>
-  </div>
+<header class="top-header">
+    <div class="logo-slot">[ LOGO IMAGE SLOT ]</div>
+    <nav class="nav-shell">
+        <span>Decks</span>
+        <span>Simulation</span>
+        <span>Framework</span>
+    </nav>
 </header>
 
-<div class="filters">
-  <button onclick="filterDecks('all')">All</button>
-  <button onclick="filterDecks('beginner')">Beginner</button>
-  <button onclick="filterDecks('advanced')">Advanced</button>
-  <button onclick="filterDecks('expert')">Expert</button>
-</div>
+<section class="banner">
+    <div class="banner-placeholder">Banner / Promo Space</div>
+</section>
 
-<main id="deckGrid" class="grid"></main>
+<section class="rarity-columns">
 
-<script src="app.js"></script>
+    <div class="rarity-column">
+        <div class="rarity-header silver">Beginner</div>
+
+        <div class="deck unlocked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck unlocked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck unlocked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck unlocked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-silver">
+            <div class="card-shape"></div>
+        </div>
+        
+    </div>
+
+    <div class="rarity-column">
+        <div class="rarity-header gold">Advanced</div>
+
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-gold">
+            <div class="card-shape"></div>
+        </div>
+        
+    </div>
+
+    <div class="rarity-column">
+        <div class="rarity-header orange">Expert</div>
+
+        <div class="deck locked border-orange">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-orange">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-orange">
+            <div class="card-shape"></div>
+        </div>
+        
+        <div class="deck locked border-orange">
+            <div class="card-shape"></div>
+        </div>
+        
+    </div>
+
+</section>
+
+<footer class="progress-container">
+    <div class="progress-pill">
+        <div class="progress-fill"></div>
+        <div class="progress-text">Progress: 4 / 64 unlocked</div>
+    </div>
+</footer>
+
 </body>
 </html>
