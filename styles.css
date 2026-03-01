@@ -1,107 +1,13 @@
-body{
-    margin:0;
-    background:#000;
-    font-family:Arial, sans-serif;
-    color:white;
-}
-
-.top-header{
-    padding:16px;
-    text-align:center;
-}
-
-.logo-slot{
-    height:50px;
-    color:#ccff00;
-    margin-bottom:8px;
-}
-
-.nav-shell{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    font-size:14px;
-}
-
-.banner{
-    padding:10px;
-}
-
-.banner-placeholder{
-    height:100px;
-    border:1px dashed #333;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.rarity-columns{
-    display:flex;
-    justify-content:space-around;
-    padding:10px;
-}
-
-.rarity-column{
-    width:30%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.rarity-header{
-    padding:10px 24px;
-    border-radius:30px;
-    margin-bottom:12px;
-    font-weight:bold;
-}
-
-.silver{ background:silver; color:black; }
-.gold{ background:gold; color:black; }
-.orange{ background:orange; color:black; }
-
-.deck{
-    width:100%;
-    margin-bottom:12px;
-}
-
-.card-shape{
-    width:100%;
-    padding-top:140%;
-    background:#111;
-    border-radius:8px;
-}
-
-.border-silver .card-shape{ border:2px solid silver; }
-.border-gold .card-shape{ border:2px solid gold; }
-.border-orange .card-shape{ border:2px solid orange; }
-
-.locked{ opacity:0.35; }
-
-.progress-container{
-    position:sticky;
-    bottom:0;
-    background:#000;
-    padding:10px;
-}
-
-.progress-pill{
-    position:relative;
-    border:2px solid white;
-    border-radius:30px;
-    height:28px;
-    overflow:hidden;
-}
-
-.progress-fill{
-    background:#ccff00;
-    width:6.25%;
-    height:100%;
-}
-
-.progress-text{
-    position:absolute;
-    width:100%;
-    text-align:center;
-    top:5px;
-    font-size:12px;
-}
+body{margin:0;background:#000;color:white;font-family:Arial;}
+.rarity-columns{display:flex;justify-content:space-around;padding:20px;}
+.rarity-column{width:45%;}
+.rarity-header{padding:10px 20px;border-radius:30px;margin-bottom:12px;font-weight:bold;text-align:center;}
+.silver{background:silver;color:black;}
+.gold{background:gold;color:black;}
+.deck{cursor:pointer;}
+.card-img{width:100%;border-radius:8px;border:2px solid silver;}
+.locked{opacity:.35;}
+.progress-container{position:sticky;bottom:0;padding:10px;background:#000;}
+.progress-pill{border:2px solid white;border-radius:30px;height:28px;overflow:hidden;position:relative;}
+.progress-fill{background:#ccff00;width:6.25%;height:100%;}
+.progress-text{position:absolute;width:100%;text-align:center;top:5px;font-size:12px;}
