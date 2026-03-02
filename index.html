@@ -1,57 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Polyhedron Preconstructed</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polyhedron Preview</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="top-header">
-    <div class="logo-slot">[ LOGO IMAGE SLOT ]</div>
-    <nav class="nav-shell" aria-label="Section navigation">
-      <a href="#" class="nav-link">Decks</a>
-      <a href="#" class="nav-link">Simulation</a>
-      <a href="#" class="nav-link">Framework</a>
-    </nav>
-  </header>
 
-  <section class="banner" aria-label="Promotions">
-    <div class="banner-placeholder">Banner / Promo Space</div>
-  </section>
+<header class="site-header">
 
-  <section class="rarity-columns" aria-label="Deck select">
-    <div class="rarity-column">
-      <div class="rarity-header silver">Beginner</div>
-      <div class="deck-list" id="col-beginner"></div>
-    </div>
+  <div class="logo-container">
+    <img src="assets/Polyhedron_Logo_Main.png"
+         alt="Polyhedron Logo"
+         class="site-logo">
+  </div>
 
-    <div class="rarity-column">
-      <div class="rarity-header gold">Advanced</div>
-      <div class="deck-list" id="col-advanced"></div>
-    </div>
+  <nav class="main-nav">
+    <a href="#">Decks</a>
+    <a href="#">Simulation</a>
+    <a href="#">Framework</a>
+  </nav>
 
-    <div class="rarity-column">
-      <div class="rarity-header orange">Expert</div>
-      <div class="deck-list" id="col-expert"></div>
-    </div>
-  </section>
+  <div class="hero-container">
+    <img src="assets/Polyhedron_Hero_Banner.jpg"
+         alt="Hero Banner"
+         class="hero-banner">
+  </div>
 
-  <footer class="progress-container" aria-label="Unlock progress">
-    <div class="progress-pill" role="progressbar" aria-valuemin="0" aria-valuemax="64" aria-valuenow="4">
-      <div class="progress-fill" id="progressFill"></div>
-      <div class="progress-text" id="progressText">Progress: 4 / 64 unlocked</div>
-      <div class="progress-subtext" id="progressSubtext">Live decks: 44 (from workbook)</div>
-    </div>
-  </footer>
+</header>
 
-  <script>
-    window.POLYHEDRON = {
-      ART_ENABLED: true,
-      PLACEHOLDER_DATA_URI: "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22250%22%20height%3D%22350%22%20viewBox%3D%220%200%20250%20350%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23101010%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23050505%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22238%22%20height%3D%22338%22%20rx%3D%2214%22%20fill%3D%22url%28%23g%29%22%20stroke%3D%22%23ccff00%22%20stroke-width%3D%223%22/%3E%0A%20%20%3Ctext%20x%3D%22125%22%20y%3D%22170%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2216%22%20fill%3D%22%23ccff00%22%3ECHIBI%3C/text%3E%0A%20%20%3Ctext%20x%3D%22125%22%20y%3D%22194%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2212%22%20fill%3D%22%239fbf00%22%3Eplaceholder%3C/text%3E%0A%3C/svg%3E",
-      HOLD_MS: 220
-    };
-  </script>
-  <script src="app.js"></script>
+<main class="content">
+
+  <div class="tier-buttons">
+    <button class="tier beginner">Beginner</button>
+    <button class="tier advanced">Advanced</button>
+    <button class="tier expert">Expert</button>
+  </div>
+
+  <div class="deck-columns">
+    <div id="colBeginner" class="deck-column"></div>
+    <div id="colAdvanced" class="deck-column"></div>
+    <div id="colExpert" class="deck-column"></div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress-fill"></div>
+    <span class="progress-text">Progress: 0 / 64 unlocked</span>
+  </div>
+
+</main>
+
+<script src="app.js"></script>
 </body>
 </html>
