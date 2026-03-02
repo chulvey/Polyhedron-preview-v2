@@ -1,6 +1,10 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-  const grid = document.getElementById("deck-grid");
+
+  const colBeginner = document.getElementById("colBeginner");
+  const colAdvanced = document.getElementById("colAdvanced");
+  const colExpert = document.getElementById("colExpert");
+
   const progressFill = document.querySelector(".progress-fill");
   const progressText = document.querySelector(".progress-text");
 
@@ -14,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const total = decks.length;
-      const unlockedCount = decks.filter(d => d.unlocked).length;
+      const unlockedCount = decks.filter(d => d.unlocked === true).length;
 
       // Update progress UI
       if (progressFill && progressText) {
@@ -23,33 +27,15 @@ document.addEventListener("DOMContentLoaded", () => {
         progressText.textContent = `Progress: ${unlockedCount} / ${total} unlocked`;
       }
 
-      // Clear grid
-      grid.innerHTML = "";
+      // Clear columns
+      if (colBeginner) colBeginner.innerHTML = "";
+      if (colAdvanced) colAdvanced.innerHTML = "";
+      if (colExpert) colExpert.innerHTML = "";
 
-      // Create 3 columns
-      const tiers = ["beginner", "advanced", "expert"];
-      const columns = {};
-
-      tiers.forEach(tier => {
-        const col = document.createElement("div");
-        col.className = "tier-column";
-        col.dataset.tier = tier;
-
-        const header = document.createElement("div");
-        header.className = "tier-header";
-        header.textContent = tier.charAt(0).toUpperCase() + tier.slice(1);
-
-        col.appendChild(header);
-        grid.appendChild(col);
-
-        columns[tier] = col;
-      });
-
-      // Render decks
       decks.forEach(deck => {
+
         const card = document.createElement("div");
-        card.className = "deck-card";
-        card.classList.add(deck.border || "silver");
+        card.className = "deck-card " + (deck.border || "silver");
 
         const img = document.createElement("img");
         img.className = "deck-image";
@@ -70,18 +56,24 @@ document.addEventListener("DOMContentLoaded", () => {
         card.addEventListener("click", () => {
           if (deck.unlocked) {
             window.location.href = deck.deck_url;
-          } else {
+          } else if (deck.buy_url) {
             window.location.href = deck.buy_url;
           }
         });
 
-        if (columns[deck.tier]) {
-          columns[deck.tier].appendChild(card);
+        if (deck.tier === "beginner" && colBeginner) {
+          colBeginner.appendChild(card);
+        } else if (deck.tier === "advanced" && colAdvanced) {
+          colAdvanced.appendChild(card);
+        } else if (deck.tier === "expert" && colExpert) {
+          colExpert.appendChild(card);
         }
+
       });
 
     })
     .catch(err => {
       console.error("Failed to load decks.json", err);
     });
+
 });
