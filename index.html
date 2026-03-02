@@ -1,40 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Polyhedron Preconstructed</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Polyhedron Preconstructed – Decks</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <main class="wrap">
+    <!-- Header -->
+    <header class="site-header">
+      <img class="logo-image" src="PolyhedronLogo_Main.png" alt="Polyhedron Commander" />
+      <nav class="navbar" aria-label="Primary">
+        <a href="#decks">Decks</a>
+        <a href="#simulation">Simulation</a>
+        <a href="#framework">Framework</a>
+      </nav>
+      <section class="banner-slot" aria-label="Promo banner">
+        <img class="hero-banner" src="PolyhedronPrecon_HeroBanner.jpg" alt="Polyhedron promo banner" />
+      </section>
+    </header>
 
-  <!-- HEADER STRIP -->
-  <header class="top-strip">
-    <img src="PolyhedronLogo_Main.png" class="site-logo" alt="Polyhedron Gamestore">
-  </header>
+    <!-- Deck columns -->
+    <section id="decks" class="decks-area" aria-label="Deck grid">
+      <div class="tier-head">
+        <button class="tier-pill active" data-tier="beginner" type="button" aria-label="Beginner column">Beginner</button>
+        <button class="tier-pill" data-tier="advanced" type="button" aria-label="Advanced column">Advanced</button>
+        <button class="tier-pill" data-tier="expert" type="button" aria-label="Expert column">Expert</button>
+      </div>
 
-  <!-- CINEMATIC HERO -->
-  <section class="hero-wrapper">
-    <img src="PolyhedronPrecon_HeroBanner.jpg" class="hero-banner" alt="Commander Hero Banner">
-  </section>
+      <div class="columns">
+        <div class="col" id="colBeginner" aria-label="Beginner decks"></div>
+        <div class="col" id="colAdvanced" aria-label="Advanced decks"></div>
+        <div class="col" id="colExpert" aria-label="Expert decks"></div>
+      </div>
+    </section>
 
-  <!-- NAVIGATION -->
-  <nav class="main-nav">
-    <a href="#">Decks</a>
-    <a href="#">Simulation</a>
-    <a href="#">Framework</a>
-  </nav>
+    <!-- Placeholder sections -->
+    <section id="simulation" class="page-section" aria-label="Simulation placeholder">
+      <h2>Simulation</h2>
+      <p>Simulation tools will live here.</p>
+    </section>
 
-  <!-- DECK GRID (JS RENDERS HERE) -->
-  <div id="deck-grid"></div>
+    <section id="framework" class="page-section" aria-label="Framework placeholder">
+      <h2>Framework</h2>
+      <p>Framework / doctrine tools will live here.</p>
+    </section>
 
-  <!-- PROGRESS BAR -->
-  <div class="progress-wrapper">
-    <div class="progress-bar">
-      <div class="progress-fill"></div>
-      <span class="progress-text">Progress: 4 / 64 unlocked</span>
+    <!-- Sticky progress -->
+    <div class="progress-container" role="status" aria-live="polite">
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+        <div class="progress-text" id="progressText">Progress: 0 / 0 unlocked</div>
+      </div>
     </div>
-  </div>
+  </main>
 
   <script src="app.js"></script>
 </body>
