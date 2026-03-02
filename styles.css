@@ -185,16 +185,3 @@ body{
   .rarity-column{ width:33%; }
   .rarity-header{ min-width: 105px; padding:10px 16px; }
 }
-
-/* --- Images (placeholders) --- */
-.logo-slot .logo-img{
-  max-height:50px;
-  width:auto;
-  display:block;
-}
-.banner-placeholder .hero-img{
-  width:100%;
-  height:100%;
-  object-fit:contain;
-  display:block;
-}
