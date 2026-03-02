@@ -12,9 +12,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* COLUMN STRUCTURE */
+/* COLUMN LAYOUT */
 .columns {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   padding: 20px;
 }
@@ -31,9 +32,9 @@ body {
   background: #111;
   border-radius: 12px;
   padding: 12px;
+  text-align: center;
   cursor: pointer;
   transition: transform 0.2s ease;
-  text-align: center;
 }
 
 .deck-card:hover {
@@ -48,8 +49,8 @@ body {
 /* IMAGE CONTROL */
 .deck-image {
   width: 100%;
-  max-width: 260px;
-  height: 260px;
+  max-width: 240px;
+  height: 240px;
   object-fit: contain;
   display: block;
   margin: 0 auto 10px auto;
