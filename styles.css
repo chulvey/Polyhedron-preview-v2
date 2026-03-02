@@ -1,109 +1,234 @@
+:root{
+  --bg:#000;
+  --lime:#ccff00;
+  --silver:#c0c0c0;
+  --gold:#d4af37;
+  --orange:#ff8c1a;
+}
 
-body {
-  margin: 0;
-  background: #000;
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:#fff;
   font-family: Arial, sans-serif;
-  color: white;
 }
 
-/* ================= HEADER ================= */
-
-.site-header {
-  width: 100%;
-  text-align: center;
-  background: #000;
+.top-header{
+  padding:16px 16px 10px;
+  text-align:center;
 }
 
-.logo-container {
-  padding: 30px 0 10px 0;
+.logo-slot{
+  height:50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--lime);
+  letter-spacing:1px;
 }
 
-.site-logo {
-  max-width: 280px;
-  width: 80%;
-  height: auto;
+.nav-shell{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  font-size:14px;
+  margin-top:6px;
+}
+.nav-link{ color:#fff; text-decoration:none; opacity:.9; }
+
+.banner{ padding:10px 14px; }
+.banner-placeholder{
+  height:100px;
+  border:1px dashed #333;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#dcdcdc;
 }
 
-.main-nav {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding: 10px 0 20px 0;
+.rarity-columns{
+  display:flex;
+  justify-content:space-around;
+  gap:10px;
+  padding:10px 10px 18px;
 }
 
-.main-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
+.rarity-column{
+  width:32%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 
-.main-nav a:hover {
-  color: #b8ff00;
+.rarity-header{
+  padding:10px 22px;
+  border-radius:999px;
+  margin:10px 0 12px;
+  font-weight:700;
+  color:#000;
+  min-width: 120px;
+  text-align:center;
 }
 
-.hero-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto 40px auto;
+.silver{ background:var(--silver); }
+.gold{ background:var(--gold); }
+.orange{ background:var(--orange); }
+
+.deck-list{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
 }
 
-.hero-banner {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
+/* Tile */
+.deck{
+  width:100%;
+  position:relative;
+  border-radius:10px;
+  overflow:hidden;
+  cursor:pointer;
+  user-select:none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* ================= CONTENT ================= */
-
-.tier-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 30px;
+.deck::before{
+  content:"";
+  display:block;
+  padding-top:140%; /* MTG card ratio */
+  background: linear-gradient(#0f0f0f, #050505);
 }
 
-.tier {
-  padding: 12px 24px;
-  border-radius: 25px;
-  border: none;
-  font-weight: bold;
+.deck img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:10px;
+  border:2px solid transparent;
 }
 
-.beginner { background: #ccc; }
-.advanced { background: #d4af37; }
-.expert { background: #ff8c00; }
+.border-silver img{ border-color:var(--silver); }
+.border-gold img{ border-color:var(--gold); }
+.border-orange img{ border-color:var(--orange); }
 
-.deck-columns {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+.locked{
+  opacity:0.35;
+  filter:saturate(0.6);
 }
 
-.deck-column {
-  flex: 1;
-  max-width: 350px;
+.deck-name{
+  margin-top:6px;
+  font-size:12px;
+  line-height:1.2;
+  text-align:center;
+  color:#eaeaea;
 }
 
-.progress-bar {
-  margin: 40px auto;
-  width: 80%;
-  background: #222;
-  border-radius: 20px;
-  padding: 6px;
-  position: relative;
+.compliance-label{
+  position:absolute;
+  left:8px;
+  right:8px;
+  bottom:8px;
+  padding:6px 8px;
+  font-size:11px;
+  border-radius:8px;
+  background: rgba(0,0,0,0.65);
+  color:#fff;
+  display:none;
 }
 
-.progress-fill {
-  width: 25%;
-  height: 14px;
-  background: #b8ff00;
-  border-radius: 20px;
+/* Sticky progress */
+.progress-container{
+  position:sticky;
+  bottom:0;
+  background:var(--bg);
+  padding:10px 14px 14px;
+}
+.progress-pill{
+  position:relative;
+  border:2px solid #fff;
+  border-radius:999px;
+  height:38px;
+  overflow:hidden;
+}
+.progress-fill{
+  background:var(--lime);
+  height:100%;
+  width: 6.25%; /* 4/64 */
+}
+.progress-text{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  color:#eaeaea;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+}
+.progress-subtext{
+  position:absolute;
+  right:12px;
+  bottom:-18px;
+  font-size:11px;
+  color:#9a9a9a;
 }
 
-.progress-text {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 0;
-  font-size: 14px;
+/* Mobile tweaks */
+@media (max-width: 420px){
+  .nav-shell{ gap:26px; }
+  .rarity-columns{ padding:8px 8px 14px; }
+  .rarity-column{ width:33%; }
+  .rarity-header{ min-width: 105px; padding:10px 16px; }
 }
+
+
+/* ===== Art placeholders (safe overrides) ===== */
+.top-header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+
+.logo-slot{
+  height:auto;            /* override fixed height so logo image can size itself */
+  min-height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.site-logo{
+  display:block;
+  width:auto;
+  max-width:min(520px, 92vw);
+  max-height:72px;
+  height:auto;
+  object-fit:contain;
+}
+
+.nav-shell{
+  margin-top:0; /* use header gap instead */
+}
+
+.banner-placeholder{
+  height:auto;            /* override fixed height */
+  padding:0;
+  overflow:hidden;
+}
+
+.hero-banner{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:220px;       /* keeps banner from eating the page on mobile */
+  object-fit:cover;
+  object-position:center;
+}
+
+/* If you later want taller hero art, increase max-height above. */
