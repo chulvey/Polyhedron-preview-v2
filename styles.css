@@ -10,9 +10,6 @@
 
 body{
   margin:0;
-  background:#000;
-
-  margin:0;
   background:var(--bg);
   color:#fff;
   font-family: Arial, sans-serif;
@@ -190,11 +187,48 @@ body{
 }
 
 
-/* Fixed background layer (does not affect layout) */
-body::before{
-  content:"";
-  position:fixed;
-  inset:0;
-  background:url("Polyhedron_Background.png") center/cover no-repeat;
-  z-index:-1;
+/* ===== Art placeholders (safe overrides) ===== */
+.top-header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
 }
+
+.logo-slot{
+  height:auto;            /* override fixed height so logo image can size itself */
+  min-height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.site-logo{
+  display:block;
+  width:auto;
+  max-width:min(520px, 92vw);
+  max-height:72px;
+  height:auto;
+  object-fit:contain;
+}
+
+.nav-shell{
+  margin-top:0; /* use header gap instead */
+}
+
+.banner-placeholder{
+  height:auto;            /* override fixed height */
+  padding:0;
+  overflow:hidden;
+}
+
+.hero-banner{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:220px;       /* keeps banner from eating the page on mobile */
+  object-fit:cover;
+  object-position:center;
+}
+
+/* If you later want taller hero art, increase max-height above. */
