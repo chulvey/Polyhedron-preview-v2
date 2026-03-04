@@ -10,11 +10,10 @@
 
 body{
   margin:0;
-  background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;var(--bg);
+  background:#000;
+
+  margin:0;
+  background:var(--bg);
   color:#fff;
   font-family: Arial, sans-serif;
 }
@@ -45,7 +44,7 @@ body{
 .banner{ padding:10px 14px; }
 .banner-placeholder{
   height:100px;
-  border:none;
+  border:1px dashed #333;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -76,21 +75,9 @@ body{
   text-align:center;
 }
 
-.silver{ background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;var(--silver); }
-.gold{ background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;var(--gold); }
-.orange{ background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;var(--orange); }
+.silver{ background:var(--silver); }
+.gold{ background:var(--gold); }
+.orange{ background:var(--orange); }
 
 .deck-list{
   width:100%;
@@ -114,11 +101,7 @@ body{
   content:"";
   display:block;
   padding-top:140%; /* MTG card ratio */
-  background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;linear-gradient(#0f0f0f, #050505);
+  background: linear-gradient(#0f0f0f, #050505);
 }
 
 .deck img{
@@ -156,11 +139,7 @@ body{
   padding:6px 8px;
   font-size:11px;
   border-radius:8px;
-  background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;rgba(0,0,0,0.65);
+  background: rgba(0,0,0,0.65);
   color:#fff;
   display:none;
 }
@@ -169,11 +148,7 @@ body{
 .progress-container{
   position:sticky;
   bottom:0;
-  background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;var(--bg);
+  background:var(--bg);
   padding:10px 14px 14px;
 }
 .progress-pill{
@@ -184,11 +159,7 @@ body{
   overflow:hidden;
 }
 .progress-fill{
-  background-image: url("Polyhedron_Background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000;var(--lime);
+  background:var(--lime);
   height:100%;
   width: 6.25%; /* 4/64 */
 }
@@ -216,4 +187,14 @@ body{
   .rarity-columns{ padding:8px 8px 14px; }
   .rarity-column{ width:33%; }
   .rarity-header{ min-width: 105px; padding:10px 16px; }
+}
+
+
+/* Fixed background layer (does not affect layout) */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:url("Polyhedron_Background.png") center/cover no-repeat;
+  z-index:-1;
 }
