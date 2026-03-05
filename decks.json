@@ -1,178 +1,706 @@
 [
   {
-    "deck_url": "decks/120-deaths.html",
-    "chibi": "assets/chibis/120-deaths.png"
-  },
-  {
-    "deck_url": "decks/30-minutes-or-i-scoop.html",
-    "chibi": "assets/chibis/30-minutes-or-i-scoop.png"
-  },
-  {
-    "deck_url": "decks/add-vantage.html",
-    "chibi": "assets/chibis/add-vantage.png"
-  },
-  {
-    "deck_url": "decks/antisocial-behavior.html",
-    "chibi": "assets/chibis/antisocial-behavior.png"
-  },
-  {
-    "deck_url": "decks/be-in-control.html",
-    "chibi": "assets/chibis/be-in-control.png"
-  },
-  {
-    "deck_url": "decks/bros-before-hosed.html",
-    "chibi": "assets/chibis/bros-before-hosed.png"
-  },
-  {
-    "deck_url": "decks/charmed-im-sure.html",
-    "chibi": "assets/chibis/charmed-im-sure.png"
-  },
-  {
-    "deck_url": "decks/choices-choices.html",
-    "chibi": "assets/chibis/choices-choices.png"
-  },
-  {
-    "deck_url": "decks/death-and-taxes.html",
-    "chibi": "assets/chibis/death-and-taxes.png"
-  },
-  {
-    "deck_url": "decks/dinner-time.html",
-    "chibi": "assets/chibis/dinner-time.png"
-  },
-  {
-    "deck_url": "decks/doomsfae.html",
-    "chibi": "assets/chibis/doomsfae.png"
-  },
-  {
-    "deck_url": "decks/elven-tutor.html",
-    "chibi": "assets/chibis/elven-tutor.png"
-  },
-  {
-    "deck_url": "decks/eternal-garden.html",
-    "chibi": "assets/chibis/eternal-garden.png"
-  },
-  {
-    "deck_url": "decks/eternally-triggered.html",
-    "chibi": "assets/chibis/eternally-triggered.png"
-  },
-  {
-    "deck_url": "decks/go-big-or-go-home.html",
-    "chibi": "assets/chibis/go-big-or-go-home.png"
-  },
-  {
-    "deck_url": "decks/go-wide-or-go-home.html",
-    "chibi": "assets/chibis/go-wide-or-go-home.png"
-  },
-  {
-    "deck_url": "decks/herpagonasyphiaids.html",
-    "chibi": "assets/chibis/herpagonasyphiaids.png"
-  },
-  {
-    "deck_url": "decks/id-tap-that.html",
-    "chibi": "assets/chibis/id-tap-that.png"
-  },
-  {
-    "deck_url": "decks/is-it-combo.html",
-    "chibi": "assets/chibis/is-it-combo.png"
-  },
-  {
-    "deck_url": "decks/legendary.html",
-    "chibi": "assets/chibis/legendary.png"
-  },
-  {
-    "deck_url": "decks/loan-shark.html",
-    "chibi": "assets/chibis/loan-shark.png"
-  },
-  {
-    "deck_url": "decks/manipulating-madness.html",
-    "chibi": "assets/chibis/manipulating-madness.png"
-  },
-  {
-    "deck_url": "decks/non-deterministic.html",
-    "chibi": "assets/chibis/non-deterministic.png"
-  },
-  {
-    "deck_url": "decks/nopeville.html",
-    "chibi": "assets/chibis/nopeville.png"
-  },
-  {
+    "id": "d001",
+    "name": "Old is New Again",
+    "commander": "Teshar, Ancestor's Apostle",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 White",
+    "faction": "Mono W",
+    "archetype": "Combo",
+    "unlocked": true,
+    "chibi": "assets/chibis/Set1_MonoWhite_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Teshar%2C%20Ancestor%27s%20Apostle",
     "deck_url": "decks/old-is-new-again.html",
-    "chibi": "assets/chibis/old-is-new-again.png"
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
   },
   {
-    "deck_url": "decks/one-giant-tantrum.html",
-    "chibi": "assets/chibis/one-giant-tantrum.png"
-  },
-  {
-    "deck_url": "decks/one-mans-trash.html",
-    "chibi": "assets/chibis/one-mans-trash.png"
-  },
-  {
-    "deck_url": "decks/poison-the-well.html",
-    "chibi": "assets/chibis/poison-the-well.png"
-  },
-  {
-    "deck_url": "decks/poser.html",
-    "chibi": "assets/chibis/poser.png"
-  },
-  {
-    "deck_url": "decks/shared-adventures.html",
-    "chibi": "assets/chibis/shared-adventures.png"
-  },
-  {
-    "deck_url": "decks/short-bus-brain-trust.html",
-    "chibi": "assets/chibis/short-bus-brain-trust.png"
-  },
-  {
-    "deck_url": "decks/smoke-bomb.html",
-    "chibi": "assets/chibis/smoke-bomb.png"
-  },
-  {
-    "deck_url": "decks/the-silver-lining.html",
-    "chibi": "assets/chibis/the-silver-lining.png"
-  },
-  {
+    "id": "d002",
+    "name": "The Spiritual Path",
+    "commander": "Celestial Kirin",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 White",
+    "faction": "Mono W",
+    "archetype": "Control",
+    "unlocked": true,
+    "chibi": "assets/chibis/Set1_MonoWhite_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Celestial%20Kirin",
     "deck_url": "decks/the-spiritual-path.html",
-    "chibi": "assets/chibis/the-spiritual-path.png"
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
   },
   {
-    "deck_url": "decks/thriller.html",
-    "chibi": "assets/chibis/thriller.png"
-  },
-  {
+    "id": "d003",
+    "name": "To the Drawing Board",
+    "commander": "Sram, Senior Edificer",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 White",
+    "faction": "Mono W",
+    "archetype": "Aggro",
+    "unlocked": true,
+    "chibi": "assets/chibis/Set1_MonoWhite_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Sram%2C%20Senior%20Edificer",
     "deck_url": "decks/to-the-drawing-board.html",
-    "chibi": "assets/chibis/to-the-drawing-board.png"
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
   },
   {
-    "deck_url": "decks/tricks-and-treats.html",
-    "chibi": "assets/chibis/tricks-and-treats.png"
-  },
-  {
-    "deck_url": "decks/turning-this-to-that.html",
-    "chibi": "assets/chibis/turning-this-to-that.png"
-  },
-  {
-    "deck_url": "decks/urrr-dergens.html",
-    "chibi": "assets/chibis/urrr-dergens.png"
-  },
-  {
-    "deck_url": "decks/wax-on-wax-off.html",
-    "chibi": "assets/chibis/wax-on-wax-off.png"
-  },
-  {
+    "id": "d004",
+    "name": "Weird Cat Lady",
+    "commander": "Kemba, Kha Regent",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 White",
+    "faction": "Mono W",
+    "archetype": "Midrange",
+    "unlocked": true,
+    "chibi": "assets/chibis/Set1_MonoWhite_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Kemba%2C%20Kha%20Regent",
     "deck_url": "decks/weird-cat-lady.html",
-    "chibi": "assets/chibis/weird-cat-lady.png"
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
   },
   {
+    "id": "d005",
+    "name": "Id Tap That",
+    "commander": "Unctus, Grand Metatect",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Blue",
+    "faction": "Mono U",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlue_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Unctus%2C%20Grand%20Metatect",
+    "deck_url": "decks/id-tap-that.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d006",
+    "name": "Nopeville",
+    "commander": "Talrand, Sky Summoner",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Blue",
+    "faction": "Mono U",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlue_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Talrand%2C%20Sky%20Summoner",
+    "deck_url": "decks/nopeville.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d007",
+    "name": "Turning This to That",
+    "commander": "Arcum Dagsson",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Blue",
+    "faction": "Mono U",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlue_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Arcum%20Dagsson",
+    "deck_url": "decks/turning-this-to-that.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d008",
+    "name": "Wizball",
+    "commander": "Azami, Lady of Scrolls",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Blue",
+    "faction": "Mono U",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlue_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Azami%2C%20Lady%20of%20Scrolls",
     "deck_url": "decks/wizball.html",
-    "chibi": "assets/chibis/wizball.png"
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
   },
   {
-    "deck_url": "decks/x-rated.html",
-    "chibi": "assets/chibis/x-rated.png"
+    "id": "d009",
+    "name": "120 Deaths",
+    "commander": "Mikaeus, the Unhallowed",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Black",
+    "faction": "Mono B",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlack_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Mikaeus%2C%20the%20Unhallowed",
+    "deck_url": "decks/120-deaths.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
   },
   {
+    "id": "d010",
+    "name": "Choices Choices",
+    "commander": "Rankle, Master of Pranks",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Black",
+    "faction": "Mono B",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlack_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Rankle%2C%20Master%20of%20Pranks",
+    "deck_url": "decks/choices-choices.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d011",
+    "name": "Eternally Triggered",
+    "commander": "Shirei, Shizo's Caretaker",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Black",
+    "faction": "Mono B",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlack_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Shirei%2C%20Shizo%27s%20Caretaker",
+    "deck_url": "decks/eternally-triggered.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d012",
+    "name": "Herpagonasyphiaids",
+    "commander": "Gollum, Obsessed Stalker",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Black",
+    "faction": "Mono B",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoBlack_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Gollum%2C%20Obsessed%20Stalker",
+    "deck_url": "decks/herpagonasyphiaids.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d013",
+    "name": "Antisocial Behavior",
+    "commander": "Ashling the Pilgrim",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Red",
+    "faction": "Mono R",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoRed_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Ashling%20the%20Pilgrim",
+    "deck_url": "decks/antisocial-behavior.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d014",
+    "name": "Go Wide or Go Home",
+    "commander": "Krenko, Tin Street Kingpin",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Red",
+    "faction": "Mono R",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoRed_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Krenko%2C%20Tin%20Street%20Kingpin",
+    "deck_url": "decks/go-wide-or-go-home.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d015",
+    "name": "One Mans Trash",
+    "commander": "Feldon of the Third Path",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Red",
+    "faction": "Mono R",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoRed_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Feldon%20of%20the%20Third%20Path",
+    "deck_url": "decks/one-mans-trash.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d016",
+    "name": "Tricks and Treats",
+    "commander": "Zada, Hedron Grinder",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Red",
+    "faction": "Mono R",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoRed_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Zada%2C%20Hedron%20Grinder",
+    "deck_url": "decks/tricks-and-treats.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d017",
+    "name": "Be In Control",
+    "commander": "Legolas, Master Archer",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Green",
+    "faction": "Mono G",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoGreen_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Legolas%2C%20Master%20Archer",
+    "deck_url": "decks/be-in-control.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d018",
+    "name": "Go Big or Go Home",
+    "commander": "Titania, Protector of Argoth",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Green",
+    "faction": "Mono G",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoGreen_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Titania%2C%20Protector%20of%20Argoth",
+    "deck_url": "decks/go-big-or-go-home.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d019",
+    "name": "Poison the Well",
+    "commander": "Fynn, the Fangbearer",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Green",
+    "faction": "Mono G",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoGreen_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Fynn%2C%20the%20Fangbearer",
+    "deck_url": "decks/poison-the-well.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d020",
+    "name": "Wax On, Wax Off",
+    "commander": "Marwyn, the Nurturer",
+    "tier": "beginner",
+    "border": "silver",
+    "wave": "Wave 1",
+    "product_group": "Set 1: Mono Color \u2013 Green",
+    "faction": "Mono G",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_MonoGreen_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Marwyn%2C%20the%20Nurturer",
+    "deck_url": "decks/wax-on-wax-off.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d021",
+    "name": "The Silver Lining",
+    "commander": "Wyleth, Soul of Steel",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 White pairing",
+    "faction": "Boros",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Boros_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Wyleth%2C%20Soul%20of%20Steel",
+    "deck_url": "decks/the-silver-lining.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d022",
+    "name": "Bros Before Hosed",
+    "commander": "Winota, Joiner of Forces",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 White pairing",
+    "faction": "Boros",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Boros_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Winota%2C%20Joiner%20of%20Forces",
+    "deck_url": "decks/bros-before-hosed.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d023",
+    "name": "Youre Just Paranoid",
+    "commander": "Stenn, Paranoid Partisan",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 White pairing",
+    "faction": "Azorius",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Azorius_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Stenn%2C%20Paranoid%20Partisan",
     "deck_url": "decks/youre-just-paranoid.html",
-    "chibi": "assets/chibis/youre-just-paranoid.png"
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d024",
+    "name": "30 Minutes or I Scoop",
+    "commander": "Abdel Adrian, Gorion's Ward",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 White pairing",
+    "faction": "Azorius",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Azorius_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Abdel%20Adrian%2C%20Gorion%27s%20Ward",
+    "deck_url": "decks/30-minutes-or-i-scoop.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d025",
+    "name": "Smoke Bomb",
+    "commander": "Yuriko, the Tiger's Shadow",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Blue pairing",
+    "faction": "Dimir",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Dimir_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Yuriko%2C%20the%20Tiger%27s%20Shadow",
+    "deck_url": "decks/smoke-bomb.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d026",
+    "name": "Doomsfae",
+    "commander": "Nymris, Oona's Trickster",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Blue pairing",
+    "faction": "Dimir",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Dimir_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Nymris%2C%20Oona%27s%20Trickster",
+    "deck_url": "decks/doomsfae.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d027",
+    "name": "Death & Taxes",
+    "commander": "Eriette of the Charmed Apple",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Blue pairing",
+    "faction": "Orzhov",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Orzhov_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Eriette%20of%20the%20Charmed%20Apple",
+    "deck_url": "decks/death-and-taxes.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d028",
+    "name": "X-Rated",
+    "commander": "Felisa, Fang of Silverquill",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Blue pairing",
+    "faction": "Orzhov",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Orzhov_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Felisa%2C%20Fang%20of%20Silverquill",
+    "deck_url": "decks/x-rated.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d029",
+    "name": "Manipulating Madness",
+    "commander": "Anje Falkenrath",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Black pairing",
+    "faction": "Rakdos",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Rakdos_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Anje%20Falkenrath",
+    "deck_url": "decks/manipulating-madness.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d030",
+    "name": "Thriller",
+    "commander": "Meren of Clan Nel Toth",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Black pairing",
+    "faction": "Golgari",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Golgari_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Meren%20of%20Clan%20Nel%20Toth",
+    "deck_url": "decks/thriller.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d031",
+    "name": "Is It Combo",
+    "commander": "Vadrik, Astral Archmage",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Black pairing",
+    "faction": "Izzet",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Izzet_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Vadrik%2C%20Astral%20Archmage",
+    "deck_url": "decks/is-it-combo.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d032",
+    "name": "Short Bus Brain Trust",
+    "commander": "The Infamous Cruelclaw",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Black pairing",
+    "faction": "Rakdos",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Rakdos_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=The%20Infamous%20Cruelclaw",
+    "deck_url": "decks/short-bus-brain-trust.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d033",
+    "name": "Add Vantage",
+    "commander": "Niv-Mizzet, Parun",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Red pairing",
+    "faction": "Izzet",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Izzet_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Niv-Mizzet%2C%20Parun",
+    "deck_url": "decks/add-vantage.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d034",
+    "name": "Charmed, Im Sure",
+    "commander": "Sythis, Harvest's Hand",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Red pairing",
+    "faction": "Selesnya",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Selesnya_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Sythis%2C%20Harvest%27s%20Hand",
+    "deck_url": "decks/charmed-im-sure.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d035",
+    "name": "Elven Tutor",
+    "commander": "Momir Vig, Simic Visionary",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Red pairing",
+    "faction": "Simic",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Simic_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Momir%20Vig%2C%20Simic%20Visionary",
+    "deck_url": "decks/elven-tutor.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d036",
+    "name": "Non-Deterministic",
+    "commander": "The Gitrog Monster",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Red pairing",
+    "faction": "Golgari",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Golgari_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=The%20Gitrog%20Monster",
+    "deck_url": "decks/non-deterministic.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d037",
+    "name": "Dinner Time",
+    "commander": "Thrakkus the Butcher",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Green pairing",
+    "faction": "Gruul",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Gruul_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Thrakkus%20the%20Butcher",
+    "deck_url": "decks/dinner-time.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d038",
+    "name": "Shared Adventures",
+    "commander": "Selvala, Explorer Returned",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Green pairing",
+    "faction": "Selesnya",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Selesnya_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Selvala%2C%20Explorer%20Returned",
+    "deck_url": "decks/shared-adventures.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d039",
+    "name": "Eternal Garden",
+    "commander": "Zimone, Mystery Unraveler",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Green pairing",
+    "faction": "Simic",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Simic_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Zimone%2C%20Mystery%20Unraveler",
+    "deck_url": "decks/eternal-garden.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d040",
+    "name": "Loan Shark",
+    "commander": "Tahngarth, First Mate",
+    "tier": "advanced",
+    "border": "gold",
+    "wave": "Wave 2",
+    "product_group": "Set 2: Two Color \u2013 Green pairing",
+    "faction": "Gruul",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Set1_Gruul_Chibi.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Tahngarth%2C%20First%20Mate",
+    "deck_url": "decks/loan-shark.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d041",
+    "name": "One Giant Tantrum",
+    "commander": "Child of Alara",
+    "tier": "expert",
+    "border": "orange",
+    "wave": "Wave 2.5",
+    "product_group": "Set 2.5: Five Color (Aftermath)",
+    "faction": "WUBRG",
+    "archetype": "Control",
+    "unlocked": false,
+    "chibi": "assets/chibis/Wave2.5_one-giant-tantrum_orange.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Child%20of%20Alara",
+    "deck_url": "decks/one-giant-tantrum.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d042",
+    "name": "Urrr Dergens",
+    "commander": "Scion of the Ur-Dragon",
+    "tier": "expert",
+    "border": "orange",
+    "wave": "Wave 2.5",
+    "product_group": "Set 2.5: Five Color (Aftermath)",
+    "faction": "WUBRG",
+    "archetype": "Aggro",
+    "unlocked": false,
+    "chibi": "assets/chibis/Wave2.5_urrr-dergens_orange.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Scion%20of%20the%20Ur-Dragon",
+    "deck_url": "decks/urrr-dergens.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d043",
+    "name": "Legendary",
+    "commander": "Sisay, Weatherlight Captain",
+    "tier": "expert",
+    "border": "orange",
+    "wave": "Wave 2.5",
+    "product_group": "Set 2.5: Five Color (Aftermath)",
+    "faction": "WUBRG",
+    "archetype": "Combo",
+    "unlocked": false,
+    "chibi": "assets/chibis/Wave2.5_legendary_orange.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Sisay%2C%20Weatherlight%20Captain",
+    "deck_url": "decks/legendary.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
+  },
+  {
+    "id": "d044",
+    "name": "Poser",
+    "commander": "Reaper King",
+    "tier": "expert",
+    "border": "orange",
+    "wave": "Wave 2.5",
+    "product_group": "Set 2.5: Five Color (Aftermath)",
+    "faction": "WUBRG",
+    "archetype": "Midrange",
+    "unlocked": false,
+    "chibi": "assets/chibis/Wave2.5_poser_orange.png",
+    "commander_api": "https://api.scryfall.com/cards/named?exact=Reaper%20King",
+    "deck_url": "decks/poser.html",
+    "buy_url": "https://www.facebook.com/polyhedrongamestore"
   }
 ]
