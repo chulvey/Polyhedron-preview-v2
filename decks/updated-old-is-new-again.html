@@ -31,7 +31,7 @@
       content:"";
       position:fixed;
       inset:0;
-      background-image:url("Polyhedron_Background.png");
+      background-image: url("../Polyhedron_Background.png"), url("Polyhedron_Background.png");
       background-size:cover;
       background-position:center;
       background-repeat:no-repeat;
@@ -45,7 +45,7 @@
       content:"";
       position:fixed;
       inset:0;
-      background-image:url("PolyhedronLogo_Main.png");
+      background-image: url("../PolyhedronLogo_Main.png"), url("PolyhedronLogo_Main.png");
       background-repeat:no-repeat;
       background-position:center;
       background-size:min(72vmin, 720px);
@@ -136,7 +136,7 @@
       position:absolute;
       top:0;
       right:0;
-      width:280px;
+      width:auto;
       text-align:center;
     }
     .triangleLabel{
@@ -149,7 +149,8 @@
     .triangleBox img{
       display:block;
       margin:0 auto;
-      width:100%;
+      width:auto;
+      max-width: none;
       height:auto;
       aspect-ratio: 1 / 1;
       object-fit: contain;
@@ -194,7 +195,7 @@
   </style>
 </head>
 <body>
-  <img id="stickyLogo" src="PolyhedronLogo_Main.png" alt="Polyhedron" />
+  <img id="stickyLogo" src="../PolyhedronLogo_Main.png" onerror="this.onerror=null;this.src='PolyhedronLogo_Main.png';" alt="Polyhedron" />
   <div class="topRule"></div>
 
   <div class="wrap">
@@ -259,8 +260,11 @@
           img.onload = () => {
             const h = Math.round(img.getBoundingClientRect().height);
             const tri = document.getElementById("triangleImage");
+            const box = document.querySelector(".triangleBox");
             tri.style.height = h + "px";
             tri.style.width = h + "px";
+            // Ensure the container doesn't constrain the square image (prevents stretching)
+            box.style.width = h + "px";
           };
         })
         .catch(() => {
