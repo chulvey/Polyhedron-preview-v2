@@ -1,75 +1,102 @@
 
 <!DOCTYPE html>
+
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8"/>
 <title>Weird Cat Lady | Polyhedron Deck</title>
-<style>
-body{
-background:#0b0b0b;
-background-image:url('Polyhedron_Background.png');
-background-size:cover;
-background-attachment:fixed;
-background-position:center;
-color:#e6e6e6;
-font-family:Arial, Helvetica, sans-serif;
-margin:0;
-}
-.hero{height:280px;background:#111;border-bottom:2px solid #d6ff4d;}
-.container{max-width:1000px;margin:auto;padding:40px 24px;}
+<style>.hero{height:280px;background:#111;border-bottom:2px solid #d6ff4d;}
 .sticky-logo{position:fixed;top:14px;left:14px;width:54px;height:auto;z-index:9999;pointer-events:none;filter:drop-shadow(0 0 10px rgba(0,0,0,.65));}
 .topRow{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:nowrap;}
 .info{margin-top:18px;}
-.card{width:260px;border-radius:6px;}
-.trianglePanel{min-width:220px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;align-self:center;}
 .trianglePanel h2{margin:0 0 10px 0;color:#e6e6e6;font-size:22px;}
-.trianglePanel img{height:140px;width:auto;max-width:100%;}
 h1{color:#d6ff4d;margin-top:0;font-size:36px;}
 .meta{margin-bottom:10px;font-size:18px;}
 .section{margin-top:36px;}
 .section h2{color:#d6ff4d;border-bottom:1px solid #333;padding-bottom:6px;}
+:root{
+  --cardH: min(360px, 58vw);
+}
+.container{
+  position: relative;
+  z-index: 1;
+}
+body{
+  background-image: url('Polyhedron_Background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* Large center watermark behind content */
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  background-image: url('PolyhedronLogo_Main.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70vmin;
+  opacity: 0.10;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Make card + triangle same visual height */
+.card{
+  width: auto !important;
+  height: var(--cardH);
+  max-width: 46vw;
+}
+.trianglePanel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  min-width: 0;
+}
+.trianglePanel img{
+  width: auto !important;
+  height: var(--cardH);
+  max-width: 46vw;
+}
+@media (min-width: 900px){
+  :root{ --cardH: 360px; }
+  .card{ max-width: 260px; }
+  .trianglePanel img{ max-width: 360px; }
+}
 </style>
 </head>
 <body>
-
-<img class="sticky-logo" src="PolyhedronLogo_Main.png" alt="Polyhedron">
-
+<img alt="Polyhedron" class="sticky-logo" src="PolyhedronLogo_Main.png"/>
 <div class="hero"></div>
-
 <div class="container">
-
 <div class="topRow">
-  <img id="cardImage" class="card" alt="Commander">
-  <div class="trianglePanel">
-    <h2>Exploit Triangle</h2>
-    <img id="triangleImage" src="../assets/exploit/exploit-midrange.png" alt="Exploit Triangle">
-  </div>
+<img alt="Commander" class="card" id="cardImage"/>
+<div class="trianglePanel">
+<h2>Exploit Triangle</h2>
+<img alt="Exploit Triangle" id="triangleImage" src="../assets/exploit/exploit-midrange.png"/>
 </div>
-
+</div>
 <div class="info">
-  <h1>Weird Cat Lady</h1>
-  <div class="meta">Commander: Kemba, Kha Regent</div>
-  <div class="meta">Tier: beginner</div>
-  <div id="oracle"></div>
+<h1>Weird Cat Lady</h1>
+<div class="meta">Commander: Kemba, Kha Regent</div>
+<div class="meta">Tier: beginner</div>
+<div id="oracle"></div>
 </div>
-
 <div class="section">
 <h2>Introduction</h2>
 <p>Add primer content here.</p>
 </div>
-
 <div class="section">
 <h2>Why Play This Deck?</h2>
 <p>Add strategic overview.</p>
 </div>
-
 <div class="section">
 <h2>Posture</h2>
 <p>Explain how this deck fits the exploit triangle.</p>
 </div>
-
 </div>
-
 <script>
 fetch("https://api.scryfall.com/cards/named?exact=Kemba%2C%20Kha%20Regent")
 .then(res=>res.json())
@@ -81,6 +108,5 @@ const tri = document.getElementById('triangleImage');
 if(tri){ tri.style.height = Math.round(cardH * 0.5) + 'px'; }
 })
 </script>
-
 </body>
 </html>
