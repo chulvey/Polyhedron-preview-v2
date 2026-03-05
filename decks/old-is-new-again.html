@@ -22,7 +22,8 @@ h1{color:#d6ff4d;margin-top:0;font-size:36px;}
   z-index: 1;
 }
 body{
-  background-image: url('Polyhedron_Background.png');
+  background-color: #000;
+  background-image: url('../Polyhedron_Background.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -32,7 +33,7 @@ body::before{
   content:"";
   position: fixed;
   inset: 0;
-  background-image: url('PolyhedronLogo_Main.png');
+  background-image: url('../PolyhedronLogo_Main.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70vmin;
@@ -68,7 +69,7 @@ body::before{
 </style>
 </head>
 <body>
-<img alt="Polyhedron" class="sticky-logo" src="PolyhedronLogo_Main.png"/>
+<img alt="Polyhedron" class="sticky-logo" src="../PolyhedronLogo_Main.png"/>
 <div class="hero"></div>
 <div class="container">
 <div class="topRow">
@@ -103,9 +104,7 @@ fetch("https://api.scryfall.com/cards/named?exact=Teshar%2C%20Ancestor%27s%20Apo
 .then(card=>{
 document.getElementById("cardImage").src = card.image_uris.normal
 document.getElementById("oracle").textContent = card.oracle_text
-const cardH = document.getElementById('cardImage').clientHeight || 520;
-const tri = document.getElementById('triangleImage');
-if(tri){ tri.style.height = Math.round(cardH * 0.5) + 'px'; }
+// Triangle sizing is handled purely by CSS so it matches the card height.
 })
 </script>
 </body>
