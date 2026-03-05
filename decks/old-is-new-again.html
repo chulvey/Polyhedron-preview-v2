@@ -1,111 +1,278 @@
-
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<title>Old is New Again | Polyhedron Deck</title>
-<style>.hero{height:280px;background:#111;border-bottom:2px solid #d6ff4d;}
-.sticky-logo{position:fixed;top:14px;left:14px;width:54px;height:auto;z-index:9999;pointer-events:none;filter:drop-shadow(0 0 10px rgba(0,0,0,.65));}
-.topRow{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:nowrap;}
-.info{margin-top:18px;}
-.trianglePanel h2{margin:0 0 10px 0;color:#e6e6e6;font-size:22px;}
-h1{color:#d6ff4d;margin-top:0;font-size:36px;}
-.meta{margin-bottom:10px;font-size:18px;}
-.section{margin-top:36px;}
-.section h2{color:#d6ff4d;border-bottom:1px solid #333;padding-bottom:6px;}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Old is New Again — Polyhedron</title>
+  <style>
 :root{
-  --cardH: min(360px, 58vw);
-}
-.container{
-  position: relative;
-  z-index: 1;
-}
-body{
-  background-color: #000;
-  background-image: url('../Polyhedron_Background.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-/* Large center watermark behind content */
-body::before{
-  content:"";
+      --bg:#060606;
+      --text: #f2f2f2;
+      --muted: #d6d6d6;
+      --accent:#b7ff3c;
+      --line:rgba(255,255,255,.12);
+      --overlayOpacity:.12; /* background + watermark opacity */
+      --cardWidth: 260px;
+      --radius: 10px;
+    }
+
+    html,body{height:100%;}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background:var(--bg);
+      position:relative;
+      overflow-x:hidden;
+    }
+
+    /* Background pattern */
+    /* Large watermark */
+    /* Sticky logo (top-left, highest layer) */
+    #stickyLogo{
+      position:fixed;
+      top:10px;
+      left:10px;
+      width:44px;
+      height:44px;
+      z-index:2000;
+      opacity:1;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,.55));
+      border-radius:999px;
+    }
+
+    /* Top divider line */
+    .topRule{
+      height:2px;
+      background:rgba(183,255,60,.55);
+      margin-top:72px; /* room for sticky logo */
+    }
+
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+      padding:18px 16px 48px;
+    }
+
+    .header{
+      display:flex;
+      gap:20px;
+      align-items:flex-start;
+      margin-top:14px;
+    }
+
+    .cardBox{
+      width:var(--cardWidth);
+      flex:0 0 var(--cardWidth);
+    }
+    .cardBox img{
+      width:100%;
+      height:auto;
+      display:block;
+      border-radius:8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.45);
+    }
+
+    .contentBox{
+      position:relative;
+      flex:1 1 auto;
+      min-width:0;
+      padding-right: 320px; /* room for triangle */
+    }
+
+    h1{
+      margin:6px 0 10px;
+      font-size:40px;
+      line-height:1.05;
+      color:var(--accent);
+      letter-spacing:.2px;
+      text-shadow:0 1px 0 rgba(0,0,0,.35);
+    }
+
+    .meta{
+      margin:0;
+      line-height:1.55;
+      color:var(--muted);
+      font-size:16px;
+    }
+    .meta b{ color: var(--text); font-weight:600; }
+
+    .oracle{
+      margin-top:10px;
+      color: var(--text);
+      font-size:18px;
+      line-height:1.5;
+      max-width: 62ch;
+    }
+
+    /* Triangle block anchored in the right void space */
+    .triangleBox{
+      position:absolute;
+      top:0;
+      right:0;
+      width:auto;
+      text-align:center;
+    }
+    .triangleLabel{
+      font-weight:700;
+      letter-spacing:.4px;
+      margin:0 0 10px;
+      color: var(--text);
+      opacity:.95;
+    }
+    .triangleBox img{display:block; height: 360px; width: 360px; max-width: 100%; object-fit: contain;}
+
+    /* Sections */
+    .section{
+      margin-top:22px;
+    }
+    .section h2{
+      margin:18px 0 8px;
+      font-size:28px;
+      color:var(--accent);
+    }
+    .rule{
+      height:1px;
+      background:var(--line);
+      margin:8px 0 10px;
+    }
+    .section p{
+      margin:0;
+      font-size:16px;
+      line-height:1.6;
+      color: var(--text);
+      max-width: 78ch;
+    }
+
+    /* Mobile */
+    @media (max-width: 860px){
+      .contentBox{ padding-right:0; }
+      .triangleBox{
+        position:static;
+        width:min(320px, 100%);
+        margin:16px auto 0;
+      }
+      .header{ flex-direction:column; align-items:flex-start; }
+      .cardBox{ width:min(320px, 100%); flex-basis:auto; }
+      h1{ font-size:36px; }
+    }
+
+/* Background layers (more reliable than body pseudo-elements on iOS/Safari) */
+.bgPattern{
   position: fixed;
   inset: 0;
-  background-image: url('../PolyhedronLogo_Main.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70vmin;
-  opacity: 0.10;
+  z-index: -2;
   pointer-events: none;
-  z-index: 0;
+  background-image: url('Polyhedron_Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.12; /* match watermark */
+  filter: saturate(0.9) brightness(0.85);
 }
 
-/* Make card + triangle same visual height */
-.card{
-  width: auto !important;
-  height: var(--cardH);
-  max-width: 46vw;
+.bgWatermark{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url('PolyhedronLogo_Main.png');
+  background-size: 70vmin 70vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.12; /* match background */
 }
-.trianglePanel{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  min-width: 0;
+
+.heroCard img{display:block; height: 360px; width: auto; max-width: 100%; border-radius: 10px; border: 2px solid var(--lime); box-shadow: 0 8px 24px rgba(0,0,0,.55);} 
+
+@media (max-width: 520px){
+  .heroCard img{height: 300px;}
+  .triangleBox img{height: 300px; width: 300px;}
 }
-.trianglePanel img{
-  width: auto !important;
-  height: var(--cardH);
-  max-width: 46vw;
-}
-@media (min-width: 900px){
-  :root{ --cardH: 360px; }
-  .card{ max-width: 260px; }
-  .trianglePanel img{ max-width: 360px; }
-}
+
 </style>
 </head>
 <body>
-<img alt="Polyhedron" class="sticky-logo" src="../PolyhedronLogo_Main.png"/>
-<div class="hero"></div>
-<div class="container">
-<div class="topRow">
-<img alt="Commander" class="card" id="cardImage"/>
-<div class="trianglePanel">
-<h2>Exploit Triangle</h2>
-<img alt="Exploit Triangle" id="triangleImage" src="../assets/exploit/exploit-combo.png"/>
-</div>
-</div>
-<div class="info">
-<h1>Old is New Again</h1>
-<div class="meta">Commander: Teshar, Ancestor's Apostle</div>
-<div class="meta">Tier: beginner</div>
-<div id="oracle"></div>
-</div>
-<div class="section">
-<h2>Introduction</h2>
-<p>Add primer content here.</p>
-</div>
-<div class="section">
-<h2>Why Play This Deck?</h2>
-<p>Add strategic overview.</p>
-</div>
-<div class="section">
-<h2>Posture</h2>
-<p>Explain how this deck fits the exploit triangle.</p>
-</div>
-</div>
-<script>
-fetch("https://api.scryfall.com/cards/named?exact=Teshar%2C%20Ancestor%27s%20Apostle")
-.then(res=>res.json())
-.then(card=>{
-document.getElementById("cardImage").src = card.image_uris.normal
-document.getElementById("oracle").textContent = card.oracle_text
-// Triangle sizing is handled purely by CSS so it matches the card height.
-})
-</script>
+  <div class="bgPattern"></div>
+  <div class="bgWatermark"></div>
+
+  <img id="stickyLogo" src="../PolyhedronLogo_Main.png" onerror="this.onerror=null;this.src='PolyhedronLogo_Main.png';" alt="Polyhedron" />
+  <div class="topRule"></div>
+
+  <div class="wrap">
+    <div class="header">
+      <div class="cardBox">
+        <img id="cardImage" alt="Commander card" />
+      </div>
+
+      <div class="contentBox">
+        <div class="triangleBox" aria-label="Exploit Triangle">
+          <div class="triangleLabel">Exploit Triangle</div>
+          <img id="triangleImage" alt="Exploit Triangle" src="../assets/exploit/exploit-combo.png" />
+        </div>
+
+        <h1 id="deckTitle">Old is New Again</h1>
+
+        <p class="meta"><b>Commander:</b> Teshar, Ancestor's Apostle</p>
+        <p class="meta"><b>Tier:</b> beginner</p>
+
+        <div class="oracle" id="oracleText">
+          Flying Whenever you cast a historic spell, return target creature card with mana value 3 or less from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Introduction</h2>
+      <div class="rule"></div>
+      <p>Add primer content here.</p>
+    </div>
+
+    <div class="section">
+      <h2>Why Play This Deck?</h2>
+      <div class="rule"></div>
+      <p>Add strategic overview.</p>
+    </div>
+
+    <div class="section">
+      <h2>Posture</h2>
+      <div class="rule"></div>
+      <p>Explain how this deck fits the exploit triangle.</p>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const commanderApi = "https://api.scryfall.com/cards/named?fuzzy=Teshar,%20Ancestor's%20Apostle";
+
+      fetch(commanderApi)
+        .then(r => r.json())
+        .then(card => {
+          const img = document.getElementById("cardImage");
+          const oracle = document.getElementById("oracleText");
+
+          if (card && card.image_uris && card.image_uris.normal) {
+            img.src = card.image_uris.normal;
+          }
+          if (card && card.oracle_text) {
+            oracle.textContent = card.oracle_text.replace(/\n/g, " ");
+          }
+
+          img.onload = () => {
+            const h = Math.round(img.getBoundingClientRect().height);
+            const tri = document.getElementById("triangleImage");
+            const box = document.querySelector(".triangleBox");
+            tri.style.height = h + "px";
+            tri.style.width = h + "px";
+            // Ensure the container doesn't constrain the square image (prevents stretching)
+            box.style.width = h + "px";
+          };
+        })
+        .catch(() => {
+          const img = document.getElementById("cardImage");
+          img.alt = "Card image unavailable";
+        });
+    })();
+  </script>
 </body>
 </html>
