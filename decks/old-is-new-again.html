@@ -16,11 +16,11 @@
       --radius: 10px;
     }
 
-    html,body{height:100%;}
-    body{
+    html,body {height:100%;}
+    body {
       margin:0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text);
+      color:#e8e8e8;
       background:var(--bg);
       position:relative;
       overflow-x:hidden;
@@ -54,31 +54,30 @@
       padding:18px 16px 48px;
     }
 
-    .header{
+    .header {
       display:flex;
       gap:20px;
       align-items:flex-start;
       margin-top:14px;
-    }
+     flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; align-items:flex-start; }
 
     .cardBox{
       width:var(--cardWidth);
       flex:0 0 var(--cardWidth);
     }
-    .cardBox img{
-      width:100%;
-      height:auto;
-      display:block;
-      border-radius:8px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.45);
-    }
+    .cardBox img {
+  height: var(--cardH);
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.55);
+}
 
-    .contentBox{
+    .contentBox {
       position:relative;
       flex:1 1 auto;
       min-width:0;
       padding-right: 320px; /* room for triangle */
-    }
+     min-width: 520px; }
 
     h1{
       margin:6px 0 10px;
@@ -120,7 +119,13 @@
       color: var(--text);
       opacity:.95;
     }
-    .triangleBox img{display:block; height: 360px; width: 360px; max-width: 100%; object-fit: contain;}
+    .triangleBox img {
+  width: var(--triSize);
+  height: var(--triSize);
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
 
     /* Sections */
     .section{
@@ -145,9 +150,7 @@
     }
 
     /* Mobile */
-    @media (max-width: 860px){
-      .contentBox{ padding-right:0; }
-      .triangleBox{
+    .triangleBox{
         position:static;
         width:min(320px, 100%);
         margin:16px auto 0;
@@ -163,7 +166,7 @@
   inset: 0;
   z-index: -2;
   pointer-events: none;
-  background-image: url('Polyhedron_Background.png');
+  background-image:url('Polyhedron_Background_Texture.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,7 +190,13 @@
 
 @media (max-width: 520px){
   .heroCard img{height: 300px;}
-  .triangleBox img{height: 300px; width: 300px;}
+  .triangleBox img {
+  width: var(--triSize);
+  height: var(--triSize);
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
 }
 
 </style>
