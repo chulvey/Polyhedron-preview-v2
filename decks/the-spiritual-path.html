@@ -6,81 +6,51 @@
 <title>The Spiritual Path | Polyhedron Deck</title>
 <style>
 body{
-background: #0b0b0b;
-      background-image: url('../Polyhedron_Background.png'), url('Polyhedron_Background.png');
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center;
-      
+background:#0b0b0b;
+background-image:url('Polyhedron_Background.png');
+background-size:cover;
+background-attachment:fixed;
+background-position:center;
 color:#e6e6e6;
 font-family:Arial, Helvetica, sans-serif;
 margin:0;
 }
-.hero { height: 280px; border-bottom: 1px solid #2a2a2a; position: relative;
-      background-image: url('../PolyhedronPrecon_Hero.png'), url('PolyhedronPrecon_Hero.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-.container { position: relative; z-index: 1; max-width:1000px;margin:auto;padding:40px 24px;}
-.header{display:flex;gap:30px;flex-wrap:wrap;}
+.hero{height:280px;background:#111;border-bottom:2px solid #d6ff4d;}
+.container{max-width:1000px;margin:auto;padding:40px 24px;}
+.sticky-logo{position:fixed;top:14px;left:14px;width:54px;height:auto;z-index:9999;pointer-events:none;filter:drop-shadow(0 0 10px rgba(0,0,0,.65));}
+.topRow{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:nowrap;}
+.info{margin-top:18px;}
 .card{width:260px;border-radius:6px;}
+.trianglePanel{min-width:220px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;align-self:center;}
+.trianglePanel h2{margin:0 0 10px 0;color:#e6e6e6;font-size:22px;}
+.trianglePanel img{height:140px;width:auto;max-width:100%;}
 h1{color:#d6ff4d;margin-top:0;font-size:36px;}
 .meta{margin-bottom:10px;font-size:18px;}
 .section{margin-top:36px;}
 .section h2{color:#d6ff4d;border-bottom:1px solid #333;padding-bottom:6px;}
-.triangle{text-align:center;margin-top:40px;}
-.triangle img{width:300px;}
-
-    .watermark {
-      position: fixed;
-      inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      pointer-events: none;
-      z-index: 0;
-      opacity: 0.10;
-      filter: grayscale(100%);
-    }
-    .watermark img {
-      width: min(80vw, 700px);
-      max-width: 700px;
-      height: auto;
-    }
-    .corner-logo {
-      position: absolute;
-      top: 14px;
-      left: 14px;
-      width: 88px;
-      height: auto;
-      opacity: 0.85;
-      filter: drop-shadow(0 0 10px rgba(0,0,0,0.7));
-    }
-  </style>
+</style>
 </head>
-<body style="background-image:url('Polyhedron_Background_Texture.png');background-size:cover;background-attachment:fixed;">
-  <div class="watermark"><img src="../PolyhedronLogo_Main.png" alt="Polyhedron" onerror="this.onerror=null;this.src='PolyhedronLogo_Main.png';"></div>
+<body>
 
+<img class="sticky-logo" src="PolyhedronLogo_Main.png" alt="Polyhedron">
 
-<div class="hero"><img class="corner-logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron" onerror="this.onerror=null;this.src='PolyhedronLogo_Main.png';"></div>
+<div class="hero"></div>
 
 <div class="container">
 
-<div class="header">
-
-<img id="cardImage" class="card">
-
-<div>
-
-<h1>The Spiritual Path</h1>
-
-<div class="meta">Commander: Celestial Kirin</div>
-<div class="meta">Tier: beginner</div>
-
-<div id="oracle"></div>
-
+<div class="topRow">
+  <img id="cardImage" class="card" alt="Commander">
+  <div class="trianglePanel">
+    <h2>Exploit Triangle</h2>
+    <img id="triangleImage" src="../assets/exploit/exploit-control.png" alt="Exploit Triangle">
+  </div>
 </div>
+
+<div class="info">
+  <h1>The Spiritual Path</h1>
+  <div class="meta">Commander: Celestial Kirin</div>
+  <div class="meta">Tier: beginner</div>
+  <div id="oracle"></div>
 </div>
 
 <div class="section">
@@ -98,11 +68,6 @@ h1{color:#d6ff4d;margin-top:0;font-size:36px;}
 <p>Explain how this deck fits the exploit triangle.</p>
 </div>
 
-<div class="triangle">
-<h2>Exploit Triangle</h2>
-<img src="../assets/exploit/exploit-midrange.png" style="max-width:260px;width:100%;">
-</div>
-
 </div>
 
 <script>
@@ -111,6 +76,9 @@ fetch("https://api.scryfall.com/cards/named?exact=Celestial%20Kirin")
 .then(card=>{
 document.getElementById("cardImage").src = card.image_uris.normal
 document.getElementById("oracle").textContent = card.oracle_text
+const cardH = document.getElementById('cardImage').clientHeight || 520;
+const tri = document.getElementById('triangleImage');
+if(tri){ tri.style.height = Math.round(cardH * 0.5) + 'px'; }
 })
 </script>
 
