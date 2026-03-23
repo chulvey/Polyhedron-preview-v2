@@ -8,7 +8,7 @@
 :root{
   --lime:#c7ff5e;
   --text:#ffffff;
-  --panel:rgba(0,0,0,0.55);
+  --panel:rgba(0,0,0,0.58);
   --border:rgba(199,255,94,0.18);
 }
 
@@ -25,7 +25,7 @@ body::before{
   content:"";
   position:fixed;
   inset:0;
-  background:url("/Polyhedron_Background_Texture.png") center/cover no-repeat;
+  background:url("Polyhedron_Background_Texture.png") center/cover no-repeat;
   opacity:0.10;
   z-index:-2;
 }
@@ -34,7 +34,7 @@ body::after{
   content:"";
   position:fixed;
   inset:0;
-  background:url("/PolyhedronLogo_Main.png") center/70vmin no-repeat;
+  background:url("PolyhedronLogo_Main.png") center/70vmin no-repeat;
   opacity:0.12;
   z-index:-1;
 }
@@ -56,7 +56,7 @@ body::after{
 .hero{
   position:relative;
   margin-top:18px;
-  margin-bottom:120px;
+  margin-bottom:92px;
 }
 
 .heroFrame{
@@ -77,9 +77,9 @@ body::after{
 
 .violators{
   position:absolute;
-  left:24px;
-  right:24px;
-  bottom:-88px;
+  left:28px;
+  right:28px;
+  bottom:-54px; /* about 20-25% overlap */
   display:flex;
   gap:22px;
   align-items:flex-start;
@@ -139,7 +139,7 @@ p{
   }
 
   .hero{
-    margin-bottom:108px;
+    margin-bottom:84px;
   }
 
   .heroImage{
@@ -149,7 +149,7 @@ p{
   .violators{
     left:14px;
     right:14px;
-    bottom:-76px;
+    bottom:-42px; /* reduced overlap on mobile */
     gap:14px;
   }
 
@@ -171,21 +171,21 @@ p{
 </head>
 <body>
 
-<img class="logo" src="/polyhedron_logo_small.png" alt="Polyhedron logo">
+<img class="logo" src="polyhedron_logo_small.png" alt="Polyhedron logo">
 
 <div class="page">
 
   <div class="hero">
     <div class="heroFrame">
-      <img class="heroImage" src="/assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
+      <img class="heroImage" src="assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
     </div>
 
     <div class="violators">
       <div class="violator">
-        <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor's%20Apostle&format=image" alt="Teshar, Ancestor's Apostle">
+        <img src="https://cards.scryfall.io/normal/front/4/6/46446909-ea30-4db3-a896-ffe6f1d42668.jpg?1698988292" alt="Teshar, Ancestor's Apostle">
       </div>
       <div class="violator">
-        <img src="/exploit-combo.png" alt="Exploit Triangle">
+        <img src="assets/exploit/exploit-combo.png" alt="Exploit Triangle">
       </div>
     </div>
   </div>
