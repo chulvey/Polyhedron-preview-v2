@@ -1,80 +1,209 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Poison the Well | Polyhedron Deck</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poison the Well</title>
 <style>
-body{
-background:#0b0b0b;
-color:#e6e6e6;
-font-family:Arial, Helvetica, sans-serif;
-margin:0;
+:root{
+  --lime:#c7ff5e;
+  --text:#ffffff;
+  --panel:rgba(0,0,0,0.58);
+  --border:rgba(199,255,94,0.18);
 }
-.hero{height:280px;background:#111;border-bottom:2px solid #d6ff4d;}
-.container{max-width:1000px;margin:auto;padding:40px 24px;}
-.header{display:flex;gap:30px;flex-wrap:wrap;}
-.card{width:260px;border-radius:6px;}
-h1{color:#d6ff4d;margin-top:0;font-size:36px;}
-.meta{margin-bottom:10px;font-size:18px;}
-.section{margin-top:36px;}
-.section h2{color:#d6ff4d;border-bottom:1px solid #333;padding-bottom:6px;}
-.triangle{text-align:center;margin-top:40px;}
-.triangle img{width:300px;}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  color:var(--text);
+  background:#000;
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:url("../Polyhedron_Background_Texture.png") center/cover no-repeat;
+  opacity:0.10;
+  z-index:-2;
+}
+
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:url("../PolyhedronLogo_Main.png") center/70vmin no-repeat;
+  opacity:0.12;
+  z-index:-1;
+}
+
+.logo{
+  position:fixed;
+  top:8px;
+  left:8px;
+  width:64px;
+  z-index:20;
+}
+
+.page{
+  max-width:980px;
+  margin:0 auto;
+  padding:0 20px 80px;
+}
+
+.hero{
+  position:relative;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.heroFrame{
+  border:1px solid rgba(255,255,255,0.20);
+  border-radius:20px;
+  overflow:hidden;
+  background:#050505;
+  box-shadow:0 0 30px rgba(199,255,94,0.08);
+}
+
+.heroImage{
+  display:block;
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  object-position:center;
+}
+
+.violatorRow{
+  display:flex;
+  gap:22px;
+  padding:0 28px;
+  margin-top:-32px; /* slight banner violation only */
+  margin-bottom:24px; /* clear separation before title */
+  position:relative;
+  z-index:5;
+}
+
+.violator{
+  width:160px;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:10px;
+  backdrop-filter: blur(4px);
+}
+
+.violator img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:10px;
+}
+
+.title{
+  color:var(--lime);
+  font-size:36px;
+  margin:12px 0 20px;
+  font-weight:800;
+}
+
+.meta p{
+  font-size:18px;
+  margin:0 0 10px;
+}
+
+.sectionTitle{
+  color:var(--lime);
+  font-size:22px;
+  margin-top:38px;
+  border-bottom:1px solid #444;
+  padding-bottom:6px;
+}
+
+p{
+  font-size:18px;
+  line-height:1.7;
+}
+
+@media (max-width:700px){
+  .page{
+    padding:0 16px 64px;
+  }
+
+  .hero{
+    margin-bottom:0;
+  }
+
+  .heroImage{
+    height:220px;
+  }
+
+  .violatorRow{
+    gap:14px;
+    padding:0 14px;
+    margin-top:-24px;
+    margin-bottom:20px;
+  }
+
+  .violator{
+    width:calc(50% - 7px);
+    padding:8px;
+  }
+
+  .title{
+    font-size:30px;
+    margin-top:14px;
+  }
+
+  .meta p, p{
+    font-size:17px;
+  }
+}
 </style>
 </head>
-<body><img src="PolyhedronLogo_Main.png" style="position:fixed;top:12px;left:12px;width:60px;opacity:.9;z-index:999;"> style="background-image:url('Polyhedron_Background_Texture.png');background-size:cover;background-attachment:fixed;">
+<body>
 
-<div class="hero"></div>
+<img class="logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron logo">
 
-<div class="container">
+<div class="page">
 
-<div class="header">
+  <div class="hero">
+    <div class="heroFrame">
+      <img class="heroImage" src="../assets/Commander_Banners/poison-the-well-banner.png" alt="Poison the Well banner art">
+    </div>
+  </div>
 
-<img id="cardImage" class="card">
+  <div class="violatorRow">
+    <div class="violator">
+      <img src="https://api.scryfall.com/cards/named?exact=Fynn%2C%20the%20Fangbearer&format=image" alt="Fynn, the Fangbearer">
+    </div>
+    <div class="violator">
+      <img src="../assets/exploit/exploit-aggro.png" alt="Exploit Triangle">
+    </div>
+  </div>
 
-<div>
+  <h1 class="title">Poison the Well</h1>
 
-<h1>Poison the Well</h1>
+  <div class="meta">
+    <p><strong>Commander:</strong> Fynn, the Fangbearer</p>
+    <p><strong>Tier:</strong> beginner</p>
+  </div>
 
-<div class="meta">Commander: Fynn, the Fangbearer</div>
-<div class="meta">Tier: beginner</div>
+  <p>
+    Poison the Well is a Mono G aggro deck led by Fynn, the Fangbearer. Use the sections below to add the full primer, strategic overview, and exploit posture notes.
+  </p>
 
-<div id="oracle"></div>
+  <div class="sectionTitle">Introduction</div>
+  <p>Add primer content here.</p>
+
+  <div class="sectionTitle">Why Play This Deck?</div>
+  <p>Add strategic overview.</p>
+
+  <div class="sectionTitle">Posture</div>
+  <p>Explain how this deck fits the exploit triangle.</p>
 
 </div>
-</div>
-
-<div class="section">
-<h2>Introduction</h2>
-<p>Add primer content here.</p>
-</div>
-
-<div class="section">
-<h2>Why Play This Deck?</h2>
-<p>Add strategic overview.</p>
-</div>
-
-<div class="section">
-<h2>Posture</h2>
-<p>Explain how this deck fits the exploit triangle.</p>
-</div>
-
-<div class="triangle">
-<h2>Exploit Triangle</h2>
-<img src="../assets/ui/triangle-aggro.png">
-</div>
-
-</div>
-
-<script>
-fetch("https://api.scryfall.com/cards/named?exact=Fynn%2C%20the%20Fangbearer")
-.then(res=>res.json())
-.then(card=>{
-document.getElementById("cardImage").src = card.image_uris.normal
-document.getElementById("oracle").textContent = card.oracle_text
-})
-</script>
 
 </body>
 </html>
