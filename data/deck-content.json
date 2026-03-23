@@ -1,1 +1,1234 @@
-
+{
+  "old-is-new-again": {
+    "deck_id": "old_is_new_again",
+    "deck_name": "Old is New Again",
+    "page_slug": "old-is-new-again",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WHITE — OLD IS NEW AGAIN",
+        "body_text": "In Magic: the Gathering, white represents order, coordination, discipline, and protection. It values structure, cooperation, and the idea that a game can be won by making the battlefield behave on purpose rather than leaving it to chaos. White commonly expresses itself through rules pressure, board management, combat discipline, resource smoothing, and clean tactical sequencing. Old is New Again is Polyhedron's combo expression for Mono W, built under a assembly posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WHITE — OLD IS NEW AGAIN",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Mono W can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a white-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WHITE — OLD IS NEW AGAIN",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Old is New Again should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "the-spiritual-path": {
+    "deck_id": "the_spiritual_path",
+    "deck_name": "The Spiritual Path",
+    "page_slug": "the-spiritual-path",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WHITE — THE SPIRITUAL PATH",
+        "body_text": "In Magic: the Gathering, white represents order, coordination, discipline, and protection. It values structure, cooperation, and the idea that a game can be won by making the battlefield behave on purpose rather than leaving it to chaos. White commonly expresses itself through rules pressure, board management, combat discipline, resource smoothing, and clean tactical sequencing. The Spiritual Path is Polyhedron's control expression for Mono W, built under a suppression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WHITE — THE SPIRITUAL PATH",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Mono W can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a white-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WHITE — THE SPIRITUAL PATH",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that The Spiritual Path should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "to-the-drawing-board": {
+    "deck_id": "to_the_drawing_board",
+    "deck_name": "To the Drawing Board",
+    "page_slug": "to-the-drawing-board",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WHITE — TO THE DRAWING BOARD",
+        "body_text": "In Magic: the Gathering, white represents order, coordination, discipline, and protection. It values structure, cooperation, and the idea that a game can be won by making the battlefield behave on purpose rather than leaving it to chaos. White commonly expresses itself through rules pressure, board management, combat discipline, resource smoothing, and clean tactical sequencing. To the Drawing Board is Polyhedron's aggro expression for Mono W, built under a compression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WHITE — TO THE DRAWING BOARD",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Mono W can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a white-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WHITE — TO THE DRAWING BOARD",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that To the Drawing Board should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "weird-cat-lady": {
+    "deck_id": "weird_cat_lady",
+    "deck_name": "Weird Cat Lady",
+    "page_slug": "weird-cat-lady",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WHITE — WEIRD CAT LADY",
+        "body_text": "In Magic: the Gathering, white represents order, coordination, discipline, and protection. It values structure, cooperation, and the idea that a game can be won by making the battlefield behave on purpose rather than leaving it to chaos. White commonly expresses itself through rules pressure, board management, combat discipline, resource smoothing, and clean tactical sequencing. Weird Cat Lady is Polyhedron's midrange expression for Mono W, built under a stability posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WHITE — WEIRD CAT LADY",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Mono W can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a white-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WHITE — WEIRD CAT LADY",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Weird Cat Lady should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "id-tap-that": {
+    "deck_id": "id_tap_that",
+    "deck_name": "Id Tap That",
+    "page_slug": "id-tap-that",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLUE — ID TAP THAT",
+        "body_text": "In Magic: the Gathering, blue represents knowledge, precision, manipulation, and refinement. It values planning, information, and the belief that a game can be shaped by better timing, cleaner sequencing, and superior structural understanding. Blue commonly expresses itself through card selection, stack interaction, artifact synergy, tempo control, and engines that reward careful assembly. Id Tap That is Polyhedron's aggro expression for Mono U, built under a compression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLUE — ID TAP THAT",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Mono U can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a blue-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLUE — ID TAP THAT",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Id Tap That should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "nopeville": {
+    "deck_id": "nopeville",
+    "deck_name": "Nopeville",
+    "page_slug": "nopeville",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLUE — NOPEVILLE",
+        "body_text": "In Magic: the Gathering, blue represents knowledge, precision, manipulation, and refinement. It values planning, information, and the belief that a game can be shaped by better timing, cleaner sequencing, and superior structural understanding. Blue commonly expresses itself through card selection, stack interaction, artifact synergy, tempo control, and engines that reward careful assembly. Nopeville is Polyhedron's midrange expression for Mono U, built under a stability posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLUE — NOPEVILLE",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Mono U can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a blue-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLUE — NOPEVILLE",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Nopeville should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "turning-this-to-that": {
+    "deck_id": "turning_this_to_that",
+    "deck_name": "Turning This to That",
+    "page_slug": "turning-this-to-that",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLUE — TURNING THIS TO THAT",
+        "body_text": "In Magic: the Gathering, blue represents knowledge, precision, manipulation, and refinement. It values planning, information, and the belief that a game can be shaped by better timing, cleaner sequencing, and superior structural understanding. Blue commonly expresses itself through card selection, stack interaction, artifact synergy, tempo control, and engines that reward careful assembly. Turning This to That is Polyhedron's combo expression for Mono U, built under a assembly posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLUE — TURNING THIS TO THAT",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Mono U can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a blue-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLUE — TURNING THIS TO THAT",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Turning This to That should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "wizball": {
+    "deck_id": "wizball",
+    "deck_name": "Wizball",
+    "page_slug": "wizball",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLUE — WIZBALL",
+        "body_text": "In Magic: the Gathering, blue represents knowledge, precision, manipulation, and refinement. It values planning, information, and the belief that a game can be shaped by better timing, cleaner sequencing, and superior structural understanding. Blue commonly expresses itself through card selection, stack interaction, artifact synergy, tempo control, and engines that reward careful assembly. Wizball is Polyhedron's control expression for Mono U, built under a suppression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLUE — WIZBALL",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Mono U can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a blue-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLUE — WIZBALL",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that Wizball should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "120-deaths": {
+    "deck_id": "120_deaths",
+    "deck_name": "120 Deaths",
+    "page_slug": "120-deaths",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLACK — 120 DEATHS",
+        "body_text": "In Magic: the Gathering, black represents ambition, extraction, recursion, and ruthless efficiency. It values leverage, accepts costs other colors avoid, and turns graveyards, life totals, and asymmetry into usable resources. Black commonly expresses itself through sacrifice, reanimation, attrition, tutoring, discard, removal, and resource conversion. 120 Deaths is Polyhedron's combo expression for Mono B, built under a assembly posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLACK — 120 DEATHS",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Mono B can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a black-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLACK — 120 DEATHS",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that 120 Deaths should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "choices-choices": {
+    "deck_id": "choices_choices",
+    "deck_name": "Choices Choices",
+    "page_slug": "choices-choices",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLACK — CHOICES CHOICES",
+        "body_text": "In Magic: the Gathering, black represents ambition, extraction, recursion, and ruthless efficiency. It values leverage, accepts costs other colors avoid, and turns graveyards, life totals, and asymmetry into usable resources. Black commonly expresses itself through sacrifice, reanimation, attrition, tutoring, discard, removal, and resource conversion. Choices Choices is Polyhedron's control expression for Mono B, built under a suppression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLACK — CHOICES CHOICES",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Mono B can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a black-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLACK — CHOICES CHOICES",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that Choices Choices should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "eternally-triggered": {
+    "deck_id": "eternally_triggered",
+    "deck_name": "Eternally Triggered",
+    "page_slug": "eternally-triggered",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLACK — ETERNALLY TRIGGERED",
+        "body_text": "In Magic: the Gathering, black represents ambition, extraction, recursion, and ruthless efficiency. It values leverage, accepts costs other colors avoid, and turns graveyards, life totals, and asymmetry into usable resources. Black commonly expresses itself through sacrifice, reanimation, attrition, tutoring, discard, removal, and resource conversion. Eternally Triggered is Polyhedron's midrange expression for Mono B, built under a stability posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLACK — ETERNALLY TRIGGERED",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Mono B can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a black-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLACK — ETERNALLY TRIGGERED",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Eternally Triggered should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "herpagonasyphiaids": {
+    "deck_id": "herpagonasyphiaids",
+    "deck_name": "Herpagonasyphiaids",
+    "page_slug": "herpagonasyphiaids",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BLACK — HERPAGONASYPHIAIDS",
+        "body_text": "In Magic: the Gathering, black represents ambition, extraction, recursion, and ruthless efficiency. It values leverage, accepts costs other colors avoid, and turns graveyards, life totals, and asymmetry into usable resources. Black commonly expresses itself through sacrifice, reanimation, attrition, tutoring, discard, removal, and resource conversion. Herpagonasyphiaids is Polyhedron's aggro expression for Mono B, built under a compression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BLACK — HERPAGONASYPHIAIDS",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Mono B can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a black-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BLACK — HERPAGONASYPHIAIDS",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Herpagonasyphiaids should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "antisocial-behavior": {
+    "deck_id": "antisocial_behavior",
+    "deck_name": "Antisocial Behavior",
+    "page_slug": "antisocial-behavior",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "RED — ANTISOCIAL BEHAVIOR",
+        "body_text": "In Magic: the Gathering, red represents speed, volatility, impulse, and explosive force. It values action over hesitation and looks to compress the game before slower engines can stabilize. Red commonly expresses itself through direct damage, burst mana, treasure, temporary advantage, attack pressure, and turns where momentum matters more than perfect efficiency. Antisocial Behavior is Polyhedron's aggro expression for Mono R, built under a compression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "RED — ANTISOCIAL BEHAVIOR",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Mono R can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a red-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "RED — ANTISOCIAL BEHAVIOR",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Antisocial Behavior should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "go-wide-or-go-home": {
+    "deck_id": "go_wide_or_go_home",
+    "deck_name": "Go Wide or Go Home",
+    "page_slug": "go-wide-or-go-home",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "RED — GO WIDE OR GO HOME",
+        "body_text": "In Magic: the Gathering, red represents speed, volatility, impulse, and explosive force. It values action over hesitation and looks to compress the game before slower engines can stabilize. Red commonly expresses itself through direct damage, burst mana, treasure, temporary advantage, attack pressure, and turns where momentum matters more than perfect efficiency. Go Wide or Go Home is Polyhedron's midrange expression for Mono R, built under a stability posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "RED — GO WIDE OR GO HOME",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Mono R can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a red-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "RED — GO WIDE OR GO HOME",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Go Wide or Go Home should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "one-mans-trash": {
+    "deck_id": "one_mans_trash",
+    "deck_name": "One Mans Trash",
+    "page_slug": "one-mans-trash",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "RED — ONE MANS TRASH",
+        "body_text": "In Magic: the Gathering, red represents speed, volatility, impulse, and explosive force. It values action over hesitation and looks to compress the game before slower engines can stabilize. Red commonly expresses itself through direct damage, burst mana, treasure, temporary advantage, attack pressure, and turns where momentum matters more than perfect efficiency. One Mans Trash is Polyhedron's control expression for Mono R, built under a suppression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "RED — ONE MANS TRASH",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Mono R can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a red-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "RED — ONE MANS TRASH",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that One Mans Trash should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "tricks-and-treats": {
+    "deck_id": "tricks_and_treats",
+    "deck_name": "Tricks and Treats",
+    "page_slug": "tricks-and-treats",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "RED — TRICKS AND TREATS",
+        "body_text": "In Magic: the Gathering, red represents speed, volatility, impulse, and explosive force. It values action over hesitation and looks to compress the game before slower engines can stabilize. Red commonly expresses itself through direct damage, burst mana, treasure, temporary advantage, attack pressure, and turns where momentum matters more than perfect efficiency. Tricks and Treats is Polyhedron's combo expression for Mono R, built under a assembly posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "RED — TRICKS AND TREATS",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Mono R can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a red-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "RED — TRICKS AND TREATS",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Tricks and Treats should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "be-in-control": {
+    "deck_id": "be_in_control",
+    "deck_name": "Be In Control",
+    "page_slug": "be-in-control",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GREEN — BE IN CONTROL",
+        "body_text": "In Magic: the Gathering, green represents growth, scale, natural force, and inevitability through expansion. It values presence, mana development, and the idea that superior material can overwhelm a table if deployed with purpose. Green commonly expresses itself through mana acceleration, creature-based pressure, recursion through nature, oversized board states, and sustained battlefield superiority. Be In Control is Polyhedron's control expression for Mono G, built under a suppression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GREEN — BE IN CONTROL",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Mono G can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a green-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GREEN — BE IN CONTROL",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that Be In Control should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "go-big-or-go-home": {
+    "deck_id": "go_big_or_go_home",
+    "deck_name": "Go Big or Go Home",
+    "page_slug": "go-big-or-go-home",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GREEN — GO BIG OR GO HOME",
+        "body_text": "In Magic: the Gathering, green represents growth, scale, natural force, and inevitability through expansion. It values presence, mana development, and the idea that superior material can overwhelm a table if deployed with purpose. Green commonly expresses itself through mana acceleration, creature-based pressure, recursion through nature, oversized board states, and sustained battlefield superiority. Go Big or Go Home is Polyhedron's midrange expression for Mono G, built under a stability posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GREEN — GO BIG OR GO HOME",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Mono G can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a green-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GREEN — GO BIG OR GO HOME",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Go Big or Go Home should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "poison-the-well": {
+    "deck_id": "poison_the_well",
+    "deck_name": "Poison the Well",
+    "page_slug": "poison-the-well",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GREEN — POISON THE WELL",
+        "body_text": "In Magic: the Gathering, green represents growth, scale, natural force, and inevitability through expansion. It values presence, mana development, and the idea that superior material can overwhelm a table if deployed with purpose. Green commonly expresses itself through mana acceleration, creature-based pressure, recursion through nature, oversized board states, and sustained battlefield superiority. Poison the Well is Polyhedron's aggro expression for Mono G, built under a compression posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GREEN — POISON THE WELL",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Mono G can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a green-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GREEN — POISON THE WELL",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Poison the Well should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "wax-on-wax-off": {
+    "deck_id": "wax_on_wax_off",
+    "deck_name": "Wax On, Wax Off",
+    "page_slug": "wax-on-wax-off",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GREEN — WAX ON, WAX OFF",
+        "body_text": "In Magic: the Gathering, green represents growth, scale, natural force, and inevitability through expansion. It values presence, mana development, and the idea that superior material can overwhelm a table if deployed with purpose. Green commonly expresses itself through mana acceleration, creature-based pressure, recursion through nature, oversized board states, and sustained battlefield superiority. Wax On, Wax Off is Polyhedron's combo expression for Mono G, built under a assembly posture rather than around generalized Commander assumptions. As a beginner offering in Wave 1, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GREEN — WAX ON, WAX OFF",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Mono G can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Each mono-color set contains an aggro, combo, control, and midrange deck, creating a complete exploit-triangle pod with balanced internal play. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a green-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GREEN — WAX ON, WAX OFF",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Wax On, Wax Off should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "the-silver-lining": {
+    "deck_id": "the_silver_lining",
+    "deck_name": "The Silver Lining",
+    "page_slug": "the-silver-lining",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BOROS — THE SILVER LINING",
+        "body_text": "Boros combines white's discipline with red's aggression. It represents decisive action, coordinated offense, and the conversion of pressure into victory before opponents can comfortably stabilize. Boros commonly expresses itself through combat pressure, equipment, tokens, attack triggers, and compressed clocks backed by selective interaction. The Silver Lining is Polyhedron's aggro expression for Boros, built under a compression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BOROS — THE SILVER LINING",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Boros can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a boros-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BOROS — THE SILVER LINING",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that The Silver Lining should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "bros-before-hosed": {
+    "deck_id": "bros_before_hosed",
+    "deck_name": "Bros Before Hosed",
+    "page_slug": "bros-before-hosed",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "BOROS — BROS BEFORE HOSED",
+        "body_text": "Boros combines white's discipline with red's aggression. It represents decisive action, coordinated offense, and the conversion of pressure into victory before opponents can comfortably stabilize. Boros commonly expresses itself through combat pressure, equipment, tokens, attack triggers, and compressed clocks backed by selective interaction. Bros Before Hosed is Polyhedron's midrange expression for Boros, built under a stability posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "BOROS — BROS BEFORE HOSED",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Boros can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a boros-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "BOROS — BROS BEFORE HOSED",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Bros Before Hosed should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "youre-just-paranoid": {
+    "deck_id": "youre_just_paranoid",
+    "deck_name": "Youre Just Paranoid",
+    "page_slug": "youre-just-paranoid",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "AZORIUS — YOURE JUST PARANOID",
+        "body_text": "Azorius combines white's structure with blue's precision. It represents orderly planning, tactical restraint, and winning through superior timing, layered interaction, and disciplined control of the game's rules and pace. Azorius commonly expresses itself through tempo denial, blink or value loops, permission, taxation, and efficient battlefield management. Youre Just Paranoid is Polyhedron's combo expression for Azorius, built under a assembly posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "AZORIUS — YOURE JUST PARANOID",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Azorius can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a azorius-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "AZORIUS — YOURE JUST PARANOID",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Youre Just Paranoid should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "30-minutes-or-i-scoop": {
+    "deck_id": "30_minutes_or_i_scoop",
+    "deck_name": "30 Minutes or I Scoop",
+    "page_slug": "30-minutes-or-i-scoop",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "AZORIUS — 30 MINUTES OR I SCOOP",
+        "body_text": "Azorius combines white's structure with blue's precision. It represents orderly planning, tactical restraint, and winning through superior timing, layered interaction, and disciplined control of the game's rules and pace. Azorius commonly expresses itself through tempo denial, blink or value loops, permission, taxation, and efficient battlefield management. 30 Minutes or I Scoop is Polyhedron's control expression for Azorius, built under a suppression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "AZORIUS — 30 MINUTES OR I SCOOP",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Azorius can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a azorius-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "AZORIUS — 30 MINUTES OR I SCOOP",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that 30 Minutes or I Scoop should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "smoke-bomb": {
+    "deck_id": "smoke_bomb",
+    "deck_name": "Smoke Bomb",
+    "page_slug": "smoke-bomb",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "DIMIR — SMOKE BOMB",
+        "body_text": "Dimir combines blue's planning with black's leverage. It represents secrecy, extraction, and engineered advantage through timing, recursion, disruption, and asymmetrical information. Dimir commonly expresses itself through graveyard use, card selection, tutoring, stack interaction, theft, and efficient resource denial. Smoke Bomb is Polyhedron's midrange expression for Dimir, built under a stability posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "DIMIR — SMOKE BOMB",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Dimir can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a dimir-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "DIMIR — SMOKE BOMB",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Smoke Bomb should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "doomsfae": {
+    "deck_id": "doomsfae",
+    "deck_name": "Doomsfae",
+    "page_slug": "doomsfae",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "DIMIR — DOOMSFAE",
+        "body_text": "Dimir combines blue's planning with black's leverage. It represents secrecy, extraction, and engineered advantage through timing, recursion, disruption, and asymmetrical information. Dimir commonly expresses itself through graveyard use, card selection, tutoring, stack interaction, theft, and efficient resource denial. Doomsfae is Polyhedron's control expression for Dimir, built under a suppression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "DIMIR — DOOMSFAE",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Dimir can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a dimir-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "DIMIR — DOOMSFAE",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that Doomsfae should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "death-and-taxes": {
+    "deck_id": "death_and_taxes",
+    "deck_name": "Death & Taxes",
+    "page_slug": "death-and-taxes",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "ORZHOV — DEATH & TAXES",
+        "body_text": "Orzhov combines white's structure with black's extraction. It represents discipline with teeth: using rules, taxes, recursion, and resource pressure to convert order into hard advantage. Orzhov commonly expresses itself through sacrifice, drain, reanimation, taxation, removal, and game states where opponents are slowly squeezed out of clean play. Death & Taxes is Polyhedron's midrange expression for Orzhov, built under a stability posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "ORZHOV — DEATH & TAXES",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Orzhov can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a orzhov-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "ORZHOV — DEATH & TAXES",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Death & Taxes should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "x-rated": {
+    "deck_id": "x_rated",
+    "deck_name": "X-Rated",
+    "page_slug": "x-rated",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "ORZHOV — X-RATED",
+        "body_text": "Orzhov combines white's structure with black's extraction. It represents discipline with teeth: using rules, taxes, recursion, and resource pressure to convert order into hard advantage. Orzhov commonly expresses itself through sacrifice, drain, reanimation, taxation, removal, and game states where opponents are slowly squeezed out of clean play. X-Rated is Polyhedron's aggro expression for Orzhov, built under a compression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "ORZHOV — X-RATED",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Orzhov can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a orzhov-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "ORZHOV — X-RATED",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that X-Rated should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "manipulating-madness": {
+    "deck_id": "manipulating_madness",
+    "deck_name": "Manipulating Madness",
+    "page_slug": "manipulating-madness",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "RAKDOS — MANIPULATING MADNESS",
+        "body_text": "Rakdos combines black's ruthlessness with red's speed. It represents destructive momentum, asymmetric pressure, and winning by turning life, cards, or material into immediate structural damage. Rakdos commonly expresses itself through sacrifice, damage pressure, treasure, discard, reanimation, and forceful turns that punish opponents for stumbling. Manipulating Madness is Polyhedron's combo expression for Rakdos, built under a assembly posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "RAKDOS — MANIPULATING MADNESS",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Rakdos can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a rakdos-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "RAKDOS — MANIPULATING MADNESS",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Manipulating Madness should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "thriller": {
+    "deck_id": "thriller",
+    "deck_name": "Thriller",
+    "page_slug": "thriller",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GOLGARI — THRILLER",
+        "body_text": "Golgari combines black's recursion with green's growth. It represents inevitability through recycling resources, turning losses into fuel, and overpowering tables through resilient material advantage. Golgari commonly expresses itself through graveyard engines, sacrifice loops, creature value, mana development, and attrition that becomes inevitability. Thriller is Polyhedron's control expression for Golgari, built under a suppression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GOLGARI — THRILLER",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Golgari can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a golgari-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GOLGARI — THRILLER",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that Thriller should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "is-it-combo": {
+    "deck_id": "is_it_combo",
+    "deck_name": "Is It Combo",
+    "page_slug": "is-it-combo",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "IZZET — IS IT COMBO",
+        "body_text": "Izzet combines blue's experimentation with red's volatility. It represents velocity, chaining actions together, and finding winning lines through sequencing, spell density, and sudden bursts of conversion. Izzet commonly expresses itself through spell velocity, artifact or spell engines, copying, draw-discard patterns, and turns where one small edge compounds quickly. Is It Combo is Polyhedron's control expression for Izzet, built under a suppression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "IZZET — IS IT COMBO",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Izzet can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a izzet-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "IZZET — IS IT COMBO",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that Is It Combo should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "short-bus-brain-trust": {
+    "deck_id": "short_bus_brain_trust",
+    "deck_name": "Short Bus Brain Trust",
+    "page_slug": "short-bus-brain-trust",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "RAKDOS — SHORT BUS BRAIN TRUST",
+        "body_text": "Rakdos combines black's ruthlessness with red's speed. It represents destructive momentum, asymmetric pressure, and winning by turning life, cards, or material into immediate structural damage. Rakdos commonly expresses itself through sacrifice, damage pressure, treasure, discard, reanimation, and forceful turns that punish opponents for stumbling. Short Bus Brain Trust is Polyhedron's aggro expression for Rakdos, built under a compression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "RAKDOS — SHORT BUS BRAIN TRUST",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Rakdos can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a rakdos-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "RAKDOS — SHORT BUS BRAIN TRUST",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Short Bus Brain Trust should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "add-vantage": {
+    "deck_id": "add_vantage",
+    "deck_name": "Add Vantage",
+    "page_slug": "add-vantage",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "IZZET — ADD VANTAGE",
+        "body_text": "Izzet combines blue's experimentation with red's volatility. It represents velocity, chaining actions together, and finding winning lines through sequencing, spell density, and sudden bursts of conversion. Izzet commonly expresses itself through spell velocity, artifact or spell engines, copying, draw-discard patterns, and turns where one small edge compounds quickly. Add Vantage is Polyhedron's aggro expression for Izzet, built under a compression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "IZZET — ADD VANTAGE",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Izzet can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a izzet-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "IZZET — ADD VANTAGE",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Add Vantage should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "charmed-im-sure": {
+    "deck_id": "charmed_im_sure",
+    "deck_name": "Charmed, Im Sure",
+    "page_slug": "charmed-im-sure",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "SELESNYA — CHARMED, IM SURE",
+        "body_text": "Selesnya combines green's growth with white's structure. It represents coordinated expansion, resilient battlefield presence, and the use of disciplined board development to dominate fair play. Selesnya commonly expresses itself through tokens, counters, creature tutoring, enchantments, value-oriented board growth, and resilient board-centric play. Charmed, Im Sure is Polyhedron's control expression for Selesnya, built under a suppression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "SELESNYA — CHARMED, IM SURE",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how Selesnya can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a selesnya-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "SELESNYA — CHARMED, IM SURE",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that Charmed, Im Sure should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "elven-tutor": {
+    "deck_id": "elven_tutor",
+    "deck_name": "Elven Tutor",
+    "page_slug": "elven-tutor",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "SIMIC — ELVEN TUTOR",
+        "body_text": "Simic combines green's scale with blue's refinement. It represents adaptive growth, incremental optimization, and the use of mana and information to turn an early base into overwhelming structural advantage. Simic commonly expresses itself through card flow, mana development, counters, creature engines, and value chains that compound over time. Elven Tutor is Polyhedron's combo expression for Simic, built under a assembly posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "SIMIC — ELVEN TUTOR",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Simic can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a simic-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "SIMIC — ELVEN TUTOR",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Elven Tutor should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "non-deterministic": {
+    "deck_id": "non_deterministic",
+    "deck_name": "Non-Deterministic",
+    "page_slug": "non-deterministic",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GOLGARI — NON-DETERMINISTIC",
+        "body_text": "Golgari combines black's recursion with green's growth. It represents inevitability through recycling resources, turning losses into fuel, and overpowering tables through resilient material advantage. Golgari commonly expresses itself through graveyard engines, sacrifice loops, creature value, mana development, and attrition that becomes inevitability. Non-Deterministic is Polyhedron's combo expression for Golgari, built under a assembly posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GOLGARI — NON-DETERMINISTIC",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Golgari can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a golgari-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GOLGARI — NON-DETERMINISTIC",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Non-Deterministic should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "dinner-time": {
+    "deck_id": "dinner_time",
+    "deck_name": "Dinner Time",
+    "page_slug": "dinner-time",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GRUUL — DINNER TIME",
+        "body_text": "Gruul combines red's momentum with green's scale. It represents force, velocity, and the conversion of mana and combat pressure into immediate structural stress on the table. Gruul commonly expresses itself through fast mana, oversized threats, combat triggers, land or creature synergies, and proactive turns that demand answers. Dinner Time is Polyhedron's aggro expression for Gruul, built under a compression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GRUUL — DINNER TIME",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Gruul can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a gruul-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GRUUL — DINNER TIME",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Dinner Time should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "shared-adventures": {
+    "deck_id": "shared_adventures",
+    "deck_name": "Shared Adventures",
+    "page_slug": "shared-adventures",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "SELESNYA — SHARED ADVENTURES",
+        "body_text": "Selesnya combines green's growth with white's structure. It represents coordinated expansion, resilient battlefield presence, and the use of disciplined board development to dominate fair play. Selesnya commonly expresses itself through tokens, counters, creature tutoring, enchantments, value-oriented board growth, and resilient board-centric play. Shared Adventures is Polyhedron's combo expression for Selesnya, built under a assembly posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "SELESNYA — SHARED ADVENTURES",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how Selesnya can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a selesnya-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "SELESNYA — SHARED ADVENTURES",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Shared Adventures should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "eternal-garden": {
+    "deck_id": "eternal_garden",
+    "deck_name": "Eternal Garden",
+    "page_slug": "eternal-garden",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "SIMIC — ETERNAL GARDEN",
+        "body_text": "Simic combines green's scale with blue's refinement. It represents adaptive growth, incremental optimization, and the use of mana and information to turn an early base into overwhelming structural advantage. Simic commonly expresses itself through card flow, mana development, counters, creature engines, and value chains that compound over time. Eternal Garden is Polyhedron's midrange expression for Simic, built under a stability posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "SIMIC — ETERNAL GARDEN",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how Simic can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a simic-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "SIMIC — ETERNAL GARDEN",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Eternal Garden should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "loan-shark": {
+    "deck_id": "loan_shark",
+    "deck_name": "Loan Shark",
+    "page_slug": "loan-shark",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "GRUUL — LOAN SHARK",
+        "body_text": "Gruul combines red's momentum with green's scale. It represents force, velocity, and the conversion of mana and combat pressure into immediate structural stress on the table. Gruul commonly expresses itself through fast mana, oversized threats, combat triggers, land or creature synergies, and proactive turns that demand answers. Loan Shark is Polyhedron's aggro expression for Gruul, built under a compression posture rather than around generalized Commander assumptions. As a advanced offering in Wave 2, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "GRUUL — LOAN SHARK",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how Gruul can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: Wave 2 continues the complete-pod philosophy with four two-color decks per color-family grouping and aligns its included contents with Wizards of the Coast's current Commander product direction by omitting the booster pack. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a gruul-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "GRUUL — LOAN SHARK",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Loan Shark should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "one-giant-tantrum": {
+    "deck_id": "one_giant_tantrum",
+    "deck_name": "One Giant Tantrum",
+    "page_slug": "one-giant-tantrum",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WUBRG — ONE GIANT TANTRUM",
+        "body_text": "Five-color Magic represents total access: the full spread of tools, philosophies, and strategic options the game can offer. It rewards players who can manage complexity without losing structural discipline. Five-color decks commonly express themselves through broad access, demanding mana systems, flexible interaction suites, and the ability to route toward the line best suited to the table. One Giant Tantrum is Polyhedron's control expression for WUBRG, built under a suppression posture rather than around generalized Commander assumptions. As a expert offering in Wave 2.5, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to dictate pace. Its strongest games are the ones where opponents are denied clean realization of their plans and the game starts proceeding on your terms instead of theirs. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WUBRG — ONE GIANT TANTRUM",
+        "body_text": "Play this deck if you enjoy interaction, timing, and the satisfaction of winning after making the table operate inside a structure you imposed. If you want a deck that demonstrates how WUBRG can support a true control posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: All four decks in the set maintain Polyhedron's curated pod philosophy while presenting a much higher piloting and mana-management burden. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a wubrg-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WUBRG — ONE GIANT TANTRUM",
+        "body_text": "Control is a suppression posture. It seeks to suppress opposing plans, establish a regime state, and then convert after the table's best lines have been meaningfully constrained. Within Polyhedron's exploit triangle, control is structurally advantaged against combo because disruption and suppression break up assembly, and structurally pressured by aggro because early compression can get underneath a slower regime plan. For this deck page, the important point is that One Giant Tantrum should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "urrr-dergens": {
+    "deck_id": "urrr_dergens",
+    "deck_name": "Urrr Dergens",
+    "page_slug": "urrr-dergens",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WUBRG — URRR DERGENS",
+        "body_text": "Five-color Magic represents total access: the full spread of tools, philosophies, and strategic options the game can offer. It rewards players who can manage complexity without losing structural discipline. Five-color decks commonly express themselves through broad access, demanding mana systems, flexible interaction suites, and the ability to route toward the line best suited to the table. Urrr Dergens is Polyhedron's aggro expression for WUBRG, built under a compression posture rather than around generalized Commander assumptions. As a expert offering in Wave 2.5, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to ask immediate questions. Its best games are the ones where it converts early pressure into meaningful contraction before slower plans can comfortably stabilize. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WUBRG — URRR DERGENS",
+        "body_text": "Play this deck if you enjoy being the player who commits pressure, forces responses, and turns momentum into a shorter, cleaner game. If you want a deck that demonstrates how WUBRG can support a true aggro posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: All four decks in the set maintain Polyhedron's curated pod philosophy while presenting a much higher piloting and mana-management burden. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a wubrg-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WUBRG — URRR DERGENS",
+        "body_text": "Aggro is a compression posture. It seeks early player contraction through threshold compression such as commander damage, infect, burst pressure, or rapidly scaling combat leverage. It wins by tempo leverage and target sequencing, not by waiting for a long game to naturally favor it. Within Polyhedron's exploit triangle, aggro is structurally advantaged against control because it pressures before a full suppression regime is established, and structurally pressured by combo because a faster assembly posture can race underneath it. For this deck page, the important point is that Urrr Dergens should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "legendary": {
+    "deck_id": "legendary",
+    "deck_name": "Legendary",
+    "page_slug": "legendary",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WUBRG — LEGENDARY",
+        "body_text": "Five-color Magic represents total access: the full spread of tools, philosophies, and strategic options the game can offer. It rewards players who can manage complexity without losing structural discipline. Five-color decks commonly express themselves through broad access, demanding mana systems, flexible interaction suites, and the ability to route toward the line best suited to the table. Legendary is Polyhedron's combo expression for WUBRG, built under a assembly posture rather than around generalized Commander assumptions. As a expert offering in Wave 2.5, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to progress toward a functional state where its pieces matter more together than apart. Its strongest games are the ones where sequencing turns scattered resources into a decisive conversion. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WUBRG — LEGENDARY",
+        "body_text": "Play this deck if you enjoy connecting pieces, protecting convergence, and winning through a line that feels earned rather than incidental. If you want a deck that demonstrates how WUBRG can support a true combo posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: All four decks in the set maintain Polyhedron's curated pod philosophy while presenting a much higher piloting and mana-management burden. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a wubrg-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WUBRG — LEGENDARY",
+        "body_text": "Combo is an assembly posture. It seeks to assemble synergistic pieces that create a decisive win event. It relies on execution reliability and structural convergence rather than pure tempo pressure. Within Polyhedron's exploit triangle, combo is structurally advantaged against aggro because reliable assembly can outscale linear pressure, and structurally pressured by control because suppression and interaction disrupt deterministic conversion. For this deck page, the important point is that Legendary should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  },
+  "poser": {
+    "deck_id": "poser",
+    "deck_name": "Poser",
+    "page_slug": "poser",
+    "sections": {
+      "introduction": {
+        "display_order": 1,
+        "headline_label": "WUBRG — POSER",
+        "body_text": "Five-color Magic represents total access: the full spread of tools, philosophies, and strategic options the game can offer. It rewards players who can manage complexity without losing structural discipline. Five-color decks commonly express themselves through broad access, demanding mana systems, flexible interaction suites, and the ability to route toward the line best suited to the table. Poser is Polyhedron's midrange expression for WUBRG, built under a stability posture rather than around generalized Commander assumptions. As a expert offering in Wave 2.5, it comes from a product line created to standardize Polyhedron's in-store deckbuilding, preserve a curated pod experience, and deliver a tuned deck that plays above its price class. This deck is built to stay live across a wide spread of game states. Its strongest games are the ones where flexibility, resilience, and layered value keep it from becoming the clean exploit target at the table. That means this primer is not asking you to read the deck as a pile of familiar staples; it is asking you to read the deck through Polyhedron's framework of posture, parity, clock, and compression. The goal is a page that teaches you how the deck is supposed to function while still feeling like a real deck primer for a customer choosing how they want to play.",
+        "source_basis": "blended product identity + wave context + posture doctrine",
+        "source_filename": "Composite: user-provided product context / Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "why_play": {
+        "display_order": 2,
+        "headline_label": "WUBRG — POSER",
+        "body_text": "Play this deck if you enjoy adaptable games, steady material advantage, and the feeling of always having a line even when the table gets messy. If you want a deck that demonstrates how WUBRG can support a true midrange posture inside Polyhedron's system, this is the point of entry. It is also part of a deliberately balanced release environment: All four decks in the set maintain Polyhedron's curated pod philosophy while presenting a much higher piloting and mana-management burden. For customers, that means this deck is not just a standalone purchase; it is also one quarter of a curated pod and a strong way to build out a wubrg-leaning collection with a coherent plan.",
+        "source_basis": "semi-authored from posture, wave, and faction metadata",
+        "source_filename": "Composite: user-provided product context / Competitive_Commander_Doctrine.pdf / PHGS_Precon_Workbook_Index_v7.xlsx"
+      },
+      "posture": {
+        "display_order": 3,
+        "headline_label": "WUBRG — POSER",
+        "body_text": "Midrange is a stability posture. It balances deployment and interaction, avoiding extreme vulnerabilities in exchange for a lower peak ceiling than a pure exploit-triangle pole. It wins through flexibility, parity advantage, and variance dampening. Within Polyhedron's framework, midrange sits at the center of the exploit triangle. It is not defined by hard structural prey the way the three poles are; instead it trades some ceiling for reduced exploitability and stronger general stability. For this deck page, the important point is that Poser should be understood first by posture and only second by card text. In Polyhedron terms, power is not defined by proximity to a kill condition; power is defined by whether the game proceeds according to the deck's structural design. When piloting this deck, evaluate opening hands, mulligans, and lines by asking whether they move you toward clean realization of this posture.",
+        "source_basis": "directly posture-aligned customer explanation",
+        "source_filename": "Unified_Competitive_EDH_Evaluation_Framework_v2.docx / Competitive_Commander_Doctrine.pdf"
+      }
+    }
+  }
+}
