@@ -56,7 +56,7 @@ body::after{
 .hero{
   position:relative;
   margin-top:0;
-  margin-bottom:140px;
+  margin-bottom:120px; /* reserves space so violators never cover title */
 }
 
 .heroFrame{
@@ -79,7 +79,8 @@ body::after{
   position:absolute;
   left:28px;
   right:28px;
-  bottom:-40px;
+  bottom:0;
+  transform:translateY(90px); /* small banner violation, clears title */
   display:flex;
   gap:22px;
   z-index:5;
@@ -132,7 +133,7 @@ p{
   }
 
   .hero{
-    margin-bottom:110px;
+    margin-bottom:100px;
   }
 
   .heroImage{
@@ -142,8 +143,8 @@ p{
   .violators{
     left:14px;
     right:14px;
-    bottom:-80px;
     gap:14px;
+    transform:translateY(70px);
   }
 
   .violator{
