@@ -150,6 +150,10 @@ p{
   line-height:1.7;
 }
 
+.dynamicContent{
+  white-space:pre-line;
+}
+
 @media (max-width:700px){
   .page{
     padding:0 16px 64px;
@@ -221,15 +225,53 @@ p{
   </p>
 
   <div class="sectionTitle">Introduction</div>
-  <p>Add primer content here.</p>
+  <p id="introduction-content" class="dynamicContent">Add primer content here.</p>
 
   <div class="sectionTitle">Why Play This Deck?</div>
-  <p>Add strategic overview.</p>
+  <p id="why-play-content" class="dynamicContent">Add strategic overview.</p>
 
   <div class="sectionTitle">Posture</div>
-  <p>Explain how this deck fits the exploit triangle.</p>
+  <p id="posture-content" class="dynamicContent">Explain how this deck fits the exploit triangle.</p>
 
 </div>
+
+<script>
+(function(){
+  const DATA_PATH = "../data/deck-content-full.json";
+  const slug = window.location.pathname.split("/").pop().replace(/\.html$/i, "");
+
+  const targets = {
+    introduction: document.getElementById("introduction-content"),
+    why_play: document.getElementById("why-play-content"),
+    posture: document.getElementById("posture-content")
+  };
+
+  fetch(DATA_PATH)
+    .then(function(response){
+      if(!response.ok){
+        throw new Error("Failed to load deck content JSON");
+      }
+      return response.json();
+    })
+    .then(function(data){
+      const deck = data[slug];
+      if(!deck || !deck.sections){
+        return;
+      }
+
+      Object.keys(targets).forEach(function(sectionKey){
+        const target = targets[sectionKey];
+        const section = deck.sections[sectionKey];
+        if(target && section && section.body_text){
+          target.textContent = section.body_text;
+        }
+      });
+    })
+    .catch(function(error){
+      console.error(error);
+    });
+})();
+</script>
 
 </body>
 </html>
