@@ -47,6 +47,23 @@ body::after{
   z-index:20;
 }
 
+.chibi{
+  position:fixed;
+  right:8px;
+  bottom:8px;
+  width:64px;
+  height:192px;
+  z-index:20;
+  background:transparent;
+}
+
+.chibi img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+
 .page{
   max-width:980px;
   margin:0 auto;
@@ -87,11 +104,11 @@ body::after{
 
 .violator{
   width:160px;
-  background:var(--panel);
+  background:transparent;
   border:1px solid var(--border);
   border-radius:18px;
   padding:10px;
-  backdrop-filter: blur(4px);
+  backdrop-filter:none;
 }
 
 .violator img{
@@ -165,6 +182,7 @@ p{
 <body>
 
 <img class="logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron logo">
+<div class="chibi"><img src="../assets/chibis/old-is-new-again-chibi.png" alt="Old is New Again chibi avatar"></div>
 
 <div class="page">
 
