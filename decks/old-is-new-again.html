@@ -56,7 +56,7 @@ body::after{
 .hero{
   position:relative;
   margin-top:0;
-  margin-bottom:120px; /* reserves space so violators never cover title */
+  margin-bottom:0;
 }
 
 .heroFrame{
@@ -75,14 +75,13 @@ body::after{
   object-position:center;
 }
 
-.violators{
-  position:absolute;
-  left:28px;
-  right:28px;
-  bottom:0;
-  transform:translateY(90px); /* small banner violation, clears title */
+.violatorRow{
   display:flex;
   gap:22px;
+  padding:0 28px;
+  margin-top:-32px; /* slight banner violation only */
+  margin-bottom:24px; /* clear separation before title */
+  position:relative;
   z-index:5;
 }
 
@@ -133,18 +132,18 @@ p{
   }
 
   .hero{
-    margin-bottom:100px;
+    margin-bottom:0;
   }
 
   .heroImage{
     height:220px;
   }
 
-  .violators{
-    left:14px;
-    right:14px;
+  .violatorRow{
     gap:14px;
-    transform:translateY(70px);
+    padding:0 14px;
+    margin-top:-24px;
+    margin-bottom:20px;
   }
 
   .violator{
@@ -173,14 +172,14 @@ p{
     <div class="heroFrame">
       <img class="heroImage" src="../assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
     </div>
+  </div>
 
-    <div class="violators">
-      <div class="violator">
-        <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor's%20Apostle&format=image" alt="Teshar, Ancestor's Apostle">
-      </div>
-      <div class="violator">
-        <img src="../assets/exploit/exploit-combo.png" alt="Exploit Triangle">
-      </div>
+  <div class="violatorRow">
+    <div class="violator">
+      <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor's%20Apostle&format=image" alt="Teshar, Ancestor's Apostle">
+    </div>
+    <div class="violator">
+      <img src="../assets/exploit/exploit-combo.png" alt="Exploit Triangle">
     </div>
   </div>
 
