@@ -25,7 +25,7 @@ body::before{
   content:"";
   position:fixed;
   inset:0;
-  background:url("Polyhedron_Background_Texture.png") center/cover no-repeat;
+  background:url("../Polyhedron_Background_Texture.png") center/cover no-repeat;
   opacity:0.10;
   z-index:-2;
 }
@@ -34,7 +34,7 @@ body::after{
   content:"";
   position:fixed;
   inset:0;
-  background:url("PolyhedronLogo_Main.png") center/70vmin no-repeat;
+  background:url("../PolyhedronLogo_Main.png") center/70vmin no-repeat;
   opacity:0.12;
   z-index:-1;
 }
@@ -56,7 +56,7 @@ body::after{
 .hero{
   position:relative;
   margin-top:18px;
-  margin-bottom:92px;
+  margin-bottom:110px;
 }
 
 .heroFrame{
@@ -72,18 +72,15 @@ body::after{
   width:100%;
   height:300px;
   object-fit:cover;
-  object-position:center;
 }
 
 .violators{
   position:absolute;
   left:28px;
   right:28px;
-  bottom:-54px; /* about 20-25% overlap */
+  bottom:-80px; /* LOWERED ~50% more */
   display:flex;
   gap:22px;
-  align-items:flex-start;
-  justify-content:flex-start;
   z-index:5;
 }
 
@@ -94,27 +91,22 @@ body::after{
   border-radius:18px;
   padding:10px;
   backdrop-filter: blur(4px);
-  box-shadow:0 0 20px rgba(0,0,0,0.35);
 }
 
 .violator img{
-  display:block;
   width:100%;
-  height:auto;
   border-radius:10px;
 }
 
 .title{
   color:var(--lime);
   font-size:36px;
-  line-height:1.05;
-  margin:8px 0 20px;
+  margin:12px 0 20px;
   font-weight:800;
 }
 
 .meta p{
   font-size:18px;
-  line-height:1.6;
   margin:0 0 10px;
 }
 
@@ -122,70 +114,49 @@ body::after{
   color:var(--lime);
   font-size:22px;
   margin-top:38px;
-  margin-bottom:12px;
   border-bottom:1px solid #444;
   padding-bottom:6px;
 }
 
 p{
-  color:#fff;
-  line-height:1.7;
   font-size:18px;
+  line-height:1.7;
 }
 
 @media (max-width:700px){
-  .page{
-    padding:88px 16px 64px;
-  }
-
   .hero{
-    margin-bottom:84px;
+    margin-bottom:100px;
   }
-
   .heroImage{
     height:220px;
   }
-
   .violators{
-    left:14px;
-    right:14px;
-    bottom:-42px; /* reduced overlap on mobile */
+    bottom:-65px; /* also lowered */
     gap:14px;
   }
-
   .violator{
     width:calc(50% - 7px);
-    padding:8px;
-  }
-
-  .title{
-    font-size:30px;
-    margin-top:14px;
-  }
-
-  .meta p, p{
-    font-size:17px;
   }
 }
 </style>
 </head>
 <body>
 
-<img class="logo" src="polyhedron_logo_small.png" alt="Polyhedron logo">
+<img class="logo" src="../polyhedron_logo_small.png">
 
 <div class="page">
 
   <div class="hero">
     <div class="heroFrame">
-      <img class="heroImage" src="assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
+      <img class="heroImage" src="../assets/Commander_Banners/old-is-new-again-banner.png">
     </div>
 
     <div class="violators">
       <div class="violator">
-        <img src="https://cards.scryfall.io/normal/front/4/6/46446909-ea30-4db3-a896-ffe6f1d42668.jpg?1698988292" alt="Teshar, Ancestor's Apostle">
+        <img src="https://cards.scryfall.io/normal/front/4/6/46446909-ea30-4db3-a896-ffe6f1d42668.jpg">
       </div>
       <div class="violator">
-        <img src="assets/exploit/exploit-combo.png" alt="Exploit Triangle">
+        <img src="../assets/exploit/exploit-combo.png">
       </div>
     </div>
   </div>
@@ -199,17 +170,8 @@ p{
 
   <p>
     Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less
-    from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
+    from your graveyard to the battlefield.
   </p>
-
-  <div class="sectionTitle">Introduction</div>
-  <p>Add primer content here.</p>
-
-  <div class="sectionTitle">Why Play This Deck?</div>
-  <p>Add strategic overview.</p>
-
-  <div class="sectionTitle">Posture</div>
-  <p>Explain how this deck fits the exploit triangle.</p>
 
 </div>
 
