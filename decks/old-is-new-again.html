@@ -4,26 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Old is New Again</title>
-
 <style>
 :root{
   --poly-lime:#c7ff5e;
-  --poly-lime-soft:#d8ff8a;
-  --panel-bg:rgba(0,0,0,.42);
+  --panel-bg:rgba(0,0,0,.46);
   --panel-border:rgba(199,255,94,.18);
   --text:#ffffff;
-  --muted:#d7d7d7;
 }
-
-*{ box-sizing:border-box; }
-
+*{box-sizing:border-box;}
 body{
   margin:0;
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   color:var(--text);
   background:#000;
 }
-
 body::before{
   content:"";
   position:fixed;
@@ -32,219 +26,135 @@ body::before{
   opacity:.10;
   z-index:-2;
 }
-
 body::after{
   content:"";
   position:fixed;
   inset:0;
-  background:url("../PolyhedronLogo_Main.png") center/70vmin no-repeat;
+  background:url("PolyhedronLogo_Main.png") center/70vmin no-repeat;
   opacity:.12;
   z-index:-1;
 }
-
 .logo{
   position:fixed;
-  top:20px;
-  left:20px;
-  width:55px;
+  top:18px;
+  left:18px;
+  width:58px;
   z-index:20;
+  border-radius:999px;
 }
-
 .page{
-  max-width:1040px;
+  max-width:980px;
   margin:0 auto;
-  padding:96px 20px 72px;
+  padding:88px 20px 64px;
 }
-
 .hero{
-  position:relative;
-  overflow:hidden;
+  margin-top:8px;
+}
+.heroImage{
+  width:100%;
+  display:block;
   border-radius:18px;
-  min-height:260px;
-  background:
-    linear-gradient(90deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.38) 44%, rgba(0,0,0,.22) 100%),
-    url("assets/Commander_Banners/old-is-new-again-banner.png") center/cover no-repeat;
   border:1px solid rgba(255,255,255,.08);
-  box-shadow:0 18px 50px rgba(0,0,0,.35);
+  box-shadow:0 0 40px rgba(199,255,94,.12), 0 18px 42px rgba(0,0,0,.35);
 }
-
-.hero::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:linear-gradient(180deg, rgba(0,0,0,.00) 0%, rgba(0,0,0,.35) 100%);
-  pointer-events:none;
-}
-
-.heroContent{
-  position:relative;
-  z-index:1;
-  width:min(100%, 620px);
-  padding:28px 28px 32px;
-}
-
-.heroTitle{
-  margin:0 0 8px;
+.deckTitle{
+  margin:20px 0 0;
   color:var(--poly-lime);
-  font-size:clamp(36px, 7vw, 64px);
-  line-height:.96;
+  font-size:clamp(34px,7vw,60px);
+  line-height:.98;
   letter-spacing:-.03em;
   font-weight:900;
-  text-shadow:0 0 18px rgba(199,255,94,.14);
 }
-
-.heroSubtitle{
-  margin:0;
-  color:var(--muted);
-  font-size:clamp(16px, 2vw, 22px);
-  line-height:1.35;
-  max-width:54ch;
-}
-
 .supportRow{
   display:grid;
-  grid-template-columns:170px 1fr;
-  gap:24px;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:20px;
   align-items:start;
   margin-top:26px;
 }
-
-.cardBox,
-.triangleBox{
+.artPanel,
+.metaPanel{
   background:var(--panel-bg);
   border:1px solid var(--panel-border);
-  border-radius:16px;
+  border-radius:18px;
   padding:16px;
   backdrop-filter:blur(4px);
 }
-
-.cardBox img,
-.triangleBox img{
-  display:block;
-  width:100%;
-  height:auto;
-  border-radius:10px;
-}
-
-.triangleBox h3{
+.panelLabel{
   margin:0 0 12px;
-  font-size:clamp(26px,4vw,44px);
-  line-height:1.02;
+  font-size:clamp(18px,3vw,24px);
+  line-height:1.1;
   color:#fff;
+  font-weight:800;
 }
-
-.metaWrap{
-  display:flex;
-  flex-direction:column;
-  gap:16px;
+.artPanel img{
+  width:100%;
+  display:block;
+  height:auto;
+  border-radius:12px;
 }
-
-.deckTitle{
-  margin:0;
-  color:var(--poly-lime);
-  font-size:clamp(28px, 5vw, 56px);
-  line-height:1;
-  letter-spacing:-.03em;
-  font-weight:900;
+.cardPanel img{
+  max-width:300px;
+  margin:0 auto;
 }
-
+.trianglePanel img{
+  max-width:300px;
+  margin:0 auto;
+}
 .metaPanel{
-  background:rgba(0,0,0,.30);
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:16px;
+  margin-top:22px;
   padding:18px 20px;
 }
-
-.metaLine{
-  margin:0 0 10px;
-  font-size:clamp(18px, 2.3vw, 22px);
+.metaLine,
+.rulesText,
+p{
+  margin:0 0 14px;
+  font-size:clamp(18px,2.4vw,21px);
+  line-height:1.65;
 }
-
-.metaLine:last-child{ margin-bottom:0; }
-.metaLine strong{ color:#fff; }
-.rulesText{
-  margin:0;
-  color:#fff;
-  font-size:clamp(18px, 2.3vw, 22px);
-  line-height:1.55;
-}
-
+.metaLine:last-child,
+.rulesText:last-child,
+p:last-child{margin-bottom:0;}
 .sectionTitle{
   color:var(--poly-lime);
-  font-size:clamp(24px, 3vw, 30px);
-  margin:42px 0 14px;
+  font-size:clamp(24px,3vw,30px);
+  margin:40px 0 14px;
   border-bottom:1px solid rgba(255,255,255,.22);
   padding-bottom:8px;
 }
-
-p{
-  color:#fff;
-  line-height:1.7;
-  font-size:clamp(18px, 2.2vw, 21px);
-  margin:0 0 16px;
-}
-
 @media (max-width:700px){
-  .page{ padding:88px 16px 56px; }
-
-  .hero{
-    min-height:220px;
-    background:
-      linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.48) 52%, rgba(0,0,0,.55) 100%),
-      url("assets/Commander_Banners/old-is-new-again-banner.png") center/cover no-repeat;
-  }
-
-  .heroContent{ padding:20px 18px 22px; }
-
-  .supportRow{
-    grid-template-columns:1fr 1fr;
-    gap:16px;
-  }
-
-  .triangleBox h3{
-    font-size:clamp(20px, 5vw, 26px);
-    margin-bottom:10px;
-  }
-
-  .metaWrap{
-    grid-column:1 / -1;
-  }
+  .page{padding:84px 16px 52px;}
+  .supportRow{grid-template-columns:1fr 1fr;gap:14px;}
+  .artPanel{padding:12px;}
+  .panelLabel{font-size:20px;margin-bottom:10px;}
 }
 </style>
 </head>
-
 <body>
-
-<img class="logo" src="polyhedron_logo_small.png" alt="Polyhedron logo">
-
+<img class="logo" src="PolyhedronLogo_Main.png" alt="Polyhedron logo">
 <div class="page">
-
   <section class="hero" aria-label="Deck banner art">
-    <div class="heroContent">
-      <h1 class="heroTitle">Old is New Again</h1>
-      <p class="heroSubtitle">Recursive pressure through historic casting, low-cost creature recovery, and layered value engines anchored by Teshar, Ancestor's Apostle.</p>
+    <img class="heroImage" src="assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
+    <h1 class="deckTitle">Old is New Again</h1>
+  </section>
+
+  <section class="supportRow" aria-label="Deck reference art and exploit triangle">
+    <div class="artPanel cardPanel">
+      <img src="https://cards.scryfall.io/normal/front/7/6/76b1f0fd-c6f3-4d18-9e7c-6b2f7f7bf6e7.jpg" alt="Teshar, Ancestor's Apostle card image">
+    </div>
+
+    <div class="artPanel trianglePanel">
+      <h2 class="panelLabel">Exploit Triangle</h2>
+      <img src="exploit-combo.png" alt="Exploit Triangle diagram">
     </div>
   </section>
 
-  <section class="supportRow">
-    <div class="cardBox">
-      <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor's%20Apostle&format=image" alt="Teshar, Ancestor's Apostle card image">
-    </div>
-
-    <div class="metaWrap">
-      <div class="triangleBox">
-        <h3>Exploit Triangle</h3>
-        <img src="exploit_triangle.png" alt="Exploit Triangle diagram">
-      </div>
-
-      <div class="metaPanel">
-        <p class="metaLine"><strong>Commander:</strong> Teshar, Ancestor's Apostle</p>
-        <p class="metaLine"><strong>Tier:</strong> beginner</p>
-        <p class="rulesText">
-          Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
-        </p>
-      </div>
-    </div>
+  <section class="metaPanel">
+    <p class="metaLine"><strong>Commander:</strong> Teshar, Ancestor's Apostle</p>
+    <p class="metaLine"><strong>Tier:</strong> beginner</p>
+    <p class="rulesText">
+      Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
+    </p>
   </section>
 
   <div class="sectionTitle">Introduction</div>
@@ -255,8 +165,6 @@ p{
 
   <div class="sectionTitle">Posture</div>
   <p>Explain how this deck fits the exploit triangle.</p>
-
 </div>
-
 </body>
 </html>
