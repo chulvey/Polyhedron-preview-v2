@@ -78,7 +78,7 @@ body::after{
   position:absolute;
   left:28px;
   right:28px;
-  bottom:-80px; /* LOWERED ~50% more */
+  bottom:-80px;
   display:flex;
   gap:22px;
   z-index:5;
@@ -94,7 +94,9 @@ body::after{
 }
 
 .violator img{
+  display:block;
   width:100%;
+  height:auto;
   border-radius:10px;
 }
 
@@ -131,7 +133,7 @@ p{
     height:220px;
   }
   .violators{
-    bottom:-65px; /* also lowered */
+    bottom:-65px;
     gap:14px;
   }
   .violator{
@@ -142,21 +144,21 @@ p{
 </head>
 <body>
 
-<img class="logo" src="../polyhedron_logo_small.png">
+<img class="logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron logo">
 
 <div class="page">
 
   <div class="hero">
     <div class="heroFrame">
-      <img class="heroImage" src="../assets/Commander_Banners/old-is-new-again-banner.png">
+      <img class="heroImage" src="../assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
     </div>
 
     <div class="violators">
       <div class="violator">
-        <img src="https://cards.scryfall.io/normal/front/4/6/46446909-ea30-4db3-a896-ffe6f1d42668.jpg">
+        <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor's%20Apostle&format=image" alt="Teshar, Ancestor's Apostle">
       </div>
       <div class="violator">
-        <img src="../assets/exploit/exploit-combo.png">
+        <img src="../assets/exploit/exploit-combo.png" alt="Exploit Triangle">
       </div>
     </div>
   </div>
@@ -170,8 +172,17 @@ p{
 
   <p>
     Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less
-    from your graveyard to the battlefield.
+    from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
   </p>
+
+  <div class="sectionTitle">Introduction</div>
+  <p>Add primer content here.</p>
+
+  <div class="sectionTitle">Why Play This Deck?</div>
+  <p>Add strategic overview.</p>
+
+  <div class="sectionTitle">Posture</div>
+  <p>Explain how this deck fits the exploit triangle.</p>
 
 </div>
 
