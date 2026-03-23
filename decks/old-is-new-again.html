@@ -6,156 +6,201 @@
 <title>Old is New Again</title>
 <style>
 :root{
-  --poly-lime:#c7ff5e;
-  --panel-bg:rgba(0,0,0,.46);
-  --panel-border:rgba(199,255,94,.18);
+  --lime:#c7ff5e;
   --text:#ffffff;
+  --panel:rgba(0,0,0,0.55);
+  --border:rgba(199,255,94,0.18);
 }
-*{box-sizing:border-box;}
+
+*{box-sizing:border-box}
+
 body{
   margin:0;
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   color:var(--text);
   background:#000;
 }
+
 body::before{
   content:"";
   position:fixed;
   inset:0;
-  background:url("Polyhedron_Background_Texture.png") center/cover no-repeat;
-  opacity:.10;
+  background:url("/Polyhedron_Background_Texture.png") center/cover no-repeat;
+  opacity:0.10;
   z-index:-2;
 }
+
 body::after{
   content:"";
   position:fixed;
   inset:0;
-  background:url("PolyhedronLogo_Main.png") center/70vmin no-repeat;
-  opacity:.12;
+  background:url("/PolyhedronLogo_Main.png") center/70vmin no-repeat;
+  opacity:0.12;
   z-index:-1;
 }
+
 .logo{
   position:fixed;
-  top:18px;
-  left:18px;
+  top:20px;
+  left:20px;
   width:58px;
   z-index:20;
-  border-radius:999px;
 }
+
 .page{
   max-width:980px;
   margin:0 auto;
-  padding:88px 20px 64px;
+  padding:92px 20px 80px;
 }
+
 .hero{
-  margin-top:8px;
+  position:relative;
+  margin-top:18px;
+  margin-bottom:120px;
 }
+
+.heroFrame{
+  border:1px solid rgba(255,255,255,0.20);
+  border-radius:20px;
+  overflow:hidden;
+  background:#050505;
+  box-shadow:0 0 30px rgba(199,255,94,0.08);
+}
+
 .heroImage{
-  width:100%;
   display:block;
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  object-position:center;
+}
+
+.violators{
+  position:absolute;
+  left:24px;
+  right:24px;
+  bottom:-88px;
+  display:flex;
+  gap:22px;
+  align-items:flex-start;
+  justify-content:flex-start;
+  z-index:5;
+}
+
+.violator{
+  width:160px;
+  background:var(--panel);
+  border:1px solid var(--border);
   border-radius:18px;
-  border:1px solid rgba(255,255,255,.08);
-  box-shadow:0 0 40px rgba(199,255,94,.12), 0 18px 42px rgba(0,0,0,.35);
+  padding:10px;
+  backdrop-filter: blur(4px);
+  box-shadow:0 0 20px rgba(0,0,0,0.35);
 }
-.deckTitle{
-  margin:20px 0 0;
-  color:var(--poly-lime);
-  font-size:clamp(34px,7vw,60px);
-  line-height:.98;
-  letter-spacing:-.03em;
-  font-weight:900;
+
+.violator img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:10px;
 }
-.supportRow{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
-  gap:20px;
-  align-items:start;
-  margin-top:26px;
-}
-.artPanel,
-.metaPanel{
-  background:var(--panel-bg);
-  border:1px solid var(--panel-border);
-  border-radius:18px;
-  padding:16px;
-  backdrop-filter:blur(4px);
-}
-.panelLabel{
-  margin:0 0 12px;
-  font-size:clamp(18px,3vw,24px);
-  line-height:1.1;
-  color:#fff;
+
+.title{
+  color:var(--lime);
+  font-size:36px;
+  line-height:1.05;
+  margin:8px 0 20px;
   font-weight:800;
 }
-.artPanel img{
-  width:100%;
-  display:block;
-  height:auto;
-  border-radius:12px;
+
+.meta p{
+  font-size:18px;
+  line-height:1.6;
+  margin:0 0 10px;
 }
-.cardPanel img{
-  max-width:300px;
-  margin:0 auto;
-}
-.trianglePanel img{
-  max-width:300px;
-  margin:0 auto;
-}
-.metaPanel{
-  margin-top:22px;
-  padding:18px 20px;
-}
-.metaLine,
-.rulesText,
-p{
-  margin:0 0 14px;
-  font-size:clamp(18px,2.4vw,21px);
-  line-height:1.65;
-}
-.metaLine:last-child,
-.rulesText:last-child,
-p:last-child{margin-bottom:0;}
+
 .sectionTitle{
-  color:var(--poly-lime);
-  font-size:clamp(24px,3vw,30px);
-  margin:40px 0 14px;
-  border-bottom:1px solid rgba(255,255,255,.22);
-  padding-bottom:8px;
+  color:var(--lime);
+  font-size:22px;
+  margin-top:38px;
+  margin-bottom:12px;
+  border-bottom:1px solid #444;
+  padding-bottom:6px;
 }
+
+p{
+  color:#fff;
+  line-height:1.7;
+  font-size:18px;
+}
+
 @media (max-width:700px){
-  .page{padding:84px 16px 52px;}
-  .supportRow{grid-template-columns:1fr 1fr;gap:14px;}
-  .artPanel{padding:12px;}
-  .panelLabel{font-size:20px;margin-bottom:10px;}
+  .page{
+    padding:88px 16px 64px;
+  }
+
+  .hero{
+    margin-bottom:108px;
+  }
+
+  .heroImage{
+    height:220px;
+  }
+
+  .violators{
+    left:14px;
+    right:14px;
+    bottom:-76px;
+    gap:14px;
+  }
+
+  .violator{
+    width:calc(50% - 7px);
+    padding:8px;
+  }
+
+  .title{
+    font-size:30px;
+    margin-top:14px;
+  }
+
+  .meta p, p{
+    font-size:17px;
+  }
 }
 </style>
 </head>
 <body>
-<img class="logo" src="PolyhedronLogo_Main.png" alt="Polyhedron logo">
+
+<img class="logo" src="/polyhedron_logo_small.png" alt="Polyhedron logo">
+
 <div class="page">
-  <section class="hero" aria-label="Deck banner art">
-    <img class="heroImage" src="assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
-    <h1 class="deckTitle">Old is New Again</h1>
-  </section>
 
-  <section class="supportRow" aria-label="Deck reference art and exploit triangle">
-    <div class="artPanel cardPanel">
-      <img src="https://cards.scryfall.io/normal/front/7/6/76b1f0fd-c6f3-4d18-9e7c-6b2f7f7bf6e7.jpg" alt="Teshar, Ancestor's Apostle card image">
+  <div class="hero">
+    <div class="heroFrame">
+      <img class="heroImage" src="/assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
     </div>
 
-    <div class="artPanel trianglePanel">
-      <h2 class="panelLabel">Exploit Triangle</h2>
-      <img src="exploit-combo.png" alt="Exploit Triangle diagram">
+    <div class="violators">
+      <div class="violator">
+        <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor's%20Apostle&format=image" alt="Teshar, Ancestor's Apostle">
+      </div>
+      <div class="violator">
+        <img src="/exploit-combo.png" alt="Exploit Triangle">
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section class="metaPanel">
-    <p class="metaLine"><strong>Commander:</strong> Teshar, Ancestor's Apostle</p>
-    <p class="metaLine"><strong>Tier:</strong> beginner</p>
-    <p class="rulesText">
-      Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
-    </p>
-  </section>
+  <h1 class="title">Old is New Again</h1>
+
+  <div class="meta">
+    <p><strong>Commander:</strong> Teshar, Ancestor's Apostle</p>
+    <p><strong>Tier:</strong> beginner</p>
+  </div>
+
+  <p>
+    Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less
+    from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
+  </p>
 
   <div class="sectionTitle">Introduction</div>
   <p>Add primer content here.</p>
@@ -165,6 +210,8 @@ p:last-child{margin-bottom:0;}
 
   <div class="sectionTitle">Posture</div>
   <p>Explain how this deck fits the exploit triangle.</p>
+
 </div>
+
 </body>
 </html>
