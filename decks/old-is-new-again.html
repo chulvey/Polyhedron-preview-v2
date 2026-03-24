@@ -98,8 +98,8 @@ body::after{
   display:flex;
   gap:22px;
   padding:0 28px;
-  margin-top:-32px; /* slight banner violation only */
-  margin-bottom:24px; /* clear separation before title */
+  margin-top:-32px;
+  margin-bottom:24px;
   position:relative;
   z-index:5;
 }
@@ -155,38 +155,13 @@ p{
 }
 
 @media (max-width:700px){
-  .page{
-    padding:0 16px 64px;
-  }
-
-  .hero{
-    margin-bottom:0;
-  }
-
-  .heroImage{
-    height:220px;
-  }
-
-  .violatorRow{
-    gap:14px;
-    padding:0 14px;
-    margin-top:-24px;
-    margin-bottom:20px;
-  }
-
-  .violator{
-    width:calc(50% - 7px);
-    padding:8px;
-  }
-
-  .title{
-    font-size:30px;
-    margin-top:14px;
-  }
-
-  .meta p, p{
-    font-size:17px;
-  }
+  .page{ padding:0 16px 64px; }
+  .hero{ margin-bottom:0; }
+  .heroImage{ height:220px; }
+  .violatorRow{ gap:14px; padding:0 14px; margin-top:-24px; margin-bottom:20px; }
+  .violator{ width:calc(50% - 7px); padding:8px; }
+  .title{ font-size:30px; margin-top:14px; }
+  .meta p, p{ font-size:17px; }
 }
 </style>
 </head>
@@ -205,7 +180,7 @@ p{
 
   <div class="violatorRow">
     <div class="violator">
-      <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor's%20Apostle&format=image" alt="Teshar, Ancestor's Apostle">
+      <img src="https://api.scryfall.com/cards/named?exact=Teshar%2C%20Ancestor%27s%20Apostle&format=image" alt="Teshar, Ancestor&#x27;s Apostle">
     </div>
     <div class="violator">
       <img src="../assets/exploit/exploit-combo.png" alt="Exploit Triangle">
@@ -215,14 +190,11 @@ p{
   <h1 class="title">Old is New Again</h1>
 
   <div class="meta">
-    <p><strong>Commander:</strong> Teshar, Ancestor's Apostle</p>
+    <p><strong>Commander:</strong> Teshar, Ancestor&#x27;s Apostle</p>
     <p><strong>Tier:</strong> beginner</p>
   </div>
 
-  <p>
-    Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less
-    from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
-  </p>
+  <p id="commander-rules">Loading commander rules text...</p>
 
   <div class="sectionTitle">Introduction</div>
   <p id="introduction-content" class="dynamicContent">Add primer content here.</p>
@@ -239,6 +211,7 @@ p{
 (function(){
   const DATA_PATH = "../data/deck-content.json";
   const slug = window.location.pathname.split("/").pop().replace(/\.html$/i, "");
+  const commanderName = "Teshar, Ancestor's Apostle";
 
   const targets = {
     introduction: document.getElementById("introduction-content"),
@@ -269,6 +242,41 @@ p{
     })
     .catch(function(error){
       console.error(error);
+    });
+
+  fetch("https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(commanderName))
+    .then(function(response){
+      if(!response.ok){
+        throw new Error("Failed to load commander data");
+      }
+      return response.json();
+    })
+    .then(function(card){
+      const rulesTarget = document.getElementById("commander-rules");
+      let oracle = "";
+      if(card.oracle_text){
+        oracle = card.oracle_text;
+      } else if(card.card_faces && card.card_faces.length){
+        oracle = card.card_faces.map(function(face){
+          return face.name + "\n" + (face.oracle_text || "");
+        }).join("\n\n");
+      }
+      if(card.power !== undefined && card.toughness !== undefined && card.power !== null && card.toughness !== null){
+        oracle += (oracle ? "\n" : "") + card.power + "/" + card.toughness;
+      }
+      if(rulesTarget && oracle){
+        rulesTarget.textContent = oracle;
+        rulesTarget.classList.add("dynamicContent");
+      } else if(rulesTarget) {
+        rulesTarget.textContent = "See commander card image above for gameplay reference.";
+      }
+    })
+    .catch(function(error){
+      console.error(error);
+      const rulesTarget = document.getElementById("commander-rules");
+      if(rulesTarget){
+        rulesTarget.textContent = "See commander card image above for gameplay reference.";
+      }
     });
 })();
 </script>

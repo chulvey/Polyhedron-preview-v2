@@ -47,6 +47,25 @@ body::after{
   z-index:20;
 }
 
+.chibi{
+  position:fixed;
+  right:8px;
+  bottom:8px;
+  width:64px;
+  height:192px;
+  z-index:20;
+  background:transparent;
+  border:none;
+  box-shadow:none;
+}
+
+.chibi img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+
 .page{
   max-width:980px;
   margin:0 auto;
@@ -79,19 +98,24 @@ body::after{
   display:flex;
   gap:22px;
   padding:0 28px;
-  margin-top:-32px; /* slight banner violation only */
-  margin-bottom:24px; /* clear separation before title */
+  margin-top:-32px;
+  margin-bottom:24px;
   position:relative;
   z-index:5;
 }
 
 .violator{
   width:160px;
-  background:var(--panel);
+  background:transparent;
   border:1px solid var(--border);
   border-radius:18px;
   padding:10px;
-  backdrop-filter: blur(4px);
+  backdrop-filter:none;
+}
+
+.exploit{
+  border:none !important;
+  box-shadow:none !important;
 }
 
 .violator img{
@@ -126,45 +150,25 @@ p{
   line-height:1.7;
 }
 
+.dynamicContent{
+  white-space:pre-line;
+}
+
 @media (max-width:700px){
-  .page{
-    padding:0 16px 64px;
-  }
-
-  .hero{
-    margin-bottom:0;
-  }
-
-  .heroImage{
-    height:220px;
-  }
-
-  .violatorRow{
-    gap:14px;
-    padding:0 14px;
-    margin-top:-24px;
-    margin-bottom:20px;
-  }
-
-  .violator{
-    width:calc(50% - 7px);
-    padding:8px;
-  }
-
-  .title{
-    font-size:30px;
-    margin-top:14px;
-  }
-
-  .meta p, p{
-    font-size:17px;
-  }
+  .page{ padding:0 16px 64px; }
+  .hero{ margin-bottom:0; }
+  .heroImage{ height:220px; }
+  .violatorRow{ gap:14px; padding:0 14px; margin-top:-24px; margin-bottom:20px; }
+  .violator{ width:calc(50% - 7px); padding:8px; }
+  .title{ font-size:30px; margin-top:14px; }
+  .meta p, p{ font-size:17px; }
 }
 </style>
 </head>
 <body>
 
 <img class="logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron logo">
+<div class="chibi"><img src="../assets/chibis/doomsfae.png" alt="Doomsfae chibi avatar"></div>
 
 <div class="page">
 
@@ -187,23 +191,95 @@ p{
 
   <div class="meta">
     <p><strong>Commander:</strong> Nymris, Oona&#x27;s Trickster</p>
-    <p><strong>Tier:</strong> beginner</p>
+    <p><strong>Tier:</strong> advanced</p>
   </div>
 
-  <p>
-    Doomsfae is a Dimir control deck led by Nymris, Oona&#x27;s Trickster. Use the sections below to add the full primer, strategic overview, and exploit posture notes.
-  </p>
+  <p id="commander-rules">Loading commander rules text...</p>
 
   <div class="sectionTitle">Introduction</div>
-  <p>Add primer content here.</p>
+  <p id="introduction-content" class="dynamicContent">Add primer content here.</p>
 
   <div class="sectionTitle">Why Play This Deck?</div>
-  <p>Add strategic overview.</p>
+  <p id="why-play-content" class="dynamicContent">Add strategic overview.</p>
 
   <div class="sectionTitle">Posture</div>
-  <p>Explain how this deck fits the exploit triangle.</p>
+  <p id="posture-content" class="dynamicContent">Explain how this deck fits the exploit triangle.</p>
 
 </div>
+
+<script>
+(function(){
+  const DATA_PATH = "../data/deck-content.json";
+  const slug = window.location.pathname.split("/").pop().replace(/\.html$/i, "");
+  const commanderName = "Nymris, Oona's Trickster";
+
+  const targets = {
+    introduction: document.getElementById("introduction-content"),
+    why_play: document.getElementById("why-play-content"),
+    posture: document.getElementById("posture-content")
+  };
+
+  fetch(DATA_PATH)
+    .then(function(response){
+      if(!response.ok){
+        throw new Error("Failed to load deck content JSON");
+      }
+      return response.json();
+    })
+    .then(function(data){
+      const deck = data[slug];
+      if(!deck || !deck.sections){
+        return;
+      }
+
+      Object.keys(targets).forEach(function(sectionKey){
+        const target = targets[sectionKey];
+        const section = deck.sections[sectionKey];
+        if(target && section && section.body_text){
+          target.textContent = section.body_text;
+        }
+      });
+    })
+    .catch(function(error){
+      console.error(error);
+    });
+
+  fetch("https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(commanderName))
+    .then(function(response){
+      if(!response.ok){
+        throw new Error("Failed to load commander data");
+      }
+      return response.json();
+    })
+    .then(function(card){
+      const rulesTarget = document.getElementById("commander-rules");
+      let oracle = "";
+      if(card.oracle_text){
+        oracle = card.oracle_text;
+      } else if(card.card_faces && card.card_faces.length){
+        oracle = card.card_faces.map(function(face){
+          return face.name + "\n" + (face.oracle_text || "");
+        }).join("\n\n");
+      }
+      if(card.power !== undefined && card.toughness !== undefined && card.power !== null && card.toughness !== null){
+        oracle += (oracle ? "\n" : "") + card.power + "/" + card.toughness;
+      }
+      if(rulesTarget && oracle){
+        rulesTarget.textContent = oracle;
+        rulesTarget.classList.add("dynamicContent");
+      } else if(rulesTarget) {
+        rulesTarget.textContent = "See commander card image above for gameplay reference.";
+      }
+    })
+    .catch(function(error){
+      console.error(error);
+      const rulesTarget = document.getElementById("commander-rules");
+      if(rulesTarget){
+        rulesTarget.textContent = "See commander card image above for gameplay reference.";
+      }
+    });
+})();
+</script>
 
 </body>
 </html>
