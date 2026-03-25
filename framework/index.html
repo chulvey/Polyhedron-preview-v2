@@ -1,1 +1,58 @@
-<html><body><h1>Framework Home</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning Framework | Polyhedron Framework</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img class="logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron logo">
+<div class="chibi"><img src="../assets/chibis/old-is-new-again.png" alt="Framework section chibi avatar"></div>
+<div class="page">
+  <div class="hero">
+    <div class="heroFrame">
+      <img class="heroImage" src="../PolyhedronPrecon_HeroBanner.jpg" alt="Polyhedron framework banner">
+    </div>
+  </div>
+  <h1 class="title">Learning Framework</h1>
+  <p class="subtitle">A Polyhedron-first system for understanding Commander, improving play, and making multiplayer games more enjoyable by making them more skillful.</p>
+  
+<div class="grid">
+  <a class="tile" href="what-is-commander.html"><h3>What is Commander</h3><p>Learn the format, multiplayer structure, cEDH context, and why Commander plays differently from one-versus-one Magic.</p></a>
+  <a class="tile" href="colors.html"><h3>Colors</h3><p>Read the locked color-identity language that defines what each color offers before any specific deck expresses it.</p></a>
+  <a class="tile" href="archetypes.html"><h3>Archetypes</h3><p>See how Combo, Aggro, Control, and Midrange differ in posture, timing, and how they pursue victory.</p></a>
+  <a class="tile" href="exploit-triangle.html"><h3>Exploit Triangle</h3><p>Understand who pressures whom, when initiative matters, and how the table’s status quo changes.</p></a>
+  <a class="tile" href="core-concepts.html"><h3>Core Concepts</h3><p>Parity, clock, compression, regime, thresholds, windows, goldfishing, and the language Polyhedron uses to evaluate games.</p></a>
+  <a class="tile" href="format-reality.html"><h3>Format Reality</h3><p>Singleton variance, consistency, power creep, functional reprints, and why the modern format behaves the way it does.</p></a>
+  <a class="tile" href="community-ethics.html"><h3>Community &amp; Ethics</h3><p>Polyhedron’s view of improvement, adversarial play, community health, and why fun and winning are not in conflict.</p></a>
+  <a class="tile" href="how-to-play.html"><h3>How to Play</h3><p>Threat assessment, role assignment, “who is the beats,” and how to use the simulator as a learning tool.</p></a>
+</div>
+<div class="callout">
+  <h3>How this section is meant to be used</h3>
+  <p>This framework is written so a new player can enter through simple language and leave with stronger tools for real multiplayer games. It is also meant to reward experienced players by naming patterns that already exist in serious Commander play and organizing them into a repeatable system.</p>
+  <p>The deck pages show those ideas in action. The framework pages explain why they work.</p>
+</div>
+</div>
+<button class="menuButton" aria-label="Open framework menu" onclick="toggleFrameworkMenu(true)">☰</button>
+<div id="frameworkShade" class="menuShade" onclick="toggleFrameworkMenu(false)"></div>
+<aside id="frameworkMenu" class="menuPanel" aria-label="Framework navigation">
+<div class="closeRow"><button class="closeButton" aria-label="Close framework menu" onclick="toggleFrameworkMenu(false)">×</button></div>
+<h2>Learning Framework</h2>
+<a href="index.html" class="active">Framework Home</a>
+<a href="what-is-commander.html">What is Commander</a>
+<a href="colors.html">Colors</a>
+<a href="archetypes.html">Archetypes</a>
+<a href="exploit-triangle.html">Exploit Triangle</a>
+<a href="core-concepts.html">Core Concepts</a>
+<a href="format-reality.html">Format Reality</a>
+<a href="community-ethics.html">Community &amp; Ethics</a>
+<a href="how-to-play.html">How to Play</a>
+<a href="rules/index.html">Rules Documents</a>
+<div class="sectionTitle" style="font-size:18px; margin-top:20px;">Tools</div>
+<a href="../index.html">Deck Select</a>
+<a href="https://chulvey.github.io/Commander-battle-sim/" target="_blank" rel="noopener noreferrer">Live Game</a>
+</aside>
+<script src="menu.js"></script>
+</body>
+</html>
