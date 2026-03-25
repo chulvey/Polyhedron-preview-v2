@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Core Concepts | Polyhedron Framework</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img class="logo" src="PolyhedronLogo_Main.png" alt="Polyhedron logo">
+<div class="chibi"><img src="assets/chibis/old-is-new-again.png" alt="Framework section chibi avatar"></div>
+<div class="page">
+  <div class="hero">
+    <div class="heroFrame">
+      <img class="heroImage" src="PolyhedronPrecon_HeroBanner.jpg" alt="Polyhedron framework banner">
+    </div>
+  </div>
+  <h1 class="title">Core Concepts</h1>
+  <p class="subtitle">The Polyhedron vocabulary for evaluating multiplayer games without losing new players in unnecessary jargon.</p>
+  
+<div class="sectionTitle">Parity</div>
+<p>Parity is the leading indicator of victory but not victory itself. Life, cards, mana, and board presence together describe how much game each player still has access to.</p>
+
+<div class="sectionTitle">Clock</div>
+<p>Clock measures how many turns remain before a player is likely to win if the game keeps moving along the same trajectory. In Commander, seat order and the presence of multiple opponents make clock a comparative concept rather than a simple race.</p>
+
+<div class="sectionTitle">Compression</div>
+<p>Compression is the loss of viable options due to pressure. Sometimes this comes from combat, sometimes from suppression, sometimes from the threat of immediate assembly. A player under compression has fewer good choices available than the board might suggest at first glance.</p>
+
+<div class="sectionTitle">Threshold compression</div>
+<p>Alternate win vectors such as infect and commander damage matter because they reduce the amount of normal resource attrition required to kill a player. That is why Polyhedron treats them as compression mechanics rather than just unusual damage types.</p>
+
+<div class="sectionTitle">Goldfishing vs real games</div>
+<p>Goldfishing is useful for measuring execution. It works best for Aggro and Combo because those postures care heavily about internal sequencing, speed, and consistency. It falls off quickly when evaluating Control, because control success is not primarily “how fast did my deck do its thing?” but “how effectively did my deck keep the rest of the table from doing theirs?”</p>
+<p>Simple control questions are often better than raw speed math:</p>
+<ul class="noteList">
+  <li>Did the game slow down on your terms?</li>
+  <li>Did opponents fail to convert positions they normally would have converted?</li>
+  <li>Did your interaction force inefficient lines over multiple turns?</li>
+  <li>Did the game drift toward your timing rather than theirs?</li>
+</ul>
+
+<div class="sectionTitle">Theory of Fire</div>
+<p>The Theory of Fire is useful because it reminds players that resources convert into pressure. Cards, mana, damage, and battlefield control are not isolated categories. Different postures simply convert them differently: Aggro converts them into urgency, Combo into inevitability, Control into denial, and Midrange into stability.</p>
+
+<div class="sectionTitle">Windows</div>
+<p>Games are often decided in windows. A window is a moment when the table cannot respond efficiently enough to stop conversion. Combo wants to identify and exploit those windows. Control wants to narrow them. Aggro wants to broaden them through pressure.</p>
+
+<div class="sectionTitle">Infinite games</div>
+<p>A single Commander pod is a finite game with a winner. Commander as a hobby is an infinite game: players return, improve, and change over time. That matters because a healthy community is built not only on single outcomes but on whether players keep coming back stronger and better prepared for the next one.</p>
+
+</div>
+<button class="menuButton" aria-label="Open framework menu" onclick="toggleFrameworkMenu(true)">☰</button>
+<div id="frameworkShade" class="menuShade" onclick="toggleFrameworkMenu(false)"></div>
+<aside id="frameworkMenu" class="menuPanel" aria-label="Framework navigation">
+<div class="closeRow"><button class="closeButton" aria-label="Close framework menu" onclick="toggleFrameworkMenu(false)">×</button></div>
+<h2>Learning Framework</h2>
+<a href="index.html">Framework Home</a>
+<a href="what-is-commander.html">What is Commander</a>
+<a href="colors.html">Colors</a>
+<a href="archetypes.html">Archetypes</a>
+<a href="exploit-triangle.html">Exploit Triangle</a>
+<a href="core-concepts.html" class="active">Core Concepts</a>
+<a href="format-reality.html">Format Reality</a>
+<a href="community-ethics.html">Community &amp; Ethics</a>
+<a href="how-to-play.html">How to Play</a>
+<a href="rules/index.html">Rules Documents</a>
+<div class="sectionTitle" style="font-size:18px; margin-top:20px;">Tools</div>
+<a href="../index.html">Deck Select</a>
+<a href="https://chulvey.github.io/Commander-battle-sim/" target="_blank" rel="noopener noreferrer">Live Game</a>
+</aside>
+<script src="menu.js"></script>
+</body>
+</html>

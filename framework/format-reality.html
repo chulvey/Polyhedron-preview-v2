@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Format Reality | Polyhedron Framework</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img class="logo" src="PolyhedronLogo_Main.png" alt="Polyhedron logo">
+<div class="chibi"><img src="assets/chibis/old-is-new-again.png" alt="Framework section chibi avatar"></div>
+<div class="page">
+  <div class="hero">
+    <div class="heroFrame">
+      <img class="heroImage" src="PolyhedronPrecon_HeroBanner.jpg" alt="Polyhedron framework banner">
+    </div>
+  </div>
+  <h1 class="title">Format Reality</h1>
+  <p class="subtitle">Why the format behaves the way it does: singleton variance, functional reprints, power creep, and increasing complexity.</p>
+  
+<div class="sectionTitle">Singleton and variance</div>
+<p>Commander is a singleton format. By design, singleton formats increase variance: you do not get four copies of your best card, so you naturally see a wider range of game states.</p>
+
+<div class="sectionTitle">Why combo has historically been favored</div>
+<p>In higher-powered singleton environments, combo has often been favored because specific assembly can outperform broad redundancy when variance is high. A deck that only needs the right distinct functions can sometimes care less about drawing large numbers of similar pressure pieces and more about finding the few pieces that matter most.</p>
+
+<div class="sectionTitle">Why that is changing</div>
+<p>That advantage is being reduced as the card pool grows. Functional reprints add redundancy to more strategies, not just combo. When many cards can do a similar job, singleton variance starts behaving less like true scarcity and more like distributed access.</p>
+
+<div class="sectionTitle">Power creep</div>
+<p>Power creep is the long-term increase in card efficiency, speed, and floor quality across new printings. It matters because it raises the baseline power level of the format even when individual deck builders are not chasing “the best deck.” More efficient cards compress the amount of time and material needed to create structural pressure.</p>
+
+<div class="sectionTitle">Release speed</div>
+<p>The pace of set releases accelerates these effects. More products mean more role overlap, more functional redundancy, and more chances for a color or faction to patch an old weakness. This increases power and reduces weakness, but it also increases complexity and raises the burden on players who want to evaluate decks correctly.</p>
+
+<div class="sectionTitle">Consistency, weakness, and complexity</div>
+<p>Polyhedron treats color count as a real tradeoff. Additional colors scale power and reduce weakness because they widen access to tools. But they do so at the cost of consistency and increased complexity. Mono-color decks are cleaner and more stable. Five-color decks are broader and often stronger, but they demand much more from the pilot.</p>
+
+<div class="callout">
+  <h3>Polyhedron view</h3>
+  <p>Understanding the reality of the format is not anti-fun. It is what allows players to make better product choices, learn faster, and sit down for games with fewer false assumptions about what is likely to happen.</p>
+</div>
+
+</div>
+<button class="menuButton" aria-label="Open framework menu" onclick="toggleFrameworkMenu(true)">☰</button>
+<div id="frameworkShade" class="menuShade" onclick="toggleFrameworkMenu(false)"></div>
+<aside id="frameworkMenu" class="menuPanel" aria-label="Framework navigation">
+<div class="closeRow"><button class="closeButton" aria-label="Close framework menu" onclick="toggleFrameworkMenu(false)">×</button></div>
+<h2>Learning Framework</h2>
+<a href="index.html">Framework Home</a>
+<a href="what-is-commander.html">What is Commander</a>
+<a href="colors.html">Colors</a>
+<a href="archetypes.html">Archetypes</a>
+<a href="exploit-triangle.html">Exploit Triangle</a>
+<a href="core-concepts.html">Core Concepts</a>
+<a href="format-reality.html" class="active">Format Reality</a>
+<a href="community-ethics.html">Community &amp; Ethics</a>
+<a href="how-to-play.html">How to Play</a>
+<a href="rules/index.html">Rules Documents</a>
+<div class="sectionTitle" style="font-size:18px; margin-top:20px;">Tools</div>
+<a href="../index.html">Deck Select</a>
+<a href="https://chulvey.github.io/Commander-battle-sim/" target="_blank" rel="noopener noreferrer">Live Game</a>
+</aside>
+<script src="menu.js"></script>
+</body>
+</html>

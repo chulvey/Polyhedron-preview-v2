@@ -1,0 +1,137 @@
+
+:root{
+  --lime:#c7ff5e;
+  --text:#ffffff;
+  --muted:#cfd3da;
+  --panel:rgba(0,0,0,0.58);
+  --border:rgba(199,255,94,0.18);
+  --card:#0b1120;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  color:var(--text);
+  background:#000;
+}
+body::before{
+  content:"";
+  position:fixed; inset:0;
+  background:url("../Polyhedron_Background_Texture.png") center/cover no-repeat;
+  opacity:.10; z-index:-2;
+}
+body::after{
+  content:"";
+  position:fixed; inset:0;
+  background:url("../PolyhedronLogo_Main.png") center/70vmin no-repeat;
+  opacity:.12; z-index:-1;
+}
+.logo{
+  position:fixed; top:8px; left:8px; width:64px; z-index:30;
+}
+.page{
+  max-width:980px; margin:0 auto; padding:0 20px 96px;
+}
+.hero{position:relative; margin-top:0; margin-bottom:0;}
+.heroFrame{
+  border:1px solid rgba(255,255,255,.20);
+  border-radius:20px;
+  overflow:hidden;
+  background:#050505;
+  box-shadow:0 0 30px rgba(199,255,94,.08);
+}
+.heroImage{
+  display:block; width:100%; height:220px; object-fit:cover; object-position:center;
+}
+.title{
+  color:var(--lime); font-size:36px; margin:18px 0 10px; font-weight:800;
+}
+.subtitle{
+  color:var(--muted); font-size:18px; line-height:1.6; margin:0 0 18px;
+}
+.sectionTitle{
+  color:var(--lime); font-size:24px; margin-top:40px; border-bottom:1px solid #444; padding-bottom:8px;
+}
+p, li{
+  font-size:18px; line-height:1.7;
+}
+.small{
+  color:var(--muted); font-size:15px;
+}
+.grid{
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px;
+}
+.tile{
+  display:block; text-decoration:none; color:var(--text);
+  background:rgba(0,0,0,.55);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:16px;
+  box-shadow:0 0 18px rgba(199,255,94,.05);
+}
+.tile:hover{border-color:rgba(199,255,94,.5)}
+.tile h3{margin:0 0 8px; color:var(--lime); font-size:20px}
+.tile p{margin:0; font-size:16px; color:var(--muted)}
+.deckChipRow{
+  display:flex; flex-wrap:wrap; gap:12px; margin-top:14px;
+}
+.deckChip{
+  display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:var(--text);
+  background:rgba(0,0,0,.55); border:1px solid var(--border); border-radius:999px; padding:8px 12px 8px 8px;
+}
+.deckChip img{
+  width:28px; height:28px; object-fit:contain; border-radius:999px; background:#050505;
+}
+.callout{
+  background:rgba(0,0,0,.58); border:1px solid var(--border); border-radius:18px; padding:16px; margin-top:18px;
+}
+.callout h3{margin:0 0 8px; color:var(--lime)}
+.noteList{padding-left:22px}
+.noteList li{margin-bottom:8px}
+pre.rulesText{
+  white-space:pre-wrap; word-break:break-word; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:14px; line-height:1.45; background:rgba(0,0,0,.45); border:1px solid var(--border); border-radius:16px;
+  padding:18px; color:#f2f2f2;
+}
+.chibi{
+  position:fixed; right:8px; bottom:8px; width:64px; height:192px; z-index:20;
+  background:transparent; border:none; box-shadow:none;
+}
+.chibi img{display:block; width:100%; height:100%; object-fit:contain}
+.menuButton{
+  position:fixed; top:10px; right:10px; z-index:40;
+  width:52px; height:52px; border-radius:14px; border:1px solid rgba(255,255,255,.14);
+  background:rgba(5,5,5,.86); color:var(--lime); font-size:28px; line-height:1;
+}
+.menuPanel{
+  position:fixed; top:0; right:-360px; width:min(340px,86vw); height:100vh; z-index:50;
+  background:#050505; border-left:1px solid var(--border); box-shadow:-12px 0 36px rgba(0,0,0,.45);
+  transition:right .2s ease; padding:22px 18px 90px; overflow:auto;
+}
+.menuPanel.open{right:0}
+.menuPanel h2{color:var(--lime); margin:8px 0 18px; font-size:24px}
+.menuPanel a{display:block; color:var(--text); text-decoration:none; padding:10px 0; border-bottom:1px solid rgba(255,255,255,.06)}
+.menuPanel a.active{color:var(--lime); font-weight:700}
+.menuShade{
+  position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:45; display:none;
+}
+.menuShade.open{display:block}
+.closeRow{display:flex; justify-content:flex-end}
+.closeButton{
+  border:none; background:transparent; color:var(--lime); font-size:30px; line-height:1; padding:0 0 8px;
+}
+.bannerNote{margin-top:12px}
+.footerLinks{
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:12px;
+}
+.footerLinks a{
+  text-align:center; text-decoration:none; color:var(--text); padding:10px 8px; border-radius:999px;
+  border:1px solid var(--border); background:rgba(0,0,0,.55);
+}
+@media (max-width:700px){
+  .page{padding:0 16px 96px}
+  .heroImage{height:180px}
+  .title{font-size:30px}
+  .subtitle,p,li{font-size:17px}
+  .grid{grid-template-columns:1fr}
+}

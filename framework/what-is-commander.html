@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What is Commander | Polyhedron Framework</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img class="logo" src="PolyhedronLogo_Main.png" alt="Polyhedron logo">
+<div class="chibi"><img src="assets/chibis/old-is-new-again.png" alt="Framework section chibi avatar"></div>
+<div class="page">
+  <div class="hero">
+    <div class="heroFrame">
+      <img class="heroImage" src="PolyhedronPrecon_HeroBanner.jpg" alt="Polyhedron framework banner">
+    </div>
+  </div>
+  <h1 class="title">What is Commander</h1>
+  <p class="subtitle">Commander from a multiplayer perspective, with product-context language aligned to Polyhedron’s framework.</p>
+  
+<div class="sectionTitle">What Commander is</div>
+<p>Commander is a multiplayer format of Magic: the Gathering usually played in four-player pods. Each player brings a 100-card deck led by a legendary creature known as their commander. Decks follow singleton deckbuilding rules outside of basic lands, begin at 40 life, and must obey the color identity of their commander.</p>
+<ul class="noteList">
+  <li>Deck size: 100 cards including the commander</li>
+  <li>Life total: 40</li>
+  <li>Commander damage: 21 combat damage from a single commander eliminates a player</li>
+  <li>Color identity: every card in the deck must fit the commander’s color identity</li>
+  <li>Multiplayer reality: you are not facing one opponent, but three independent players who often align when someone is about to win</li>
+</ul>
+
+<div class="sectionTitle">Where Commander came from</div>
+<p>Commander began as Elder Dragon Highlander (EDH), a fan-created singleton format built around legendary creatures and multiplayer play. Over time, Wizards of the Coast formally adopted the format, released products under the Commander name, and built Commander into one of the central ways people now experience tabletop Magic.</p>
+<p>Today, Commander includes everything from highly thematic social decks to fully optimized competitive lists. One reason the format is so durable is that it can hold many different expectations at once, provided players are honest about what kind of game they are trying to play.</p>
+
+<div class="sectionTitle">The multiplayer perspective</div>
+<p>Commander is not just “normal Magic with more life.” In a pod, every action is judged by more than one opponent, and many decisions that seem locally correct change once you consider all three players together. At the point where someone tries to win, the rest of the table often behaves like a cumulative opponent.</p>
+<p>That is why Polyhedron puts such heavy weight on posture, clock, parity, and threat assessment. The strongest play in Commander is often the play that best understands how all three opponents are likely to react together.</p>
+
+<div class="sectionTitle">cEDH and optimization</div>
+<p>Competitive EDH (cEDH) is the fully optimized end of Commander. It is not a separate rules format; it is Commander played with maximum attention to consistency, speed, conversion, and win rate. Polyhedron treats cEDH as aspirational evidence of what the format looks like when players pursue the strongest available strategies and pilot them seriously.</p>
+<p>That does not mean every Commander game should look like cEDH. It does mean that serious Commander players can learn from the pressures, incentives, and structural truths cEDH makes visible.</p>
+
+<div class="sectionTitle">Brackets and expectations</div>
+<p>Official Commander guidance now uses a five-bracket beta system to help players discuss expected game experience before play. The broad purpose of the bracket system is expectation-setting: lower brackets are more socially weighted and slower, while the higher brackets move toward optimized, faster, and more punishing games. The highest bracket is reserved for competitive Commander.</p>
+<p>Polyhedron’s view is that expectation-setting is useful, but it does not replace learning how the game actually works. A healthy community still benefits from stronger players, clearer theory, and tools that teach players how to improve.</p>
+
+<div class="sectionTitle">See it in action</div>
+<p>These deck pages show how the format changes when different postures are applied to the same multiplayer structure.</p>
+<div class="deckChipRow">
+<a class="deckChip" href="decks/120-deaths.html"><img src="assets/chibis/120-deaths.png" alt="120 Deaths chibi"><span>120 Deaths</span></a>
+<a class="deckChip" href="decks/antisocial-behavior.html"><img src="assets/chibis/antisocial-behavior.png" alt="Antisocial Behavior chibi"><span>Antisocial Behavior</span></a>
+<a class="deckChip" href="decks/be-in-control.html"><img src="assets/chibis/be-in-control.png" alt="Be In Control chibi"><span>Be In Control</span></a>
+<a class="deckChip" href="decks/death-and-taxes.html"><img src="assets/chibis/death-and-taxes.png" alt="Death &amp; Taxes chibi"><span>Death &amp; Taxes</span></a>
+</div>
+</div>
+<button class="menuButton" aria-label="Open framework menu" onclick="toggleFrameworkMenu(true)">☰</button>
+<div id="frameworkShade" class="menuShade" onclick="toggleFrameworkMenu(false)"></div>
+<aside id="frameworkMenu" class="menuPanel" aria-label="Framework navigation">
+<div class="closeRow"><button class="closeButton" aria-label="Close framework menu" onclick="toggleFrameworkMenu(false)">×</button></div>
+<h2>Learning Framework</h2>
+<a href="index.html">Framework Home</a>
+<a href="what-is-commander.html" class="active">What is Commander</a>
+<a href="colors.html">Colors</a>
+<a href="archetypes.html">Archetypes</a>
+<a href="exploit-triangle.html">Exploit Triangle</a>
+<a href="core-concepts.html">Core Concepts</a>
+<a href="format-reality.html">Format Reality</a>
+<a href="community-ethics.html">Community &amp; Ethics</a>
+<a href="how-to-play.html">How to Play</a>
+<a href="rules/index.html">Rules Documents</a>
+<div class="sectionTitle" style="font-size:18px; margin-top:20px;">Tools</div>
+<a href="../index.html">Deck Select</a>
+<a href="https://chulvey.github.io/Commander-battle-sim/" target="_blank" rel="noopener noreferrer">Live Game</a>
+</aside>
+<script src="menu.js"></script>
+</body>
+</html>
