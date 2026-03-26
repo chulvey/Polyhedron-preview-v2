@@ -1,0 +1,150 @@
+{
+  "old-is-new-again": {
+    "name": "Old is New Again",
+    "commander": "Teshar, Ancestor's Apostle",
+    "faction": "Mono W",
+    "archetype": "Combo",
+    "curve_probability": 95.2,
+    "curve_note": "Estimated from a 37-land base plus dense low-cost mana rocks and cost-reduction effects.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 9,
+        "2": 25,
+        "3": 13,
+        "4": 4,
+        "5": 2,
+        "6": 1
+      },
+      "spells": {
+        "0": 0,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 2,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.52,
+        "avg_without_lands": 2.41,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 152
+      },
+      "symbols": {
+        "W": {
+          "share": 31,
+          "all_symbols": 31
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 82,
+          "land_symbols": 100
+        },
+        "U": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 18,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This mono-white list is mostly white plus artifact colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Marble Diamond",
+          "Fragmentize",
+          "Myr Retriever",
+          "Teshar, Ancestor's Apostle",
+          "Leonin Relic-Warder"
+        ],
+        "draws": [
+          "Mind Stone",
+          "Scrap Trawler",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Abiding Grace",
+          "Gold Myr",
+          "Blasting Station",
+          "Patch Up",
+          "Soul-Guide Lantern",
+          "Burnished Hart",
+          "Tormod's Crypt",
+          "Plains",
+          "Plains",
+          "Plains"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Gold Myr",
+          "Soul-Guide Lantern",
+          "Abiding Grace",
+          "Blasting Station",
+          "Burnished Hart"
+        ],
+        "draws": [
+          "Patch Up",
+          "Tormod's Crypt",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Marble Diamond",
+          "Fragmentize",
+          "Myr Retriever",
+          "Teshar, Ancestor's Apostle",
+          "Leonin Relic-Warder",
+          "Mind Stone",
+          "Scrap Trawler",
+          "Plains",
+          "Plains",
+          "Plains"
+        ]
+      }
+    }
+  }
+}
