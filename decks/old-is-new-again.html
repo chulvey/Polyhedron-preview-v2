@@ -303,8 +303,8 @@ p{
 /* playtest */
 .playtestShell{
   display:grid;
-  grid-template-columns:1.15fr 0.85fr;
-  gap:18px;
+  grid-template-columns:minmax(0,0.88fr) minmax(0,1.12fr);
+  gap:14px;
   align-items:start;
 }
 .playtestPanel, .oraclePanel{
@@ -314,34 +314,29 @@ p{
   padding:16px;
   box-shadow:0 0 20px rgba(199,255,94,0.05);
 }
-.playtestHint{
-  color:#d2d2d2;
-  font-size:14px;
-  margin:0 0 12px;
-}
 .handStage{
-  min-height:340px;
+  min-height:520px;
   display:flex;
-  align-items:flex-end;
+  align-items:center;
   justify-content:center;
   overflow:visible;
-  padding:20px 10px 6px;
+  padding:8px 0 6px;
 }
 .hand{
   position:relative;
   width:100%;
-  max-width:560px;
-  height:280px;
+  max-width:180px;
+  height:480px;
 }
 .handCard{
   position:absolute;
-  bottom:0;
-  width:120px;
+  left:50% !important;
+  width:128px;
   aspect-ratio: 0.716 / 1;
   border-radius:14px;
   cursor:pointer;
   box-shadow:0 10px 18px rgba(0,0,0,0.45);
-  transition:transform 180ms ease, left 180ms ease, z-index 180ms ease, filter 180ms ease;
+  transition:transform 180ms ease, top 180ms ease, z-index 180ms ease, filter 180ms ease;
   overflow:hidden;
   border:2px solid rgba(255,255,255,0.12);
   background:#111;
@@ -357,7 +352,7 @@ p{
   pointer-events:none;
 }
 .handCard.active{
-  transform:translateY(-24px) scale(1.06);
+  transform:translateX(-50%) translateX(34px) scale(1.06);
   z-index:30 !important;
   border-color:var(--lime);
 }
@@ -380,12 +375,9 @@ p{
   font-weight:700;
 }
 .playButton:disabled{
-  opacity:0.45;
-}
-.playInfo{
-  margin-top:10px;
-  color:#d4d4d4;
-  font-size:15px;
+  opacity:0.38;
+  background:#3f3943;
+  color:#c5c2c8;
 }
 .oracleTitle{
   color:var(--lime);
@@ -411,6 +403,7 @@ p{
   background:#111;
   min-height:220px;
   object-fit:cover;
+  aspect-ratio:0.716/1;
 }
 .oracleFallback{
   color:#d0d0d0;
@@ -420,11 +413,10 @@ p{
 
 @media (max-width:820px){
   .playtestShell{
-    grid-template-columns:1fr;
+    grid-template-columns:minmax(0,0.85fr) minmax(0,1.15fr);
+    gap:12px;
   }
-  .oraclePanel{
-    order:2;
-  }
+  .playtestPanel, .oraclePanel{ padding:12px; }
 }
 @media (max-width:700px){
   .page{ padding:0 16px 80px; }
@@ -442,10 +434,10 @@ p{
   .curveLegend{ gap:18px; font-size:16px; }
   .manaBig{ font-size:42px; }
   .manaTitle{ font-size:20px; }
-  .handStage{ min-height:300px; padding:16px 0 2px; }
-  .hand{ height:245px; }
-  .handCard{ width:100px; border-radius:12px; }
-  .handCard.active{ transform:translateY(-18px) scale(1.04); }
+  .handStage{ min-height:450px; padding:10px 0 2px; }
+  .hand{ max-width:146px; height:420px; }
+  .handCard{ width:104px; border-radius:12px; }
+  .handCard.active{ transform:translateX(-50%) translateX(24px) scale(1.04); }
   .playButton{ font-size:16px; padding:13px 10px; }
 }
 </style>
@@ -526,16 +518,14 @@ p{
   <div class="sectionTitle">Play Test</div>
   <div class="playtestShell">
     <div class="playtestPanel">
-      <p class="playtestHint">Tap a card to focus it on iPhone. Hover works on desktop.</p>
-      <div class="handStage">
+            <div class="handStage">
         <div id="hand" class="hand"></div>
       </div>
       <div class="playControls">
         <button id="drawBtn" class="playButton">Draw</button>
         <button id="mulliganBtn" class="playButton">Mulligan</button>
       </div>
-      <div id="playInfo" class="playInfo">Opening hand A • 7 cards shown</div>
-    </div>
+          </div>
     <div class="oraclePanel">
       <img id="oracleImage" class="oracleImage" alt="" style="display:none;">
       <div id="oracleTitle" class="oracleTitle">Play Test Oracle</div>
@@ -573,7 +563,8 @@ p{
     visible: [],
     drawIndex: 0,
     extraPool: [],
-    activeCardName: null
+    activeCardId: null,
+    uidCounter: 0
   };
 
   function fetchJSON(path){
@@ -751,16 +742,21 @@ p{
     return out;
   }
 
+  function makeCardEntry(cardName){
+    state.uidCounter += 1;
+    return { id: "card_" + state.uidCounter, name: cardName };
+  }
+
   function initializeHand(deck){
     analyticsDeck = deck;
     state.currentHandKey = state.currentHandKey === "hand_b" ? "hand_b" : "hand_a";
     const handData = deck.playtest[state.currentHandKey];
-    state.visible = handData.opening.slice();
+    state.visible = handData.opening.map(makeCardEntry);
     state.drawIndex = 0;
-    state.extraPool = handData.extra_pool.slice();
-    state.activeCardName = state.visible[0] || null;
+    state.extraPool = handData.extra_pool.map(makeCardEntry);
+    state.activeCardId = state.visible[0] ? state.visible[0].id : null;
     renderHand();
-    if(state.activeCardName) setOracle(state.activeCardName);
+    if(state.visible[0]) setOracle(state.visible[0].name);
   }
 
   function toggleMulligan(){
@@ -772,51 +768,54 @@ p{
     if(!analyticsDeck) return;
     const handData = analyticsDeck.playtest[state.currentHandKey];
     if(state.drawIndex < handData.draws.length){
-      const nextCard = handData.draws[state.drawIndex];
+      const nextCard = makeCardEntry(handData.draws[state.drawIndex]);
       state.visible.push(nextCard);
       state.drawIndex += 1;
-      state.activeCardName = nextCard;
+      state.activeCardId = nextCard.id;
       renderHand();
-      setOracle(nextCard);
+      setOracle(nextCard.name);
       return;
     }
     if(!state.extraPool.length) return;
     const idx = Math.floor(Math.random() * state.extraPool.length);
     const nextCard = state.extraPool.splice(idx, 1)[0];
     state.visible.push(nextCard);
-    state.activeCardName = nextCard;
+    state.activeCardId = nextCard.id;
     renderHand();
-    setOracle(nextCard);
+    setOracle(nextCard.name);
   }
 
   function renderHand(){
     const hand = document.getElementById("hand");
     hand.innerHTML = "";
     const count = state.visible.length;
-    const cardWidth = window.innerWidth <= 700 ? 100 : 120;
-    const spread = count <= 1 ? 0 : Math.max(26, Math.min(58, (hand.clientWidth - cardWidth - 20) / (count - 1)));
-    state.visible.forEach(function(cardName, index){
+    const cardWidth = window.innerWidth <= 700 ? 104 : 128;
+    const verticalStep = count <= 1 ? 0 : Math.max(30, Math.min(48, (hand.clientHeight - 180) / (count - 1)));
+    state.visible.forEach(function(cardData, index){
       const card = document.createElement("div");
-      card.className = "handCard" + (state.activeCardName === cardName ? " active" : "");
-      card.style.left = (8 + index * spread) + "px";
+      card.className = "handCard" + (state.activeCardId === cardData.id ? " active" : "");
+      card.style.top = (index * verticalStep) + "px";
       card.style.zIndex = String(index + 1);
-      card.innerHTML = '<img loading="lazy" src="' + scryfallNamedImage(cardName, "normal") + '" alt="' + cardName.replace(/"/g, '&quot;') + '">';
-      attachSoftClick(card, cardName);
+      card.style.transform = (state.activeCardId === cardData.id)
+        ? (window.innerWidth <= 700 ? "translateX(-50%) translateX(24px) scale(1.04)" : "translateX(-50%) translateX(34px) scale(1.06)")
+        : "translateX(-50%)";
+      card.innerHTML = '<img loading="lazy" src="' + scryfallNamedImage(cardData.name, "normal") + '" alt="' + cardData.name.replace(/"/g, '&quot;') + '">';
+      attachSoftClick(card, cardData);
       card.addEventListener("mouseenter", function(){
-        if(!("ontouchstart" in window)) selectCard(cardName);
+        if(!("ontouchstart" in window)) selectCard(cardData);
       });
       hand.appendChild(card);
     });
     const remainingPrimary = Math.max(0, analyticsDeck.playtest[state.currentHandKey].draws.length - state.drawIndex);
     const remainingExtra = state.extraPool.length;
-    document.getElementById("playInfo").textContent =
-      (state.currentHandKey === "hand_a" ? "Opening hand A" : "Opening hand B") +
-      " • " + state.visible.length + " cards shown • " +
-      remainingPrimary + " scripted draws left • " + remainingExtra + " extra sample draws";
-    document.getElementById("drawBtn").disabled = !(remainingPrimary > 0 || remainingExtra > 0);
+    const drawExhausted = !(remainingPrimary > 0 || remainingExtra > 0);
+    const drawBtn = document.getElementById("drawBtn");
+    const mulliganBtn = document.getElementById("mulliganBtn");
+    drawBtn.disabled = drawExhausted;
+    mulliganBtn.textContent = drawExhausted ? "Shuffle" : "Mulligan";
   }
 
-  function attachSoftClick(cardEl, cardName){
+  function attachSoftClick(cardEl, cardData){
     let holdTimer = null;
     let didHold = false;
 
@@ -824,7 +823,7 @@ p{
       didHold = false;
       holdTimer = setTimeout(function(){
         didHold = true;
-        selectCard(cardName);
+        selectCard(cardData);
       }, HOLD_MS);
     }, { passive:true });
 
@@ -833,19 +832,19 @@ p{
         clearTimeout(holdTimer);
         holdTimer = null;
       }
-      if(!didHold) selectCard(cardName);
+      if(!didHold) selectCard(cardData);
     });
 
     cardEl.addEventListener("click", function(){
       if("ontouchstart" in window) return;
-      selectCard(cardName);
+      selectCard(cardData);
     });
   }
 
-  function selectCard(cardName){
-    state.activeCardName = cardName;
+  function selectCard(cardData){
+    state.activeCardId = cardData.id;
     renderHand();
-    setOracle(cardName);
+    setOracle(cardData.name);
   }
 
   Promise.allSettled([fetchJSON(CONTENT_PATH), fetchJSON(ANALYTICS_PATH)])
