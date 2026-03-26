@@ -9,18 +9,30 @@
   --lime:#c7ff5e;
   --text:#ffffff;
   --panel:rgba(0,0,0,0.58);
+  --panel-strong:rgba(10,10,10,0.78);
   --border:rgba(199,255,94,0.18);
+  --muted:#b8b8b8;
+  --mox-bg:#dfe3e7;
+  --mox-line:#c8ced4;
+  --mox-text:#43484d;
+  --mox-sub:#6f767d;
+  --mox-purple:#c481ff;
+  --mox-purple-dark:#7426b6;
+  --mox-gray:#c8c8c8;
+  --mox-white:#e8e6b4;
+  --mox-blue:#bcd7f2;
+  --mox-black:#b7b1ad;
+  --mox-red:#f0c0b8;
+  --mox-green:#bcd8b0;
+  --mox-colorless:#8f3fd6;
 }
-
 *{box-sizing:border-box}
-
 body{
   margin:0;
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   color:var(--text);
   background:#000;
 }
-
 body::before{
   content:"";
   position:fixed;
@@ -29,7 +41,6 @@ body::before{
   opacity:0.10;
   z-index:-2;
 }
-
 body::after{
   content:"";
   position:fixed;
@@ -38,7 +49,6 @@ body::after{
   opacity:0.12;
   z-index:-1;
 }
-
 .logo{
   position:fixed;
   top:8px;
@@ -46,7 +56,6 @@ body::after{
   width:64px;
   z-index:20;
 }
-
 .chibi{
   position:fixed;
   right:8px;
@@ -58,26 +67,22 @@ body::after{
   border:none;
   box-shadow:none;
 }
-
 .chibi img{
   display:block;
   width:100%;
   height:100%;
   object-fit:contain;
 }
-
 .page{
   max-width:980px;
   margin:0 auto;
-  padding:0 20px 80px;
+  padding:0 20px 100px;
 }
-
 .hero{
   position:relative;
   margin-top:0;
   margin-bottom:0;
 }
-
 .heroFrame{
   border:1px solid rgba(255,255,255,0.20);
   border-radius:20px;
@@ -85,7 +90,6 @@ body::after{
   background:#050505;
   box-shadow:0 0 30px rgba(199,255,94,0.08);
 }
-
 .heroImage{
   display:block;
   width:100%;
@@ -93,7 +97,6 @@ body::after{
   object-fit:cover;
   object-position:center;
 }
-
 .violatorRow{
   display:flex;
   gap:22px;
@@ -103,7 +106,6 @@ body::after{
   position:relative;
   z-index:5;
 }
-
 .violator{
   width:160px;
   background:transparent;
@@ -112,31 +114,26 @@ body::after{
   padding:10px;
   backdrop-filter:none;
 }
-
 .exploit{
   border:none !important;
   box-shadow:none !important;
 }
-
 .violator img{
   display:block;
   width:100%;
   height:auto;
   border-radius:10px;
 }
-
 .title{
   color:var(--lime);
   font-size:36px;
   margin:12px 0 20px;
   font-weight:800;
 }
-
 .meta p{
   font-size:18px;
   margin:0 0 10px;
 }
-
 .sectionTitle{
   color:var(--lime);
   font-size:22px;
@@ -144,24 +141,312 @@ body::after{
   border-bottom:1px solid #444;
   padding-bottom:6px;
 }
-
 p{
   font-size:18px;
   line-height:1.7;
 }
-
 .dynamicContent{
   white-space:pre-line;
 }
 
+/* analytics */
+.analyticsShell{
+  margin-top:14px;
+  display:grid;
+  gap:18px;
+}
+.moxPanel{
+  background:var(--mox-bg);
+  color:var(--mox-text);
+  border-radius:20px;
+  padding:18px 18px 22px;
+  box-shadow:0 10px 24px rgba(0,0,0,0.22);
+}
+.moxPanel + .moxPanel{
+  margin-top:0;
+}
+.panelIntro{
+  font-size:15px;
+  color:var(--mox-sub);
+  text-align:center;
+  font-style:italic;
+  margin-bottom:8px;
+}
+.curveSvg{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.curveLegend{
+  display:flex;
+  flex-wrap:wrap;
+  gap:28px;
+  justify-content:center;
+  align-items:center;
+  color:var(--mox-text);
+  margin-top:8px;
+  font-size:18px;
+}
+.legendItem{
+  display:flex;
+  align-items:center;
+  gap:9px;
+}
+.legendSwatch{
+  width:18px;
+  height:18px;
+  border-radius:4px;
+}
+.probability{
+  font-size:21px;
+  color:var(--mox-text);
+  margin:0 0 18px;
+}
+.summaryBlock{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+  color:var(--mox-sub);
+  font-size:17px;
+  line-height:1.55;
+}
+.infoDot{
+  width:22px;
+  height:22px;
+  min-width:22px;
+  border-radius:50%;
+  background:#2c6fec;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  margin-top:4px;
+}
+.manaGrid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:34px;
+  margin-top:24px;
+}
+.manaCard{
+  text-align:center;
+}
+.manaIcon{
+  width:78px;
+  height:78px;
+  border-radius:50%;
+  margin:0 auto 8px;
+  box-shadow:0 5px 0 rgba(0,0,0,0.75);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:40px;
+  font-weight:700;
+  color:#111;
+}
+.manaBig{
+  font-size:48px;
+  line-height:1;
+  color:#000;
+  margin-top:4px;
+}
+.manaSub{
+  font-size:17px;
+  color:var(--mox-sub);
+}
+.miniHist{
+  width:220px;
+  height:56px;
+  display:block;
+  margin:12px auto 0;
+}
+.manaTitle{
+  color:var(--mox-sub);
+  font-size:22px;
+  margin:12px 0 10px;
+}
+.prodBar{
+  width:100%;
+  max-width:420px;
+  height:40px;
+  border-radius:12px;
+  overflow:hidden;
+  border:3px solid var(--mox-line);
+  background:#f3f4f6;
+  margin:0 auto 8px;
+  position:relative;
+}
+.prodFill{
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#222;
+  font-size:18px;
+  font-weight:700;
+  background-image:repeating-linear-gradient(-45deg, rgba(255,255,255,0.16) 0 10px, rgba(255,255,255,0) 10px 20px);
+}
+.noteLine{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  font-size:16px;
+  color:var(--mox-sub);
+  margin-top:10px;
+  line-height:1.55;
+}
+
+/* playtest */
+.playtestShell{
+  display:grid;
+  grid-template-columns:1.15fr 0.85fr;
+  gap:18px;
+  align-items:start;
+}
+.playtestPanel, .oraclePanel{
+  background:var(--panel-strong);
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:16px;
+  box-shadow:0 0 20px rgba(199,255,94,0.05);
+}
+.playtestHint{
+  color:#d2d2d2;
+  font-size:14px;
+  margin:0 0 12px;
+}
+.handStage{
+  min-height:340px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  overflow:visible;
+  padding:20px 10px 6px;
+}
+.hand{
+  position:relative;
+  width:100%;
+  max-width:560px;
+  height:280px;
+}
+.handCard{
+  position:absolute;
+  bottom:0;
+  width:120px;
+  aspect-ratio: 0.716 / 1;
+  border-radius:14px;
+  cursor:pointer;
+  box-shadow:0 10px 18px rgba(0,0,0,0.45);
+  transition:transform 180ms ease, left 180ms ease, z-index 180ms ease, filter 180ms ease;
+  overflow:hidden;
+  border:2px solid rgba(255,255,255,0.12);
+  background:#111;
+}
+.handCard img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.handCard.backfill{
+  opacity:0;
+  pointer-events:none;
+}
+.handCard.active{
+  transform:translateY(-24px) scale(1.06);
+  z-index:30 !important;
+  border-color:var(--lime);
+}
+.handCard:hover{
+  filter:brightness(1.03);
+}
+.playControls{
+  display:flex;
+  gap:12px;
+  margin-top:8px;
+}
+.playButton{
+  flex:1;
+  border:none;
+  border-radius:12px;
+  padding:14px 12px;
+  background:#6e6275;
+  color:#fff;
+  font-size:17px;
+  font-weight:700;
+}
+.playButton:disabled{
+  opacity:0.45;
+}
+.playInfo{
+  margin-top:10px;
+  color:#d4d4d4;
+  font-size:15px;
+}
+.oracleTitle{
+  color:var(--lime);
+  font-size:22px;
+  font-weight:800;
+  margin:0 0 8px;
+}
+.oracleMeta{
+  font-size:14px;
+  color:#cfcfcf;
+  margin-bottom:12px;
+}
+.oracleText{
+  white-space:pre-line;
+  line-height:1.6;
+  font-size:16px;
+  color:#fff;
+}
+.oracleImage{
+  width:100%;
+  border-radius:16px;
+  margin-bottom:12px;
+  background:#111;
+  min-height:220px;
+  object-fit:cover;
+}
+.oracleFallback{
+  color:#d0d0d0;
+  font-size:15px;
+  line-height:1.6;
+}
+
+@media (max-width:820px){
+  .playtestShell{
+    grid-template-columns:1fr;
+  }
+  .oraclePanel{
+    order:2;
+  }
+}
 @media (max-width:700px){
-  .page{ padding:0 16px 64px; }
-  .hero{ margin-bottom:0; }
+  .page{ padding:0 16px 80px; }
   .heroImage{ height:220px; }
-  .violatorRow{ gap:14px; padding:0 14px; margin-top:-24px; margin-bottom:20px; }
+  .violatorRow{
+    gap:14px;
+    padding:0 14px;
+    margin-top:-24px;
+    margin-bottom:20px;
+  }
   .violator{ width:calc(50% - 7px); padding:8px; }
   .title{ font-size:30px; margin-top:14px; }
   .meta p, p{ font-size:17px; }
+  .moxPanel{ padding:16px 14px 18px; border-radius:18px; }
+  .curveLegend{ gap:18px; font-size:16px; }
+  .manaBig{ font-size:42px; }
+  .manaTitle{ font-size:20px; }
+  .handStage{ min-height:300px; padding:16px 0 2px; }
+  .hand{ height:245px; }
+  .handCard{ width:100px; border-radius:12px; }
+  .handCard.active{ transform:translateY(-18px) scale(1.04); }
+  .playButton{ font-size:16px; padding:13px 10px; }
 }
 </style>
 </head>
@@ -171,7 +456,6 @@ p{
 <div class="chibi"><img src="../assets/chibis/old-is-new-again.png" alt="Old is New Again chibi avatar"></div>
 
 <div class="page">
-
   <div class="hero">
     <div class="heroFrame">
       <img class="heroImage" src="../assets/Commander_Banners/old-is-new-again-banner.png" alt="Old is New Again banner art">
@@ -180,9 +464,9 @@ p{
 
   <div class="violatorRow">
     <div class="violator">
-      <img src="https://api.scryfall.com/cards/named?exact=Teshar%2C%20Ancestor%27s%20Apostle&format=image" alt="Teshar, Ancestor&#x27;s Apostle">
+      <img src="https://api.scryfall.com/cards/named?exact=Teshar,%20Ancestor%27s%20Apostle&format=image" alt="Teshar, Ancestor's Apostle">
     </div>
-    <div class="violator">
+    <div class="violator exploit">
       <img src="../assets/exploit/exploit-combo.png" alt="Exploit Triangle">
     </div>
   </div>
@@ -190,11 +474,14 @@ p{
   <h1 class="title">Old is New Again</h1>
 
   <div class="meta">
-    <p><strong>Commander:</strong> Teshar, Ancestor&#x27;s Apostle</p>
+    <p><strong>Commander:</strong> Teshar, Ancestor's Apostle</p>
     <p><strong>Tier:</strong> beginner</p>
   </div>
 
-  <p id="commander-rules">Loading commander rules text...</p>
+  <p>
+    Flying. Whenever you cast a historic spell, return target creature card with mana value 3 or less
+    from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)
+  </p>
 
   <div class="sectionTitle">Introduction</div>
   <p id="introduction-content" class="dynamicContent">Add primer content here.</p>
@@ -205,79 +492,397 @@ p{
   <div class="sectionTitle">Posture</div>
   <p id="posture-content" class="dynamicContent">Explain how this deck fits the exploit triangle.</p>
 
+  <div class="sectionTitle">Curve</div>
+  <div class="analyticsShell">
+    <div class="moxPanel">
+      <div class="panelIntro">Click a bar to view the cards</div>
+      <svg id="curveSvg" class="curveSvg" viewBox="0 0 820 470" role="img" aria-label="Mana value curve"></svg>
+      <div class="curveLegend">
+        <div class="legendItem"><span class="legendSwatch" style="background:var(--mox-purple)"></span> Permanents</div>
+        <div class="legendItem"><span class="legendSwatch" style="background:var(--mox-gray)"></span> Spells</div>
+        <div class="legendItem"><span class="legendSwatch" style="background:var(--mox-purple-dark)"></span> Selected</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sectionTitle">Mana Profile</div>
+  <div class="analyticsShell">
+    <div class="moxPanel">
+      <div id="curveProbability" class="probability">You have a 0.0% chance of playing these on curve.</div>
+      <div class="summaryBlock">
+        <div class="infoDot">i</div>
+        <div id="manaSummary">Loading mana summary…</div>
+      </div>
+    </div>
+    <div class="moxPanel">
+      <div id="manaGrid" class="manaGrid"></div>
+      <div class="noteLine">
+        <div class="infoDot" style="width:20px;height:20px;min-width:20px;font-size:12px;">i</div>
+        <div id="manaNote">Percentages will not add up to 100% if you have multi-color cards.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sectionTitle">Play Test</div>
+  <div class="playtestShell">
+    <div class="playtestPanel">
+      <p class="playtestHint">Tap a card to focus it on iPhone. Hover works on desktop.</p>
+      <div class="handStage">
+        <div id="hand" class="hand"></div>
+      </div>
+      <div class="playControls">
+        <button id="drawBtn" class="playButton">Draw</button>
+        <button id="mulliganBtn" class="playButton">Mulligan</button>
+      </div>
+      <div id="playInfo" class="playInfo">Opening hand A • 7 cards shown</div>
+    </div>
+    <div class="oraclePanel">
+      <img id="oracleImage" class="oracleImage" alt="" style="display:none;">
+      <div id="oracleTitle" class="oracleTitle">Play Test Oracle</div>
+      <div id="oracleMeta" class="oracleMeta">Select a card from the hand.</div>
+      <div id="oracleText" class="oracleText oracleFallback">Oracle text will appear here. The play test hands expose only the curated sample package rather than the full decklist.</div>
+    </div>
+  </div>
 </div>
 
 <script>
 (function(){
-  const DATA_PATH = "../data/deck-content.json";
+  const CONTENT_PATH = "../data/deck-content.json";
+  const ANALYTICS_PATH = "../data/deck-analytics.json";
   const slug = window.location.pathname.split("/").pop().replace(/\.html$/i, "");
-  const commanderName = "Teshar, Ancestor's Apostle";
-
+  const HOLD_MS = 220;
   const targets = {
     introduction: document.getElementById("introduction-content"),
     why_play: document.getElementById("why-play-content"),
     posture: document.getElementById("posture-content")
   };
 
-  fetch(DATA_PATH)
-    .then(function(response){
-      if(!response.ok){
-        throw new Error("Failed to load deck content JSON");
-      }
+  const colorMap = {
+    W: { bg:"#e8e6b4", label:"White", icon:"☼", bar:"#e6e39d" },
+    U: { bg:"#bcd7f2", label:"Blue", icon:"💧", bar:"#b1cff0" },
+    B: { bg:"#cbc4c0", label:"Black", icon:"☠", bar:"#bcb3ae" },
+    R: { bg:"#efc2b7", label:"Red", icon:"🔥", bar:"#e7b09f" },
+    G: { bg:"#bad7b0", label:"Green", icon:"♣", bar:"#acd198" },
+    C: { bg:"#d4d0cc", label:"Colorless", icon:"◇", bar:"#8f3fd6", text:"#fff" }
+  };
+
+  const cardCache = new Map();
+  let analyticsDeck = null;
+  let state = {
+    currentHandKey: "hand_a",
+    visible: [],
+    drawIndex: 0,
+    extraPool: [],
+    activeCardName: null
+  };
+
+  function fetchJSON(path){
+    return fetch(path).then(function(response){
+      if(!response.ok) throw new Error("Failed to load " + path);
       return response.json();
-    })
-    .then(function(data){
-      const deck = data[slug];
-      if(!deck || !deck.sections){
-        return;
-      }
-
-      Object.keys(targets).forEach(function(sectionKey){
-        const target = targets[sectionKey];
-        const section = deck.sections[sectionKey];
-        if(target && section && section.body_text){
-          target.textContent = section.body_text;
-        }
-      });
-    })
-    .catch(function(error){
-      console.error(error);
     });
+  }
 
-  fetch("https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(commanderName))
+  function scryfallNamedImage(cardName, version){
+    return "https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(cardName) + "&format=image&version=" + (version || "normal");
+  }
+
+  function fetchCard(cardName){
+    if(cardCache.has(cardName)) return cardCache.get(cardName);
+    const promise = fetch("https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(cardName), {
+      headers: { "Accept": "application/json" }
+    })
     .then(function(response){
-      if(!response.ok){
-        throw new Error("Failed to load commander data");
-      }
+      if(!response.ok) throw new Error("Failed to load card");
       return response.json();
     })
     .then(function(card){
-      const rulesTarget = document.getElementById("commander-rules");
-      let oracle = "";
-      if(card.oracle_text){
-        oracle = card.oracle_text;
-      } else if(card.card_faces && card.card_faces.length){
-        oracle = card.card_faces.map(function(face){
-          return face.name + "\n" + (face.oracle_text || "");
-        }).join("\n\n");
+      let imageUrl = "";
+      if(card.image_uris && card.image_uris.normal) imageUrl = card.image_uris.normal;
+      else if(card.card_faces && card.card_faces[0] && card.card_faces[0].image_uris) imageUrl = card.card_faces[0].image_uris.normal;
+      card._imageUrl = imageUrl || scryfallNamedImage(cardName, "normal");
+      return card;
+    })
+    .catch(function(){
+      return {
+        name: cardName,
+        type_line: "",
+        oracle_text: "Oracle text could not be loaded from Scryfall.",
+        _imageUrl: scryfallNamedImage(cardName, "normal")
+      };
+    });
+    cardCache.set(cardName, promise);
+    return promise;
+  }
+
+  function setOracle(cardName){
+    const title = document.getElementById("oracleTitle");
+    const meta = document.getElementById("oracleMeta");
+    const text = document.getElementById("oracleText");
+    const image = document.getElementById("oracleImage");
+
+    title.textContent = cardName;
+    meta.textContent = "Loading oracle text…";
+    text.textContent = "";
+    image.style.display = "none";
+
+    fetchCard(cardName).then(function(card){
+      title.textContent = card.name || cardName;
+      meta.textContent = card.type_line || "";
+      text.textContent = card.oracle_text || "No oracle text returned.";
+      if(card._imageUrl){
+        image.src = card._imageUrl;
+        image.alt = card.name || cardName;
+        image.style.display = "block";
       }
-      if(card.power !== undefined && card.toughness !== undefined && card.power !== null && card.toughness !== null){
-        oracle += (oracle ? "\n" : "") + card.power + "/" + card.toughness;
+    });
+  }
+
+  function renderCurve(deck){
+    const svg = document.getElementById("curveSvg");
+    const selected = Number(state.activeCurveMv || 1);
+    const width = 820, height = 470;
+    const margin = { top: 34, right: 28, bottom: 74, left: 78 };
+    const chartW = width - margin.left - margin.right;
+    const chartH = height - margin.top - margin.bottom;
+    const mvs = [0,1,2,3,4,5,6];
+    const permanents = deck.curve.permanents;
+    const spells = deck.curve.spells;
+    const totals = mvs.map(function(mv){ return (Number(permanents[mv] || 0) + Number(spells[mv] || 0)); });
+    const maxY = Math.max(6, Math.max.apply(null, totals) + 3);
+    const stepX = chartW / (mvs.length + 1);
+    let out = '';
+    out += '<rect x="0" y="0" width="' + width + '" height="' + height + '" fill="transparent"/>';
+    [0, Math.ceil(maxY/3), Math.ceil(2*maxY/3), maxY].forEach(function(tick){
+      const y = margin.top + chartH - (tick / maxY) * chartH;
+      out += '<line x1="' + margin.left + '" y1="' + y + '" x2="' + (width - margin.right) + '" y2="' + y + '" stroke="var(--mox-line)" stroke-width="1"/>';
+      out += '<text x="' + (margin.left - 18) + '" y="' + (y + 5) + '" font-size="16" fill="var(--mox-text)" text-anchor="end">' + tick + '</text>';
+    });
+    out += '<line x1="' + margin.left + '" y1="' + (margin.top + chartH) + '" x2="' + (width - margin.right) + '" y2="' + (margin.top + chartH) + '" stroke="var(--mox-text)" stroke-width="3"/>';
+
+    mvs.forEach(function(mv, idx){
+      const x = margin.left + stepX * (idx + 0.65);
+      const permCount = Number(permanents[mv] || 0);
+      const spellCount = Number(spells[mv] || 0);
+      const total = permCount + spellCount;
+      const barW = 44;
+      const permH = chartH * (permCount / maxY);
+      const spellH = chartH * (spellCount / maxY);
+      const yPerm = margin.top + chartH - permH;
+      const ySpell = yPerm - spellH;
+      const isSelected = selected === mv;
+      const fillColor = isSelected ? 'var(--mox-purple-dark)' : 'var(--mox-purple)';
+      if(total > 0){
+        out += '<rect data-mv="' + mv + '" x="' + x + '" y="' + yPerm + '" width="' + barW + '" height="' + permH + '" rx="8" fill="' + fillColor + '" stroke="#f2f0ff" stroke-width="3"/>';
+        if(spellCount > 0){
+          out += '<rect data-mv="' + mv + '" x="' + x + '" y="' + ySpell + '" width="' + barW + '" height="' + spellH + '" rx="8" fill="var(--mox-gray)" stroke="#f2f0ff" stroke-width="3"/>';
+        }
       }
-      if(rulesTarget && oracle){
-        rulesTarget.textContent = oracle;
-        rulesTarget.classList.add("dynamicContent");
-      } else if(rulesTarget) {
-        rulesTarget.textContent = "See commander card image above for gameplay reference.";
+      out += '<text x="' + (x + barW/2) + '" y="' + (margin.top + chartH + 38) + '" font-size="16" fill="var(--mox-text)" text-anchor="middle">' + mv + '</text>';
+    });
+    out += '<text x="' + (width/2) + '" y="' + (height - 12) + '" font-size="18" fill="var(--mox-text)" text-anchor="middle">Mana Value</text>';
+    out += '<g transform="translate(24,' + (margin.top + chartH/2 + 24) + ') rotate(-90)"><text font-size="18" fill="var(--mox-text)" text-anchor="middle">Number of Cards</text></g>';
+    svg.innerHTML = out;
+
+    svg.querySelectorAll("[data-mv]").forEach(function(el){
+      const mv = Number(el.getAttribute("data-mv"));
+      el.style.cursor = "pointer";
+      el.addEventListener("click", function(){
+        state.activeCurveMv = mv;
+        renderCurve(deck);
+      });
+    });
+  }
+
+  function renderMana(deck){
+    document.getElementById("curveProbability").textContent =
+      "You have a " + deck.curve_probability.toFixed(1) + "% chance of playing these on curve.";
+    const s = deck.mana_profile.summary;
+    document.getElementById("manaSummary").innerHTML =
+      "The average mana value of your main deck is <strong>" + s.avg_with_lands.toFixed(2) +
+      "</strong> with lands and <strong>" + s.avg_without_lands.toFixed(2) +
+      "</strong> without lands. The median mana value of your main deck is <strong>" + s.median_with_lands +
+      "</strong> with lands and <strong>" + s.median_without_lands +
+      "</strong> without lands. This deck's total mana value is <strong>" + s.total_mana_value + "</strong>.";
+    document.getElementById("manaNote").textContent = deck.mana_profile.note;
+
+    const grid = document.getElementById("manaGrid");
+    grid.innerHTML = "";
+    ["W","U","B","R","G","C"].forEach(function(code){
+      const symbol = deck.mana_profile.symbols[code];
+      const production = deck.mana_profile.production[code];
+      if(!symbol || !production) return;
+      if(symbol.share === 0 && production.share === 0) return;
+
+      const card = document.createElement("div");
+      card.className = "manaCard";
+      const cfg = colorMap[code];
+      card.innerHTML =
+        '<div class="manaIcon" style="background:' + cfg.bg + ';color:' + (cfg.text || '#111') + ';">' + cfg.icon + '</div>' +
+        '<div class="manaBig">' + production.share + '%</div>' +
+        '<div class="manaSub">' + symbol.all_symbols + '% of all symbols</div>' +
+        buildMiniHist(production.share, cfg.bar) +
+        '<div class="manaTitle">' + cfg.label + ' Mana Production</div>' +
+        '<div class="prodBar"><div class="prodFill" style="width:' + production.share + '%;background-color:' + cfg.bar + ';">' + production.share + '%</div></div>' +
+        '<div class="manaSub">' + production.land_symbols + '% of symbols on lands</div>';
+      grid.appendChild(card);
+    });
+  }
+
+  function buildMiniHist(share, color){
+    const values = [
+      Math.max(0, Math.round(share * 0.6)),
+      Math.max(0, Math.round(share)),
+      Math.max(0, Math.round(share * 0.45)),
+      Math.max(0, Math.round(share * 0.2)),
+      Math.max(0, Math.round(share * 0.28))
+    ];
+    const max = Math.max.apply(null, values.concat([1]));
+    const w = 220, h = 56, barW = 26, gap = 6;
+    let out = '<svg class="miniHist" viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true">';
+    out += '<line x1="14" y1="44" x2="' + (w - 14) + '" y2="44" stroke="#23272b" stroke-width="3"/>';
+    values.forEach(function(v, i){
+      const bh = (30 * v / max);
+      const x = 28 + i * (barW + gap);
+      const y = 44 - bh;
+      out += '<rect x="' + x + '" y="' + y + '" width="' + barW + '" height="' + bh + '" rx="5" fill="' + color + '" stroke="#3e3b39" stroke-width="2"/>';
+    });
+    out += '</svg>';
+    return out;
+  }
+
+  function initializeHand(deck){
+    analyticsDeck = deck;
+    state.currentHandKey = state.currentHandKey === "hand_b" ? "hand_b" : "hand_a";
+    const handData = deck.playtest[state.currentHandKey];
+    state.visible = handData.opening.slice();
+    state.drawIndex = 0;
+    state.extraPool = handData.extra_pool.slice();
+    state.activeCardName = state.visible[0] || null;
+    renderHand();
+    if(state.activeCardName) setOracle(state.activeCardName);
+  }
+
+  function toggleMulligan(){
+    state.currentHandKey = state.currentHandKey === "hand_a" ? "hand_b" : "hand_a";
+    initializeHand(analyticsDeck);
+  }
+
+  function drawCard(){
+    if(!analyticsDeck) return;
+    const handData = analyticsDeck.playtest[state.currentHandKey];
+    if(state.drawIndex < handData.draws.length){
+      const nextCard = handData.draws[state.drawIndex];
+      state.visible.push(nextCard);
+      state.drawIndex += 1;
+      state.activeCardName = nextCard;
+      renderHand();
+      setOracle(nextCard);
+      return;
+    }
+    if(!state.extraPool.length) return;
+    const idx = Math.floor(Math.random() * state.extraPool.length);
+    const nextCard = state.extraPool.splice(idx, 1)[0];
+    state.visible.push(nextCard);
+    state.activeCardName = nextCard;
+    renderHand();
+    setOracle(nextCard);
+  }
+
+  function renderHand(){
+    const hand = document.getElementById("hand");
+    hand.innerHTML = "";
+    const count = state.visible.length;
+    const cardWidth = window.innerWidth <= 700 ? 100 : 120;
+    const spread = count <= 1 ? 0 : Math.max(26, Math.min(58, (hand.clientWidth - cardWidth - 20) / (count - 1)));
+    state.visible.forEach(function(cardName, index){
+      const card = document.createElement("div");
+      card.className = "handCard" + (state.activeCardName === cardName ? " active" : "");
+      card.style.left = (8 + index * spread) + "px";
+      card.style.zIndex = String(index + 1);
+      card.innerHTML = '<img loading="lazy" src="' + scryfallNamedImage(cardName, "normal") + '" alt="' + cardName.replace(/"/g, '&quot;') + '">';
+      attachSoftClick(card, cardName);
+      card.addEventListener("mouseenter", function(){
+        if(!("ontouchstart" in window)) selectCard(cardName);
+      });
+      hand.appendChild(card);
+    });
+    const remainingPrimary = Math.max(0, analyticsDeck.playtest[state.currentHandKey].draws.length - state.drawIndex);
+    const remainingExtra = state.extraPool.length;
+    document.getElementById("playInfo").textContent =
+      (state.currentHandKey === "hand_a" ? "Opening hand A" : "Opening hand B") +
+      " • " + state.visible.length + " cards shown • " +
+      remainingPrimary + " scripted draws left • " + remainingExtra + " extra sample draws";
+    document.getElementById("drawBtn").disabled = !(remainingPrimary > 0 || remainingExtra > 0);
+  }
+
+  function attachSoftClick(cardEl, cardName){
+    let holdTimer = null;
+    let didHold = false;
+
+    cardEl.addEventListener("touchstart", function(){
+      didHold = false;
+      holdTimer = setTimeout(function(){
+        didHold = true;
+        selectCard(cardName);
+      }, HOLD_MS);
+    }, { passive:true });
+
+    cardEl.addEventListener("touchend", function(){
+      if(holdTimer){
+        clearTimeout(holdTimer);
+        holdTimer = null;
+      }
+      if(!didHold) selectCard(cardName);
+    });
+
+    cardEl.addEventListener("click", function(){
+      if("ontouchstart" in window) return;
+      selectCard(cardName);
+    });
+  }
+
+  function selectCard(cardName){
+    state.activeCardName = cardName;
+    renderHand();
+    setOracle(cardName);
+  }
+
+  Promise.allSettled([fetchJSON(CONTENT_PATH), fetchJSON(ANALYTICS_PATH)])
+    .then(function(results){
+      const contentResult = results[0];
+      const analyticsResult = results[1];
+
+      if(contentResult.status === "fulfilled"){
+        const deckContent = contentResult.value[slug];
+        if(deckContent && deckContent.sections){
+          Object.keys(targets).forEach(function(sectionKey){
+            const target = targets[sectionKey];
+            const section = deckContent.sections[sectionKey];
+            if(target && section && section.body_text){
+              target.textContent = section.body_text;
+            }
+          });
+        }
+      }
+
+      if(analyticsResult.status === "fulfilled"){
+        const deck = analyticsResult.value[slug];
+        if(deck){
+          state.activeCurveMv = 2;
+          renderCurve(deck);
+          renderMana(deck);
+          analyticsDeck = deck;
+          initializeHand(deck);
+        }
       }
     })
     .catch(function(error){
       console.error(error);
-      const rulesTarget = document.getElementById("commander-rules");
-      if(rulesTarget){
-        rulesTarget.textContent = "See commander card image above for gameplay reference.";
-      }
     });
+
+  document.getElementById("drawBtn").addEventListener("click", drawCard);
+  document.getElementById("mulliganBtn").addEventListener("click", toggleMulligan);
 })();
 </script>
 
