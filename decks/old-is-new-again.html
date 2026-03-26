@@ -12,10 +12,10 @@
   --panel-strong:rgba(10,10,10,0.78);
   --border:rgba(199,255,94,0.18);
   --muted:#b8b8b8;
-  --mox-bg:#dfe3e7;
-  --mox-line:#c8ced4;
-  --mox-text:#43484d;
-  --mox-sub:#6f767d;
+  --mox-bg:#15191f;
+  --mox-line:#38404a;
+  --mox-text:#eef2f5;
+  --mox-sub:#b8c0c9;
   --mox-purple:#c481ff;
   --mox-purple-dark:#7426b6;
   --mox-gray:#c8c8c8;
@@ -56,6 +56,67 @@ body::after{
   width:64px;
   z-index:20;
 }
+.menuButton{
+  position:fixed;
+  top:78px;
+  left:8px;
+  width:52px;
+  height:52px;
+  z-index:20;
+  border-radius:14px;
+  border:1px solid rgba(199,255,94,0.28);
+  background:rgba(10,10,10,0.82);
+  color:var(--lime);
+  font-size:28px;
+  line-height:1;
+  box-shadow:0 8px 22px rgba(0,0,0,0.34);
+  backdrop-filter:blur(8px);
+}
+.menuShade{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.58);
+  opacity:0;
+  pointer-events:none;
+  transition:opacity 180ms ease;
+  z-index:29;
+}
+.menuShade.open{ opacity:1; pointer-events:auto; }
+.menuPanel{
+  position:fixed;
+  top:0; left:0; bottom:0;
+  width:min(86vw, 340px);
+  transform:translateX(-102%);
+  transition:transform 200ms ease;
+  background:rgba(11,12,14,0.97);
+  border-right:1px solid rgba(199,255,94,0.20);
+  box-shadow:16px 0 40px rgba(0,0,0,0.48);
+  z-index:30;
+  padding:18px 18px 24px;
+  overflow:auto;
+}
+.menuPanel.open{ transform:translateX(0); }
+.menuPanel h2{ color:var(--lime); font-size:24px; margin:0 0 14px; }
+.menuPanel a{
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  padding:12px 10px;
+  border-radius:12px;
+  border:1px solid transparent;
+  margin-bottom:8px;
+  background:rgba(255,255,255,0.03);
+}
+.menuPanel a.active, .menuPanel a:hover{
+  border-color:rgba(199,255,94,0.22);
+  background:rgba(199,255,94,0.08);
+}
+.closeRow{ display:flex; justify-content:flex-end; margin-bottom:8px; }
+.closeButton{
+  width:40px; height:40px; border-radius:10px; border:1px solid rgba(199,255,94,0.22);
+  background:rgba(255,255,255,0.05); color:#fff; font-size:28px; line-height:1;
+}
+
 .chibi{
   position:fixed;
   right:8px;
@@ -76,7 +137,7 @@ body::after{
 .page{
   max-width:980px;
   margin:0 auto;
-  padding:0 20px 100px;
+  padding:126px 20px 100px;
 }
 .hero{
   position:relative;
@@ -156,15 +217,17 @@ p{
   gap:18px;
 }
 .moxPanel{
-  background:var(--mox-bg);
+  background:linear-gradient(180deg, rgba(24,29,35,0.98), rgba(18,22,27,0.98));
   color:var(--mox-text);
   border-radius:20px;
   padding:18px 18px 22px;
-  box-shadow:0 10px 24px rgba(0,0,0,0.22);
+  border:1px solid rgba(255,255,255,0.06);
+  box-shadow:0 14px 30px rgba(0,0,0,0.34);
 }
 .moxPanel + .moxPanel{
   margin-top:0;
 }
+.moxPanel strong{ color:#fff; font-weight:800; }
 .panelIntro{
   font-size:15px;
   color:var(--mox-sub);
@@ -210,7 +273,7 @@ p{
   font-size:17px;
   line-height:1.55;
 }
-.infoDot{
+ .infoDot{
   width:22px;
   height:22px;
   min-width:22px;
@@ -245,10 +308,10 @@ p{
   font-weight:700;
   color:#111;
 }
-.manaBig{
+ .manaBig{
   font-size:48px;
   line-height:1;
-  color:#000;
+  color:var(--mox-text);
   margin-top:4px;
 }
 .manaSub{
@@ -266,14 +329,14 @@ p{
   font-size:22px;
   margin:12px 0 10px;
 }
-.prodBar{
+ .prodBar{
   width:100%;
   max-width:420px;
   height:40px;
   border-radius:12px;
   overflow:hidden;
   border:3px solid var(--mox-line);
-  background:#f3f4f6;
+  background:#20262e;
   margin:0 auto 8px;
   position:relative;
 }
@@ -382,12 +445,12 @@ p{
   background:linear-gradient(to bottom, rgba(10,10,10,0.96), rgba(10,10,10,0.86));
   padding-bottom:8px;
 }
-.playButton{
+ .playButton{
   flex:1;
   border:none;
   border-radius:12px;
   padding:14px 12px;
-  background:#6e6275;
+  background:#5f5565;
   color:#fff;
   font-size:17px;
   font-weight:700;
@@ -427,8 +490,8 @@ p{
   object-fit:cover;
   aspect-ratio:0.716/1;
 }
-.oracleFallback{
-  color:#d0d0d0;
+ .oracleFallback{
+  color:#d7dee5;
   font-size:15px;
   line-height:1.6;
 }
@@ -441,7 +504,8 @@ p{
   .playtestPanel, .oraclePanel{ padding:12px; }
 }
 @media (max-width:700px){
-  .page{ padding:0 16px 80px; }
+  .menuButton{ top:74px; width:48px; height:48px; font-size:26px; }
+  .page{ padding:126px 16px 80px; }
   .heroImage{ height:220px; }
   .violatorRow{
     gap:14px;
@@ -472,6 +536,25 @@ p{
 <body>
 
 <img class="logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron logo">
+<button class="menuButton" aria-label="Open framework menu" onclick="toggleFrameworkMenu(true)">☰</button>
+<div id="frameworkShade" class="menuShade" onclick="toggleFrameworkMenu(false)"></div>
+<aside id="frameworkMenu" class="menuPanel" aria-label="Framework navigation">
+  <div class="closeRow"><button class="closeButton" aria-label="Close framework menu" onclick="toggleFrameworkMenu(false)">×</button></div>
+  <h2>Learning Framework</h2>
+  <a href="../framework/index.html">Framework Home</a>
+  <a href="../framework/what-is-commander.html">What is Commander</a>
+  <a href="../framework/colors.html">Colors</a>
+  <a href="../framework/archetypes.html">Archetypes</a>
+  <a href="../framework/exploit-triangle.html">Exploit Triangle</a>
+  <a href="../framework/core-concepts.html">Core Concepts</a>
+  <a href="../framework/format-reality.html">Format Reality</a>
+  <a href="../framework/community-ethics.html">Community &amp; Ethics</a>
+  <a href="../framework/how-to-play.html">How to Play</a>
+  <a href="../framework/rules/index.html">Rules Documents</a>
+  <div class="sectionTitle" style="font-size:18px; margin-top:20px;">Tools</div>
+  <a href="../index.html">Deck Select</a>
+  <a href="https://chulvey.github.io/Commander-battle-sim/" target="_blank" rel="noopener noreferrer">Live Game</a>
+</aside>
 <div class="chibi"><img src="../assets/chibis/old-is-new-again.png" alt="Old is New Again chibi avatar"></div>
 
 <div class="page">
@@ -758,12 +841,12 @@ p{
     const max = Math.max.apply(null, values.concat([1]));
     const w = 220, h = 56, barW = 26, gap = 6;
     let out = '<svg class="miniHist" viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true">';
-    out += '<line x1="14" y1="44" x2="' + (w - 14) + '" y2="44" stroke="#23272b" stroke-width="3"/>';
+    out += '<line x1="14" y1="44" x2="' + (w - 14) + '" y2="44" stroke="#7b8590" stroke-width="3"/>';
     values.forEach(function(v, i){
       const bh = (30 * v / max);
       const x = 28 + i * (barW + gap);
       const y = 44 - bh;
-      out += '<rect x="' + x + '" y="' + y + '" width="' + barW + '" height="' + bh + '" rx="5" fill="' + color + '" stroke="#3e3b39" stroke-width="2"/>';
+      out += '<rect x="' + x + '" y="' + y + '" width="' + barW + '" height="' + bh + '" rx="5" fill="' + color + '" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>';
     });
     out += '</svg>';
     return out;
@@ -919,5 +1002,6 @@ p{
 })();
 </script>
 
+<script src="../framework/menu.js"></script>
 </body>
 </html>
