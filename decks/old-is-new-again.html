@@ -314,19 +314,27 @@ p{
   padding:16px;
   box-shadow:0 0 20px rgba(199,255,94,0.05);
 }
-.handStage{
-  min-height:520px;
+.playtestPanel{
   display:flex;
-  align-items:center;
+  flex-direction:column;
+}
+.handStage{
+  flex:1;
+  min-height:0;
+  max-height:min(58vh, 560px);
+  display:flex;
+  align-items:flex-start;
   justify-content:center;
-  overflow:visible;
+  overflow-y:auto;
+  overflow-x:visible;
   padding:8px 0 6px;
+  scrollbar-width:thin;
 }
 .hand{
   position:relative;
   width:100%;
   max-width:180px;
-  height:480px;
+  min-height:460px;
 }
 .handCard{
   position:absolute;
@@ -356,13 +364,23 @@ p{
   z-index:30 !important;
   border-color:var(--lime);
 }
+.handCard:not(.active){
+  filter:brightness(0.94);
+}
 .handCard:hover{
   filter:brightness(1.03);
 }
 .playControls{
   display:flex;
   gap:12px;
-  margin-top:8px;
+  margin:0 0 10px;
+}
+.stickyControls{
+  position:sticky;
+  top:0;
+  z-index:40;
+  background:linear-gradient(to bottom, rgba(10,10,10,0.96), rgba(10,10,10,0.86));
+  padding-bottom:8px;
 }
 .playButton{
   flex:1;
@@ -390,6 +408,10 @@ p{
   color:#cfcfcf;
   margin-bottom:12px;
 }
+.oraclePanel{
+  max-height:min(58vh, 560px);
+  overflow:auto;
+}
 .oracleText{
   white-space:pre-line;
   line-height:1.6;
@@ -413,7 +435,7 @@ p{
 
 @media (max-width:820px){
   .playtestShell{
-    grid-template-columns:minmax(0,0.85fr) minmax(0,1.15fr);
+    grid-template-columns:minmax(0,0.84fr) minmax(0,1.16fr);
     gap:12px;
   }
   .playtestPanel, .oraclePanel{ padding:12px; }
@@ -434,11 +456,16 @@ p{
   .curveLegend{ gap:18px; font-size:16px; }
   .manaBig{ font-size:42px; }
   .manaTitle{ font-size:20px; }
-  .handStage{ min-height:450px; padding:10px 0 2px; }
-  .hand{ max-width:146px; height:420px; }
-  .handCard{ width:104px; border-radius:12px; }
-  .handCard.active{ transform:translateX(-50%) translateX(24px) scale(1.04); }
+  .playtestShell{ grid-template-columns:minmax(0,0.84fr) minmax(0,1.16fr); gap:10px; }
+  .playtestPanel, .oraclePanel{ padding:10px; border-radius:18px; }
+  .stickyControls{ padding-bottom:6px; }
+  .handStage{ max-height:min(52vh, 500px); padding:6px 0 2px; }
+  .hand{ max-width:138px; min-height:400px; }
+  .handCard{ width:96px; border-radius:12px; }
+  .handCard.active{ transform:translateX(-50%) translateX(18px) scale(1.03); }
   .playButton{ font-size:16px; padding:13px 10px; }
+  .oracleTitle{ font-size:18px; }
+  .oracleText{ font-size:14px; line-height:1.45; }
 }
 </style>
 </head>
@@ -518,14 +545,14 @@ p{
   <div class="sectionTitle">Play Test</div>
   <div class="playtestShell">
     <div class="playtestPanel">
-            <div class="handStage">
-        <div id="hand" class="hand"></div>
-      </div>
-      <div class="playControls">
+      <div class="playControls stickyControls">
         <button id="drawBtn" class="playButton">Draw</button>
         <button id="mulliganBtn" class="playButton">Mulligan</button>
       </div>
-          </div>
+      <div class="handStage">
+        <div id="hand" class="hand"></div>
+      </div>
+    </div>
     <div class="oraclePanel">
       <img id="oracleImage" class="oracleImage" alt="" style="display:none;">
       <div id="oracleTitle" class="oracleTitle">Play Test Oracle</div>
@@ -755,6 +782,8 @@ p{
     state.drawIndex = 0;
     state.extraPool = handData.extra_pool.map(makeCardEntry);
     state.activeCardId = state.visible[0] ? state.visible[0].id : null;
+    const stage = document.getElementById("handStage") || document.querySelector('.handStage');
+    if(stage) stage.scrollTop = 0;
     renderHand();
     if(state.visible[0]) setOracle(state.visible[0].name);
   }
@@ -789,16 +818,21 @@ p{
     const hand = document.getElementById("hand");
     hand.innerHTML = "";
     const count = state.visible.length;
-    const cardWidth = window.innerWidth <= 700 ? 104 : 128;
-    const verticalStep = count <= 1 ? 0 : Math.max(30, Math.min(48, (hand.clientHeight - 180) / (count - 1)));
+    const handHeight = window.innerWidth <= 700 ? 400 : 460;
+    hand.style.minHeight = handHeight + "px";
+    const maxSpread = handHeight - (window.innerWidth <= 700 ? 136 : 150);
+    const verticalStep = count <= 1 ? 0 : Math.max(22, Math.min(40, maxSpread / (count - 1)));
+    const contentHeight = Math.max(handHeight, ((count - 1) * verticalStep) + (window.innerWidth <= 700 ? 136 : 150));
+    hand.style.height = contentHeight + "px";
     state.visible.forEach(function(cardData, index){
       const card = document.createElement("div");
       card.className = "handCard" + (state.activeCardId === cardData.id ? " active" : "");
       card.style.top = (index * verticalStep) + "px";
       card.style.zIndex = String(index + 1);
       card.style.transform = (state.activeCardId === cardData.id)
-        ? (window.innerWidth <= 700 ? "translateX(-50%) translateX(24px) scale(1.04)" : "translateX(-50%) translateX(34px) scale(1.06)")
+        ? (window.innerWidth <= 700 ? "translateX(-50%) translateX(18px) scale(1.03)" : "translateX(-50%) translateX(34px) scale(1.06)")
         : "translateX(-50%)";
+      card.setAttribute("data-card-id", cardData.id);
       card.innerHTML = '<img loading="lazy" src="' + scryfallNamedImage(cardData.name, "normal") + '" alt="' + cardData.name.replace(/"/g, '&quot;') + '">';
       attachSoftClick(card, cardData);
       card.addEventListener("mouseenter", function(){
