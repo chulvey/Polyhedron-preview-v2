@@ -96,8 +96,8 @@
           "Marble Diamond",
           "Fragmentize",
           "Myr Retriever",
-          "Teshar, Ancestor's Apostle",
-          "Leonin Relic-Warder"
+          "Leonin Relic-Warder",
+          "Foundry Inspector"
         ],
         "draws": [
           "Mind Stone",
@@ -105,6 +105,8 @@
           "Plains"
         ],
         "extra_pool": [
+          "Junk Diver",
+          "Foundry Inspector",
           "Abiding Grace",
           "Gold Myr",
           "Blasting Station",
@@ -112,8 +114,6 @@
           "Soul-Guide Lantern",
           "Burnished Hart",
           "Tormod's Crypt",
-          "Plains",
-          "Plains",
           "Plains"
         ]
       },
@@ -133,14 +133,14 @@
           "Plains"
         ],
         "extra_pool": [
+          "Junk Diver",
+          "Foundry Inspector",
           "Marble Diamond",
           "Fragmentize",
           "Myr Retriever",
-          "Teshar, Ancestor's Apostle",
           "Leonin Relic-Warder",
           "Mind Stone",
           "Scrap Trawler",
-          "Plains",
           "Plains",
           "Plains"
         ]
