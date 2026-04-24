@@ -3,24 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Death &amp; Taxes</title>
+<title>Death &amp;amp; Taxes</title>
 <style>
 :root{
   --lime:#c7ff5e;
   --text:#ffffff;
   --panel:rgba(0,0,0,0.58);
+  --panel-strong:rgba(10,10,10,0.78);
   --border:rgba(199,255,94,0.18);
+  --muted:#b8b8b8;
+  --mox-bg:#15191f;
+  --mox-line:#38404a;
+  --mox-text:#eef2f5;
+  --mox-sub:#b8c0c9;
+  --mox-purple:#c481ff;
+  --mox-purple-dark:#7426b6;
+  --mox-gray:#c8c8c8;
+  --mox-white:#e8e6b4;
+  --mox-blue:#bcd7f2;
+  --mox-black:#b7b1ad;
+  --mox-red:#f0c0b8;
+  --mox-green:#bcd8b0;
+  --mox-colorless:#8f3fd6;
 }
-
 *{box-sizing:border-box}
-
 body{
   margin:0;
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   color:var(--text);
   background:#000;
 }
-
 body::before{
   content:"";
   position:fixed;
@@ -29,7 +41,6 @@ body::before{
   opacity:0.10;
   z-index:-2;
 }
-
 body::after{
   content:"";
   position:fixed;
@@ -38,13 +49,72 @@ body::after{
   opacity:0.12;
   z-index:-1;
 }
-
 .logo{
   position:fixed;
   top:8px;
   left:8px;
   width:64px;
   z-index:20;
+}
+.menuButton{
+  position:fixed;
+  top:78px;
+  left:8px;
+  width:52px;
+  height:52px;
+  z-index:20;
+  border-radius:14px;
+  border:1px solid rgba(199,255,94,0.28);
+  background:rgba(10,10,10,0.82);
+  color:var(--lime);
+  font-size:28px;
+  line-height:1;
+  box-shadow:0 8px 22px rgba(0,0,0,0.34);
+  backdrop-filter:blur(8px);
+}
+.menuShade{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.58);
+  opacity:0;
+  pointer-events:none;
+  transition:opacity 180ms ease;
+  z-index:29;
+}
+.menuShade.open{ opacity:1; pointer-events:auto; }
+.menuPanel{
+  position:fixed;
+  top:0; left:0; bottom:0;
+  width:min(86vw, 340px);
+  transform:translateX(-102%);
+  transition:transform 200ms ease;
+  background:rgba(11,12,14,0.97);
+  border-right:1px solid rgba(199,255,94,0.20);
+  box-shadow:16px 0 40px rgba(0,0,0,0.48);
+  z-index:30;
+  padding:18px 18px 24px;
+  overflow:auto;
+}
+.menuPanel.open{ transform:translateX(0); }
+.menuPanel h2{ color:var(--lime); font-size:24px; margin:0 0 14px; }
+.menuPanel a{
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  padding:12px 10px;
+  border-radius:12px;
+  border:1px solid transparent;
+  margin-bottom:8px;
+  background:rgba(255,255,255,0.03);
+}
+.menuPanel a.active, .menuPanel a:hover{
+  border-color:rgba(199,255,94,0.22);
+  background:rgba(199,255,94,0.08);
+}
+.closeRow{ display:flex; justify-content:flex-end; margin-bottom:8px; }
+.closeButton{
+  width:40px; height:40px; border-radius:10px; border:1px solid rgba(199,255,94,0.22);
+  background:rgba(255,255,255,0.05); color:#fff; font-size:28px; line-height:1;
 }
 
 .chibi{
@@ -58,26 +128,22 @@ body::after{
   border:none;
   box-shadow:none;
 }
-
 .chibi img{
   display:block;
   width:100%;
   height:100%;
   object-fit:contain;
 }
-
 .page{
   max-width:980px;
   margin:0 auto;
-  padding:0 20px 80px;
+  padding:126px 20px 100px;
 }
-
 .hero{
   position:relative;
   margin-top:0;
   margin-bottom:0;
 }
-
 .heroFrame{
   border:1px solid rgba(255,255,255,0.20);
   border-radius:20px;
@@ -85,7 +151,6 @@ body::after{
   background:#050505;
   box-shadow:0 0 30px rgba(199,255,94,0.08);
 }
-
 .heroImage{
   display:block;
   width:100%;
@@ -93,7 +158,6 @@ body::after{
   object-fit:cover;
   object-position:center;
 }
-
 .violatorRow{
   display:flex;
   gap:22px;
@@ -103,7 +167,6 @@ body::after{
   position:relative;
   z-index:5;
 }
-
 .violator{
   width:160px;
   background:transparent;
@@ -112,31 +175,26 @@ body::after{
   padding:10px;
   backdrop-filter:none;
 }
-
 .exploit{
   border:none !important;
   box-shadow:none !important;
 }
-
 .violator img{
   display:block;
   width:100%;
   height:auto;
   border-radius:10px;
 }
-
 .title{
   color:var(--lime);
   font-size:36px;
   margin:12px 0 20px;
   font-weight:800;
 }
-
 .meta p{
   font-size:18px;
   margin:0 0 10px;
 }
-
 .sectionTitle{
   color:var(--lime);
   font-size:22px;
@@ -144,50 +202,379 @@ body::after{
   border-bottom:1px solid #444;
   padding-bottom:6px;
 }
-
 p{
   font-size:18px;
   line-height:1.7;
 }
-
 .dynamicContent{
   white-space:pre-line;
 }
 
+/* analytics */
+.analyticsShell{
+  margin-top:14px;
+  display:grid;
+  gap:18px;
+}
+.moxPanel{
+  background:linear-gradient(180deg, rgba(24,29,35,0.98), rgba(18,22,27,0.98));
+  color:var(--mox-text);
+  border-radius:20px;
+  padding:18px 18px 22px;
+  border:1px solid rgba(255,255,255,0.06);
+  box-shadow:0 14px 30px rgba(0,0,0,0.34);
+}
+.moxPanel + .moxPanel{
+  margin-top:0;
+}
+.moxPanel strong{ color:#fff; font-weight:800; }
+.panelIntro{
+  font-size:15px;
+  color:var(--mox-sub);
+  text-align:center;
+  font-style:italic;
+  margin-bottom:8px;
+}
+.curveSvg{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.curveLegend{
+  display:flex;
+  flex-wrap:wrap;
+  gap:28px;
+  justify-content:center;
+  align-items:center;
+  color:var(--mox-text);
+  margin-top:8px;
+  font-size:18px;
+}
+.legendItem{
+  display:flex;
+  align-items:center;
+  gap:9px;
+}
+.legendSwatch{
+  width:18px;
+  height:18px;
+  border-radius:4px;
+}
+.probability{
+  font-size:21px;
+  color:var(--mox-text);
+  margin:0 0 18px;
+}
+.summaryBlock{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+  color:var(--mox-sub);
+  font-size:17px;
+  line-height:1.55;
+}
+ .infoDot{
+  width:22px;
+  height:22px;
+  min-width:22px;
+  border-radius:50%;
+  background:#2c6fec;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  margin-top:4px;
+}
+.manaGrid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:34px;
+  margin-top:24px;
+}
+.manaCard{
+  text-align:center;
+}
+.manaIcon{
+  width:78px;
+  height:78px;
+  border-radius:50%;
+  margin:0 auto 8px;
+  box-shadow:0 5px 0 rgba(0,0,0,0.75);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:40px;
+  font-weight:700;
+  color:#111;
+}
+ .manaBig{
+  font-size:48px;
+  line-height:1;
+  color:var(--mox-text);
+  margin-top:4px;
+}
+.manaSub{
+  font-size:17px;
+  color:var(--mox-sub);
+}
+.miniHist{
+  width:220px;
+  height:56px;
+  display:block;
+  margin:12px auto 0;
+}
+.manaTitle{
+  color:var(--mox-sub);
+  font-size:22px;
+  margin:12px 0 10px;
+}
+ .prodBar{
+  width:100%;
+  max-width:420px;
+  height:40px;
+  border-radius:12px;
+  overflow:hidden;
+  border:3px solid var(--mox-line);
+  background:#20262e;
+  margin:0 auto 8px;
+  position:relative;
+}
+.prodFill{
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#222;
+  font-size:18px;
+  font-weight:700;
+  background-image:repeating-linear-gradient(-45deg, rgba(255,255,255,0.16) 0 10px, rgba(255,255,255,0) 10px 20px);
+}
+.noteLine{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  font-size:16px;
+  color:var(--mox-sub);
+  margin-top:10px;
+  line-height:1.55;
+}
+
+/* playtest */
+.playtestShell{
+  display:grid;
+  grid-template-columns:minmax(0,0.88fr) minmax(0,1.12fr);
+  gap:14px;
+  align-items:start;
+}
+.playtestPanel, .oraclePanel{
+  background:var(--panel-strong);
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:16px;
+  box-shadow:0 0 20px rgba(199,255,94,0.05);
+}
+.playtestPanel{
+  display:flex;
+  flex-direction:column;
+}
+.handStage{
+  flex:1;
+  min-height:0;
+  max-height:min(58vh, 560px);
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  overflow-y:auto;
+  overflow-x:visible;
+  padding:8px 0 6px;
+  scrollbar-width:thin;
+}
+.hand{
+  position:relative;
+  width:100%;
+  max-width:180px;
+  min-height:460px;
+}
+.handCard{
+  position:absolute;
+  left:50% !important;
+  width:128px;
+  aspect-ratio: 0.716 / 1;
+  border-radius:14px;
+  cursor:pointer;
+  box-shadow:0 10px 18px rgba(0,0,0,0.45);
+  transition:transform 180ms ease, top 180ms ease, z-index 180ms ease, filter 180ms ease;
+  overflow:hidden;
+  border:2px solid rgba(255,255,255,0.12);
+  background:#111;
+}
+.handCard img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.handCard.backfill{
+  opacity:0;
+  pointer-events:none;
+}
+.handCard.active{
+  transform:translateX(-50%) translateX(34px) scale(1.06);
+  z-index:30 !important;
+  border-color:var(--lime);
+}
+.handCard:not(.active){
+  filter:brightness(0.94);
+}
+.handCard:hover{
+  filter:brightness(1.03);
+}
+.playControls{
+  display:flex;
+  gap:12px;
+  margin:0 0 10px;
+}
+.stickyControls{
+  position:sticky;
+  top:0;
+  z-index:40;
+  background:linear-gradient(to bottom, rgba(10,10,10,0.96), rgba(10,10,10,0.86));
+  padding-bottom:8px;
+}
+ .playButton{
+  flex:1;
+  border:none;
+  border-radius:12px;
+  padding:14px 12px;
+  background:#5f5565;
+  color:#fff;
+  font-size:17px;
+  font-weight:700;
+}
+.playButton:disabled{
+  opacity:0.38;
+  background:#3f3943;
+  color:#c5c2c8;
+}
+.oracleTitle{
+  color:var(--lime);
+  font-size:22px;
+  font-weight:800;
+  margin:0 0 8px;
+}
+.oracleMeta{
+  font-size:14px;
+  color:#cfcfcf;
+  margin-bottom:12px;
+}
+.oraclePanel{
+  max-height:min(58vh, 560px);
+  overflow:auto;
+}
+.oracleText{
+  white-space:pre-line;
+  line-height:1.6;
+  font-size:16px;
+  color:#fff;
+}
+.oracleImage{
+  width:100%;
+  border-radius:16px;
+  margin-bottom:12px;
+  background:#111;
+  min-height:220px;
+  object-fit:cover;
+  aspect-ratio:0.716/1;
+}
+ .oracleFallback{
+  color:#d7dee5;
+  font-size:15px;
+  line-height:1.6;
+}
+
+@media (max-width:820px){
+  .playtestShell{
+    grid-template-columns:minmax(0,0.84fr) minmax(0,1.16fr);
+    gap:12px;
+  }
+  .playtestPanel, .oraclePanel{ padding:12px; }
+}
 @media (max-width:700px){
-  .page{ padding:0 16px 64px; }
-  .hero{ margin-bottom:0; }
+  .logo{ top:78px; left:8px; width:64px; }
+  .menuButton{ top:148px; left:16px; width:48px; height:48px; font-size:26px; }
+  .page{ padding:126px 16px 80px; }
   .heroImage{ height:220px; }
-  .violatorRow{ gap:14px; padding:0 14px; margin-top:-24px; margin-bottom:20px; }
+  .violatorRow{
+    gap:14px;
+    padding:0 14px;
+    margin-top:-24px;
+    margin-bottom:20px;
+  }
   .violator{ width:calc(50% - 7px); padding:8px; }
   .title{ font-size:30px; margin-top:14px; }
   .meta p, p{ font-size:17px; }
+  .moxPanel{ padding:16px 14px 18px; border-radius:18px; }
+  .curveLegend{ gap:18px; font-size:16px; }
+  .manaBig{ font-size:42px; }
+  .manaTitle{ font-size:20px; }
+  .playtestShell{ grid-template-columns:minmax(0,0.84fr) minmax(0,1.16fr); gap:10px; }
+  .playtestPanel, .oraclePanel{ padding:10px; border-radius:18px; }
+  .stickyControls{ padding-bottom:6px; }
+  .handStage{ max-height:min(52vh, 500px); padding:6px 0 2px; }
+  .hand{ max-width:138px; min-height:400px; }
+  .handCard{ width:96px; border-radius:12px; }
+  .handCard.active{ transform:translateX(-50%) translateX(18px) scale(1.03); }
+  .playButton{ font-size:16px; padding:13px 10px; }
+  .oracleTitle{ font-size:18px; }
+  .oracleText{ font-size:14px; line-height:1.45; }
 }
 </style>
 </head>
 <body>
 
 <img class="logo" src="../PolyhedronLogo_Main.png" alt="Polyhedron logo">
-<div class="chibi"><img src="../assets/chibis/death-and-taxes.png" alt="Death &amp; Taxes chibi avatar"></div>
+<button class="menuButton" aria-label="Open framework menu" onclick="toggleFrameworkMenu(true)">☰</button>
+<div id="frameworkShade" class="menuShade" onclick="toggleFrameworkMenu(false)"></div>
+<aside id="frameworkMenu" class="menuPanel" aria-label="Framework navigation">
+  <div class="closeRow"><button class="closeButton" aria-label="Close framework menu" onclick="toggleFrameworkMenu(false)">×</button></div>
+  <h2>Learning Framework</h2>
+  <a href="../framework/index.html">Framework Home</a>
+  <a href="../framework/what-is-commander.html">What is Commander</a>
+  <a href="../framework/colors.html">Colors</a>
+  <a href="../framework/archetypes.html">Archetypes</a>
+  <a href="../framework/exploit-triangle.html">Exploit Triangle</a>
+  <a href="../framework/core-concepts.html">Core Concepts</a>
+  <a href="../framework/format-reality.html">Format Reality</a>
+  <a href="../framework/community-ethics.html">Community &amp; Ethics</a>
+  <a href="../framework/how-to-play.html">How to Play</a>
+  <a href="../framework/rules/index.html">Rules Documents</a>
+  <div class="sectionTitle" style="font-size:18px; margin-top:20px;">Tools</div>
+  <a href="../index.html">Deck Select</a>
+  <a href="https://chulvey.github.io/Commander-battle-sim/" target="_blank" rel="noopener noreferrer">Live Game</a>
+</aside>
+<div class="chibi"><img src="../assets/chibis/death-and-taxes.png" alt="Death &amp;amp; Taxes chibi avatar"></div>
 
 <div class="page">
-
   <div class="hero">
     <div class="heroFrame">
-      <img class="heroImage" src="../assets/Commander_Banners/death-and-taxes-banner.png" alt="Death &amp; Taxes banner art">
+      <img class="heroImage" src="../assets/Commander_Banners/death-and-taxes-banner.png" alt="Death &amp;amp; Taxes banner art">
     </div>
   </div>
 
   <div class="violatorRow">
     <div class="violator">
-      <img src="https://api.scryfall.com/cards/named?exact=Eriette%20of%20the%20Charmed%20Apple&format=image" alt="Eriette of the Charmed Apple">
+      <img src="https://api.scryfall.com/cards/named?exact=Eriette%20of%20the%20Charmed%20Apple&amp;format=image" alt="Eriette of the Charmed Apple">
     </div>
-    <div class="violator">
+    <div class="violator exploit">
       <img src="../assets/exploit/exploit-midrange.png" alt="Exploit Triangle">
     </div>
   </div>
 
-  <h1 class="title">Death &amp; Taxes</h1>
+  <h1 class="title">Death &amp;amp; Taxes</h1>
 
   <div class="meta">
     <p><strong>Commander:</strong> Eriette of the Charmed Apple</p>
@@ -205,54 +592,389 @@ p{
   <div class="sectionTitle">Posture</div>
   <p id="posture-content" class="dynamicContent">Explain how this deck fits the exploit triangle.</p>
 
+  <div class="sectionTitle">Curve</div>
+  <div class="analyticsShell">
+    <div class="moxPanel">
+      <div class="panelIntro">Click a bar to view the cards</div>
+      <svg id="curveSvg" class="curveSvg" viewBox="0 0 820 470" role="img" aria-label="Mana value curve"></svg>
+      <div class="curveLegend">
+        <div class="legendItem"><span class="legendSwatch" style="background:var(--mox-purple)"></span> Permanents</div>
+        <div class="legendItem"><span class="legendSwatch" style="background:var(--mox-gray)"></span> Spells</div>
+        <div class="legendItem"><span class="legendSwatch" style="background:var(--mox-purple-dark)"></span> Selected</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sectionTitle">Mana Profile</div>
+  <div class="analyticsShell">
+    <div class="moxPanel">
+      <div id="curveProbability" class="probability">You have a 0.0% chance of playing these on curve.</div>
+      <div class="summaryBlock">
+        <div class="infoDot">i</div>
+        <div id="manaSummary">Loading mana summary…</div>
+      </div>
+    </div>
+    <div class="moxPanel">
+      <div id="manaGrid" class="manaGrid"></div>
+      <div class="noteLine">
+        <div class="infoDot" style="width:20px;height:20px;min-width:20px;font-size:12px;">i</div>
+        <div id="manaNote">Percentages will not add up to 100% if you have multi-color cards.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sectionTitle">Play Test</div>
+  <div class="playtestShell">
+    <div class="playtestPanel">
+      <div class="playControls stickyControls">
+        <button id="drawBtn" class="playButton">Draw</button>
+        <button id="mulliganBtn" class="playButton">Mulligan</button>
+      </div>
+      <div class="handStage">
+        <div id="hand" class="hand"></div>
+      </div>
+    </div>
+    <div class="oraclePanel">
+      <img id="oracleImage" class="oracleImage" alt="" style="display:none;">
+      <div id="oracleTitle" class="oracleTitle">Play Test Oracle</div>
+      <div id="oracleMeta" class="oracleMeta">Select a card from the hand.</div>
+      <div id="oracleText" class="oracleText oracleFallback">Oracle text will appear here. The play test hands expose only the curated sample package rather than the full decklist.</div>
+    </div>
+  </div>
 </div>
 
 <script>
 (function(){
-  const DATA_PATH = "../data/deck-content.json";
+  const CONTENT_PATH = "../data/deck-content.json";
+  const ANALYTICS_PATH = "../data/deck-analytics.json";
   const slug = window.location.pathname.split("/").pop().replace(/\.html$/i, "");
   const commanderName = "Eriette of the Charmed Apple";
-
+  const HOLD_MS = 220;
   const targets = {
     introduction: document.getElementById("introduction-content"),
     why_play: document.getElementById("why-play-content"),
     posture: document.getElementById("posture-content")
   };
 
-  fetch(DATA_PATH)
-    .then(function(response){
-      if(!response.ok){
-        throw new Error("Failed to load deck content JSON");
-      }
+  const colorMap = {
+    W: { bg:"#e8e6b4", label:"White", icon:"☼", bar:"#e6e39d" },
+    U: { bg:"#bcd7f2", label:"Blue", icon:"💧", bar:"#b1cff0" },
+    B: { bg:"#cbc4c0", label:"Black", icon:"☠", bar:"#bcb3ae" },
+    R: { bg:"#efc2b7", label:"Red", icon:"🔥", bar:"#e7b09f" },
+    G: { bg:"#bad7b0", label:"Green", icon:"♣", bar:"#acd198" },
+    C: { bg:"#d4d0cc", label:"Colorless", icon:"◇", bar:"#8f3fd6", text:"#fff" }
+  };
+
+  const cardCache = new Map();
+  let analyticsDeck = null;
+  let state = {
+    currentHandKey: "hand_a",
+    visible: [],
+    drawIndex: 0,
+    extraPool: [],
+    activeCardId: null,
+    uidCounter: 0
+  };
+
+  function fetchJSON(path){
+    return fetch(path).then(function(response){
+      if(!response.ok) throw new Error("Failed to load " + path);
       return response.json();
-    })
-    .then(function(data){
-      const deck = data[slug];
-      if(!deck || !deck.sections){
-        return;
-      }
-
-      Object.keys(targets).forEach(function(sectionKey){
-        const target = targets[sectionKey];
-        const section = deck.sections[sectionKey];
-        if(target && section && section.body_text){
-          target.textContent = section.body_text;
-        }
-      });
-    })
-    .catch(function(error){
-      console.error(error);
     });
+  }
 
-  fetch("https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(commanderName))
+  function scryfallNamedImage(cardName, version){
+    return "https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(cardName) + "&format=image&version=" + (version || "normal");
+  }
+
+  function fetchCard(cardName){
+    if(cardCache.has(cardName)) return cardCache.get(cardName);
+    const promise = fetch("https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(cardName), {
+      headers: { "Accept": "application/json" }
+    })
     .then(function(response){
-      if(!response.ok){
-        throw new Error("Failed to load commander data");
-      }
+      if(!response.ok) throw new Error("Failed to load card");
       return response.json();
     })
     .then(function(card){
-      const rulesTarget = document.getElementById("commander-rules");
+      let imageUrl = "";
+      if(card.image_uris && card.image_uris.normal) imageUrl = card.image_uris.normal;
+      else if(card.card_faces && card.card_faces[0] && card.card_faces[0].image_uris) imageUrl = card.card_faces[0].image_uris.normal;
+      card._imageUrl = imageUrl || scryfallNamedImage(cardName, "normal");
+      return card;
+    })
+    .catch(function(){
+      return {
+        name: cardName,
+        type_line: "",
+        oracle_text: "Oracle text could not be loaded from Scryfall.",
+        _imageUrl: scryfallNamedImage(cardName, "normal")
+      };
+    });
+    cardCache.set(cardName, promise);
+    return promise;
+  }
+
+  function setOracle(cardName){
+    const title = document.getElementById("oracleTitle");
+    const meta = document.getElementById("oracleMeta");
+    const text = document.getElementById("oracleText");
+    const image = document.getElementById("oracleImage");
+
+    title.textContent = cardName;
+    meta.textContent = "Loading oracle text…";
+    text.textContent = "";
+    image.style.display = "none";
+
+    fetchCard(cardName).then(function(card){
+      title.textContent = card.name || cardName;
+      meta.textContent = card.type_line || "";
+      text.textContent = card.oracle_text || "No oracle text returned.";
+      if(card._imageUrl){
+        image.src = card._imageUrl;
+        image.alt = card.name || cardName;
+        image.style.display = "block";
+      }
+    });
+  }
+
+  function renderCurve(deck){
+    const svg = document.getElementById("curveSvg");
+    const selected = Number(state.activeCurveMv || 1);
+    const width = 820, height = 470;
+    const margin = { top: 34, right: 28, bottom: 74, left: 78 };
+    const chartW = width - margin.left - margin.right;
+    const chartH = height - margin.top - margin.bottom;
+    const mvs = [0,1,2,3,4,5,6];
+    const permanents = deck.curve.permanents;
+    const spells = deck.curve.spells;
+    const totals = mvs.map(function(mv){ return (Number(permanents[mv] || 0) + Number(spells[mv] || 0)); });
+    const maxY = Math.max(6, Math.max.apply(null, totals) + 3);
+    const stepX = chartW / (mvs.length + 1);
+    let out = '';
+    out += '<rect x="0" y="0" width="' + width + '" height="' + height + '" fill="transparent"/>';
+    [0, Math.ceil(maxY/3), Math.ceil(2*maxY/3), maxY].forEach(function(tick){
+      const y = margin.top + chartH - (tick / maxY) * chartH;
+      out += '<line x1="' + margin.left + '" y1="' + y + '" x2="' + (width - margin.right) + '" y2="' + y + '" stroke="var(--mox-line)" stroke-width="1"/>';
+      out += '<text x="' + (margin.left - 18) + '" y="' + (y + 5) + '" font-size="16" fill="var(--mox-text)" text-anchor="end">' + tick + '</text>';
+    });
+    out += '<line x1="' + margin.left + '" y1="' + (margin.top + chartH) + '" x2="' + (width - margin.right) + '" y2="' + (margin.top + chartH) + '" stroke="var(--mox-text)" stroke-width="3"/>';
+
+    mvs.forEach(function(mv, idx){
+      const x = margin.left + stepX * (idx + 0.65);
+      const permCount = Number(permanents[mv] || 0);
+      const spellCount = Number(spells[mv] || 0);
+      const total = permCount + spellCount;
+      const barW = 44;
+      const permH = chartH * (permCount / maxY);
+      const spellH = chartH * (spellCount / maxY);
+      const yPerm = margin.top + chartH - permH;
+      const ySpell = yPerm - spellH;
+      const isSelected = selected === mv;
+      const fillColor = isSelected ? 'var(--mox-purple-dark)' : 'var(--mox-purple)';
+      if(total > 0){
+        out += '<rect data-mv="' + mv + '" x="' + x + '" y="' + yPerm + '" width="' + barW + '" height="' + permH + '" rx="8" fill="' + fillColor + '" stroke="#f2f0ff" stroke-width="3"/>';
+        if(spellCount > 0){
+          out += '<rect data-mv="' + mv + '" x="' + x + '" y="' + ySpell + '" width="' + barW + '" height="' + spellH + '" rx="8" fill="var(--mox-gray)" stroke="#f2f0ff" stroke-width="3"/>';
+        }
+      }
+      out += '<text x="' + (x + barW/2) + '" y="' + (margin.top + chartH + 38) + '" font-size="16" fill="var(--mox-text)" text-anchor="middle">' + mv + '</text>';
+    });
+    out += '<text x="' + (width/2) + '" y="' + (height - 12) + '" font-size="18" fill="var(--mox-text)" text-anchor="middle">Mana Value</text>';
+    out += '<g transform="translate(24,' + (margin.top + chartH/2 + 24) + ') rotate(-90)"><text font-size="18" fill="var(--mox-text)" text-anchor="middle">Number of Cards</text></g>';
+    svg.innerHTML = out;
+
+    svg.querySelectorAll("[data-mv]").forEach(function(el){
+      const mv = Number(el.getAttribute("data-mv"));
+      el.style.cursor = "pointer";
+      el.addEventListener("click", function(){
+        state.activeCurveMv = mv;
+        renderCurve(deck);
+      });
+    });
+  }
+
+  function renderMana(deck){
+    document.getElementById("curveProbability").textContent =
+      "You have a " + deck.curve_probability.toFixed(1) + "% chance of playing these on curve.";
+    const s = deck.mana_profile.summary;
+    document.getElementById("manaSummary").innerHTML =
+      "The average mana value of your main deck is <strong>" + s.avg_with_lands.toFixed(2) +
+      "</strong> with lands and <strong>" + s.avg_without_lands.toFixed(2) +
+      "</strong> without lands. The median mana value of your main deck is <strong>" + s.median_with_lands +
+      "</strong> with lands and <strong>" + s.median_without_lands +
+      "</strong> without lands. This deck's total mana value is <strong>" + s.total_mana_value + "</strong>.";
+    document.getElementById("manaNote").textContent = deck.mana_profile.note;
+
+    const grid = document.getElementById("manaGrid");
+    grid.innerHTML = "";
+    ["W","U","B","R","G","C"].forEach(function(code){
+      const symbol = deck.mana_profile.symbols[code];
+      const production = deck.mana_profile.production[code];
+      if(!symbol || !production) return;
+      if(symbol.share === 0 && production.share === 0) return;
+
+      const card = document.createElement("div");
+      card.className = "manaCard";
+      const cfg = colorMap[code];
+      card.innerHTML =
+        '<div class="manaIcon" style="background:' + cfg.bg + ';color:' + (cfg.text || '#111') + ';">' + cfg.icon + '</div>' +
+        '<div class="manaBig">' + production.share + '%</div>' +
+        '<div class="manaSub">' + symbol.all_symbols + '% of all symbols</div>' +
+        buildMiniHist(production.share, cfg.bar) +
+        '<div class="manaTitle">' + cfg.label + ' Mana Production</div>' +
+        '<div class="prodBar"><div class="prodFill" style="width:' + production.share + '%;background-color:' + cfg.bar + ';">' + production.share + '%</div></div>' +
+        '<div class="manaSub">' + production.land_symbols + '% of symbols on lands</div>';
+      grid.appendChild(card);
+    });
+  }
+
+  function buildMiniHist(share, color){
+    const values = [
+      Math.max(0, Math.round(share * 0.6)),
+      Math.max(0, Math.round(share)),
+      Math.max(0, Math.round(share * 0.45)),
+      Math.max(0, Math.round(share * 0.2)),
+      Math.max(0, Math.round(share * 0.28))
+    ];
+    const max = Math.max.apply(null, values.concat([1]));
+    const w = 220, h = 56, barW = 26, gap = 6;
+    let out = '<svg class="miniHist" viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true">';
+    out += '<line x1="14" y1="44" x2="' + (w - 14) + '" y2="44" stroke="#7b8590" stroke-width="3"/>';
+    values.forEach(function(v, i){
+      const bh = (30 * v / max);
+      const x = 28 + i * (barW + gap);
+      const y = 44 - bh;
+      out += '<rect x="' + x + '" y="' + y + '" width="' + barW + '" height="' + bh + '" rx="5" fill="' + color + '" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>';
+    });
+    out += '</svg>';
+    return out;
+  }
+
+  function makeCardEntry(cardName){
+    state.uidCounter += 1;
+    return { id: "card_" + state.uidCounter, name: cardName };
+  }
+
+  function initializeHand(deck){
+    analyticsDeck = deck;
+    state.currentHandKey = state.currentHandKey === "hand_b" ? "hand_b" : "hand_a";
+    const handData = deck.playtest[state.currentHandKey];
+    state.visible = handData.opening.map(makeCardEntry);
+    state.drawIndex = 0;
+    state.extraPool = handData.extra_pool.map(makeCardEntry);
+    state.activeCardId = state.visible[0] ? state.visible[0].id : null;
+    const stage = document.getElementById("handStage") || document.querySelector('.handStage');
+    if(stage) stage.scrollTop = 0;
+    renderHand();
+    if(state.visible[0]) setOracle(state.visible[0].name);
+  }
+
+  function toggleMulligan(){
+    state.currentHandKey = state.currentHandKey === "hand_a" ? "hand_b" : "hand_a";
+    initializeHand(analyticsDeck);
+  }
+
+  function drawCard(){
+    if(!analyticsDeck) return;
+    const handData = analyticsDeck.playtest[state.currentHandKey];
+    if(state.drawIndex < handData.draws.length){
+      const nextCard = makeCardEntry(handData.draws[state.drawIndex]);
+      state.visible.push(nextCard);
+      state.drawIndex += 1;
+      state.activeCardId = nextCard.id;
+      renderHand();
+      setOracle(nextCard.name);
+      return;
+    }
+    if(!state.extraPool.length) return;
+    const idx = Math.floor(Math.random() * state.extraPool.length);
+    const nextCard = state.extraPool.splice(idx, 1)[0];
+    state.visible.push(nextCard);
+    state.activeCardId = nextCard.id;
+    renderHand();
+    setOracle(nextCard.name);
+  }
+
+  function renderHand(){
+    const hand = document.getElementById("hand");
+    hand.innerHTML = "";
+    const count = state.visible.length;
+    const handHeight = window.innerWidth <= 700 ? 400 : 460;
+    hand.style.minHeight = handHeight + "px";
+    const maxSpread = handHeight - (window.innerWidth <= 700 ? 136 : 150);
+    const verticalStep = count <= 1 ? 0 : Math.max(22, Math.min(40, maxSpread / (count - 1)));
+    const contentHeight = Math.max(handHeight, ((count - 1) * verticalStep) + (window.innerWidth <= 700 ? 136 : 150));
+    hand.style.height = contentHeight + "px";
+    state.visible.forEach(function(cardData, index){
+      const card = document.createElement("div");
+      card.className = "handCard" + (state.activeCardId === cardData.id ? " active" : "");
+      card.style.top = (index * verticalStep) + "px";
+      card.style.zIndex = String(index + 1);
+      card.style.transform = (state.activeCardId === cardData.id)
+        ? (window.innerWidth <= 700 ? "translateX(-50%) translateX(18px) scale(1.03)" : "translateX(-50%) translateX(34px) scale(1.06)")
+        : "translateX(-50%)";
+      card.setAttribute("data-card-id", cardData.id);
+      card.innerHTML = '<img loading="lazy" src="' + scryfallNamedImage(cardData.name, "normal") + '" alt="' + cardData.name.replace(/"/g, '&quot;') + '">';
+      attachSoftClick(card, cardData);
+      card.addEventListener("mouseenter", function(){
+        if(!("ontouchstart" in window)) selectCard(cardData);
+      });
+      hand.appendChild(card);
+    });
+    const remainingPrimary = Math.max(0, analyticsDeck.playtest[state.currentHandKey].draws.length - state.drawIndex);
+    const remainingExtra = state.extraPool.length;
+    const drawExhausted = !(remainingPrimary > 0 || remainingExtra > 0);
+    const drawBtn = document.getElementById("drawBtn");
+    const mulliganBtn = document.getElementById("mulliganBtn");
+    drawBtn.disabled = drawExhausted;
+    mulliganBtn.textContent = drawExhausted ? "Shuffle" : "Mulligan";
+  }
+
+  function attachSoftClick(cardEl, cardData){
+    let holdTimer = null;
+    let didHold = false;
+
+    cardEl.addEventListener("touchstart", function(){
+      didHold = false;
+      holdTimer = setTimeout(function(){
+        didHold = true;
+        selectCard(cardData);
+      }, HOLD_MS);
+    }, { passive:true });
+
+    cardEl.addEventListener("touchend", function(){
+      if(holdTimer){
+        clearTimeout(holdTimer);
+        holdTimer = null;
+      }
+      if(!didHold) selectCard(cardData);
+    });
+
+    cardEl.addEventListener("click", function(){
+      if("ontouchstart" in window) return;
+      selectCard(cardData);
+    });
+  }
+
+  function selectCard(cardData){
+    state.activeCardId = cardData.id;
+    renderHand();
+    setOracle(cardData.name);
+  }
+
+
+  function loadCommanderRules(){
+    const rulesTarget = document.getElementById("commander-rules");
+    if(!rulesTarget) return;
+    fetch("https://api.scryfall.com/cards/named?exact=" + encodeURIComponent(commanderName), {
+      headers: { "Accept": "application/json" }
+    })
+    .then(function(response){
+      if(!response.ok) throw new Error("Failed to load commander data");
+      return response.json();
+    })
+    .then(function(card){
       let oracle = "";
       if(card.oracle_text){
         oracle = card.oracle_text;
@@ -264,22 +986,59 @@ p{
       if(card.power !== undefined && card.toughness !== undefined && card.power !== null && card.toughness !== null){
         oracle += (oracle ? "\n" : "") + card.power + "/" + card.toughness;
       }
-      if(rulesTarget && oracle){
+      if(oracle){
         rulesTarget.textContent = oracle;
         rulesTarget.classList.add("dynamicContent");
-      } else if(rulesTarget) {
+      } else {
         rulesTarget.textContent = "See commander card image above for gameplay reference.";
       }
     })
     .catch(function(error){
       console.error(error);
-      const rulesTarget = document.getElementById("commander-rules");
-      if(rulesTarget){
-        rulesTarget.textContent = "See commander card image above for gameplay reference.";
-      }
+      rulesTarget.textContent = "See commander card image above for gameplay reference.";
     });
+  }
+
+  loadCommanderRules();
+
+  Promise.allSettled([fetchJSON(CONTENT_PATH), fetchJSON(ANALYTICS_PATH)])
+    .then(function(results){
+      const contentResult = results[0];
+      const analyticsResult = results[1];
+
+      if(contentResult.status === "fulfilled"){
+        const deckContent = contentResult.value[slug];
+        if(deckContent && deckContent.sections){
+          Object.keys(targets).forEach(function(sectionKey){
+            const target = targets[sectionKey];
+            const section = deckContent.sections[sectionKey];
+            if(target && section && section.body_text){
+              target.textContent = section.body_text;
+            }
+          });
+        }
+      }
+
+      if(analyticsResult.status === "fulfilled"){
+        const deck = analyticsResult.value[slug];
+        if(deck){
+          state.activeCurveMv = 2;
+          renderCurve(deck);
+          renderMana(deck);
+          analyticsDeck = deck;
+          initializeHand(deck);
+        }
+      }
+    })
+    .catch(function(error){
+      console.error(error);
+    });
+
+  document.getElementById("drawBtn").addEventListener("click", drawCard);
+  document.getElementById("mulliganBtn").addEventListener("click", toggleMulligan);
 })();
 </script>
 
+<script src="../framework/menu.js"></script>
 </body>
 </html>
