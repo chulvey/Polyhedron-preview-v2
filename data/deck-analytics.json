@@ -86,7 +86,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -234,7 +234,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -382,7 +382,7 @@
           "land_symbols": 3
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -530,7 +530,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -678,7 +678,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -826,7 +826,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -974,7 +974,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -1122,7 +1122,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -1270,7 +1270,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -1418,7 +1418,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -1566,7 +1566,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -1714,7 +1714,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -1862,7 +1862,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -2010,7 +2010,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -2158,7 +2158,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -2306,7 +2306,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -2454,7 +2454,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -2602,7 +2602,7 @@
           "land_symbols": 27
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -2750,7 +2750,7 @@
           "land_symbols": 7
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -2898,7 +2898,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -3046,7 +3046,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WR) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WR) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -3194,7 +3194,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WR) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WR) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -3342,7 +3342,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WU) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WU) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -3490,7 +3490,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WU) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WU) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -3638,7 +3638,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (UB) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (UB) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -3786,7 +3786,7 @@
           "land_symbols": 2
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (UB) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (UB) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -3934,7 +3934,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WB) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WB) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -4082,7 +4082,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WB) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WB) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -4230,7 +4230,7 @@
           "land_symbols": 2
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (BR) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (BR) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -4378,7 +4378,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (BG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (BG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -4526,7 +4526,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (UR) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (UR) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -4674,7 +4674,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (BR) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (BR) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -4822,7 +4822,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (UR) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (UR) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -4928,8 +4928,8 @@
           "all_symbols": 0
         },
         "B": {
-          "share": 1,
-          "all_symbols": 1
+          "share": 0,
+          "all_symbols": 0
         },
         "R": {
           "share": 0,
@@ -4970,7 +4970,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -5076,8 +5076,8 @@
           "all_symbols": 39
         },
         "B": {
-          "share": 1,
-          "all_symbols": 1
+          "share": 0,
+          "all_symbols": 0
         },
         "R": {
           "share": 0,
@@ -5118,7 +5118,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (UG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (UG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -5266,7 +5266,7 @@
           "land_symbols": 10
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (BG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (BG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -5414,7 +5414,7 @@
           "land_symbols": 6
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (RG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (RG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -5562,7 +5562,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -5710,7 +5710,7 @@
           "land_symbols": 26
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (UG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (UG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -5858,7 +5858,7 @@
           "land_symbols": 3
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (RG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (RG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -6006,7 +6006,7 @@
           "land_symbols": 12
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -6154,7 +6154,7 @@
           "land_symbols": 10
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -6302,7 +6302,7 @@
           "land_symbols": 10
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
@@ -6450,7 +6450,7 @@
           "land_symbols": 6
         }
       },
-      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
+      "note": "Mana symbols and mana production are displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources and off-color symbols are not displayed as off-color production or demand."
     },
     "playtest": {
       "hand_a": {
