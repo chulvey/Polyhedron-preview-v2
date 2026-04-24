@@ -86,7 +86,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This mono-white list is mostly white plus artifact colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -214,19 +214,19 @@
           "land_symbols": 100
         },
         "U": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -234,7 +234,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono W list is mostly white plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -362,19 +362,19 @@
           "land_symbols": 97
         },
         "U": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -382,7 +382,7 @@
           "land_symbols": 3
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono W list is mostly white plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -510,19 +510,19 @@
           "land_symbols": 100
         },
         "U": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -530,7 +530,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono W list is mostly white plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (W) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -654,7 +654,7 @@
       },
       "production": {
         "W": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
@@ -662,15 +662,15 @@
           "land_symbols": 100
         },
         "B": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -678,7 +678,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -802,7 +802,7 @@
       },
       "production": {
         "W": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
@@ -810,15 +810,15 @@
           "land_symbols": 100
         },
         "B": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -826,7 +826,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -950,7 +950,7 @@
       },
       "production": {
         "W": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
@@ -958,15 +958,15 @@
           "land_symbols": 100
         },
         "B": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -974,7 +974,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -1098,7 +1098,7 @@
       },
       "production": {
         "W": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
@@ -1106,15 +1106,15 @@
           "land_symbols": 100
         },
         "B": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -1122,7 +1122,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (U) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -1246,11 +1246,11 @@
       },
       "production": {
         "W": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
@@ -1258,11 +1258,11 @@
           "land_symbols": 100
         },
         "R": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -1270,7 +1270,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -1394,11 +1394,11 @@
       },
       "production": {
         "W": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
@@ -1406,11 +1406,11 @@
           "land_symbols": 100
         },
         "R": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -1418,7 +1418,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -1542,11 +1542,11 @@
       },
       "production": {
         "W": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
@@ -1554,11 +1554,11 @@
           "land_symbols": 100
         },
         "R": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -1566,7 +1566,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -1690,11 +1690,11 @@
       },
       "production": {
         "W": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
@@ -1702,11 +1702,11 @@
           "land_symbols": 100
         },
         "R": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -1714,7 +1714,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (B) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -1838,15 +1838,15 @@
       },
       "production": {
         "W": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -1854,7 +1854,7 @@
           "land_symbols": 100
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -1862,7 +1862,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -1986,15 +1986,15 @@
       },
       "production": {
         "W": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -2002,7 +2002,7 @@
           "land_symbols": 100
         },
         "G": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -2010,7 +2010,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -2134,15 +2134,15 @@
       },
       "production": {
         "W": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -2150,7 +2150,7 @@
           "land_symbols": 100
         },
         "G": {
-          "share": 7,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -2158,7 +2158,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -2282,15 +2282,15 @@
       },
       "production": {
         "W": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -2298,7 +2298,7 @@
           "land_symbols": 100
         },
         "G": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -2306,7 +2306,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (R) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -2430,19 +2430,19 @@
       },
       "production": {
         "W": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -2454,7 +2454,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -2578,19 +2578,19 @@
       },
       "production": {
         "W": {
-          "share": 3,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 3,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 3,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 3,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -2602,7 +2602,7 @@
           "land_symbols": 27
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -2726,19 +2726,19 @@
       },
       "production": {
         "W": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -2750,7 +2750,7 @@
           "land_symbols": 7
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -2874,19 +2874,19 @@
       },
       "production": {
         "W": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -2898,7 +2898,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (G) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -3026,11 +3026,11 @@
           "land_symbols": 50
         },
         "U": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -3038,7 +3038,7 @@
           "land_symbols": 50
         },
         "G": {
-          "share": 9,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -3046,7 +3046,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WR) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -3174,11 +3174,11 @@
           "land_symbols": 57
         },
         "U": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -3186,7 +3186,7 @@
           "land_symbols": 43
         },
         "G": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -3194,7 +3194,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WR) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -3326,15 +3326,15 @@
           "land_symbols": 56
         },
         "B": {
-          "share": 12,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 12,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 12,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -3342,7 +3342,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WU) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -3474,15 +3474,15 @@
           "land_symbols": 59
         },
         "B": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 8,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -3490,7 +3490,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WU) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -3614,8 +3614,8 @@
       },
       "production": {
         "W": {
-          "share": 10,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "U": {
           "share": 35,
@@ -3626,19 +3626,19 @@
           "land_symbols": 41
         },
         "R": {
-          "share": 10,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "G": {
-          "share": 10,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "C": {
           "share": 1,
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Dimir list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (UB) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -3762,8 +3762,8 @@
       },
       "production": {
         "W": {
-          "share": 8,
-          "land_symbols": 4
+          "share": 0,
+          "land_symbols": 0
         },
         "U": {
           "share": 37,
@@ -3774,19 +3774,19 @@
           "land_symbols": 39
         },
         "R": {
-          "share": 8,
-          "land_symbols": 4
+          "share": 0,
+          "land_symbols": 0
         },
         "G": {
-          "share": 8,
-          "land_symbols": 4
+          "share": 0,
+          "land_symbols": 0
         },
         "C": {
           "share": 5,
           "land_symbols": 2
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Dimir list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (UB) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -3914,7 +3914,7 @@
           "land_symbols": 43
         },
         "U": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
@@ -3922,11 +3922,11 @@
           "land_symbols": 57
         },
         "R": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -3934,7 +3934,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Orzhov list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (WB) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -4082,7 +4082,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Orzhov list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (WB) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -4206,12 +4206,12 @@
       },
       "production": {
         "W": {
-          "share": 8,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "U": {
-          "share": 8,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "B": {
           "share": 39,
@@ -4222,15 +4222,15 @@
           "land_symbols": 38
         },
         "G": {
-          "share": 8,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "C": {
           "share": 3,
           "land_symbols": 2
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Rakdos list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (BR) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -4354,11 +4354,11 @@
       },
       "production": {
         "W": {
-          "share": 2,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 2,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
@@ -4366,7 +4366,7 @@
           "land_symbols": 54
         },
         "R": {
-          "share": 2,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -4378,7 +4378,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (BG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -4502,7 +4502,7 @@
       },
       "production": {
         "W": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
@@ -4510,7 +4510,7 @@
           "land_symbols": 35
         },
         "B": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -4518,7 +4518,7 @@
           "land_symbols": 65
         },
         "G": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -4526,7 +4526,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (UR) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -4650,11 +4650,11 @@
       },
       "production": {
         "W": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
@@ -4666,7 +4666,7 @@
           "land_symbols": 71
         },
         "G": {
-          "share": 4,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -4674,7 +4674,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Rakdos list is mostly red plus artifact/colorless support."
+      "note": "Mana production is displayed only for this deck's commander color identity (BR) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -4798,7 +4798,7 @@
       },
       "production": {
         "W": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
@@ -4806,7 +4806,7 @@
           "land_symbols": 38
         },
         "B": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -4814,7 +4814,7 @@
           "land_symbols": 62
         },
         "G": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "C": {
@@ -4822,7 +4822,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (UR) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -4950,15 +4950,15 @@
           "land_symbols": 43
         },
         "U": {
-          "share": 6,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 6,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 6,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -4970,7 +4970,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -5094,7 +5094,7 @@
       },
       "production": {
         "W": {
-          "share": 6,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
@@ -5102,11 +5102,11 @@
           "land_symbols": 39
         },
         "B": {
-          "share": 6,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 6,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -5118,7 +5118,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (UG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -5242,20 +5242,20 @@
       },
       "production": {
         "W": {
-          "share": 7,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "U": {
-          "share": 7,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "B": {
           "share": 35,
           "land_symbols": 38
         },
         "R": {
-          "share": 7,
-          "land_symbols": 5
+          "share": 0,
+          "land_symbols": 0
         },
         "G": {
           "share": 34,
@@ -5266,7 +5266,7 @@
           "land_symbols": 10
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (BG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -5390,15 +5390,15 @@
       },
       "production": {
         "W": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 10,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -5414,7 +5414,7 @@
           "land_symbols": 6
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (RG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -5542,15 +5542,15 @@
           "land_symbols": 45
         },
         "U": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
-          "share": 5,
+          "share": 0,
           "land_symbols": 0
         },
         "G": {
@@ -5562,7 +5562,7 @@
           "land_symbols": 0
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -5710,7 +5710,7 @@
           "land_symbols": 26
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (UG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -5834,15 +5834,15 @@
       },
       "production": {
         "W": {
-          "share": 11,
+          "share": 0,
           "land_symbols": 0
         },
         "U": {
-          "share": 11,
+          "share": 0,
           "land_symbols": 0
         },
         "B": {
-          "share": 11,
+          "share": 0,
           "land_symbols": 0
         },
         "R": {
@@ -5858,7 +5858,7 @@
           "land_symbols": 3
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (RG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -6006,7 +6006,7 @@
           "land_symbols": 12
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -6154,7 +6154,7 @@
           "land_symbols": 10
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -6302,7 +6302,7 @@
           "land_symbols": 10
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
@@ -6450,7 +6450,7 @@
           "land_symbols": 6
         }
       },
-      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+      "note": "Mana production is displayed only for this deck's commander color identity (WUBRG) plus colorless support. Any-color sources are not displayed as off-color production."
     },
     "playtest": {
       "hand_a": {
