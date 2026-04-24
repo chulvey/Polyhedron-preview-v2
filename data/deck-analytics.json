@@ -97,7 +97,7 @@
           "Fragmentize",
           "Myr Retriever",
           "Leonin Relic-Warder",
-          "Foundry Inspector"
+          "Helm of Awakening"
         ],
         "draws": [
           "Mind Stone",
@@ -105,8 +105,7 @@
           "Plains"
         ],
         "extra_pool": [
-          "Junk Diver",
-          "Foundry Inspector",
+          "Codex Shredder",
           "Abiding Grace",
           "Gold Myr",
           "Blasting Station",
@@ -114,6 +113,7 @@
           "Soul-Guide Lantern",
           "Burnished Hart",
           "Tormod's Crypt",
+          "Salvager of Ruin",
           "Plains"
         ]
       },
@@ -133,8 +133,8 @@
           "Plains"
         ],
         "extra_pool": [
-          "Junk Diver",
-          "Foundry Inspector",
+          "Salvager of Ruin",
+          "Helm of Awakening",
           "Marble Diamond",
           "Fragmentize",
           "Myr Retriever",
@@ -143,6 +143,6370 @@
           "Scrap Trawler",
           "Plains",
           "Plains"
+        ]
+      }
+    }
+  },
+  "the-spiritual-path": {
+    "name": "The Spiritual Path",
+    "commander": "Celestial Kirin",
+    "faction": "Mono W",
+    "archetype": "Control",
+    "curve_probability": 76.4,
+    "curve_note": "Estimated from a 36-land base plus 6 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 8,
+        "2": 10,
+        "3": 15,
+        "4": 4,
+        "5": 2,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 8,
+        "2": 5,
+        "3": 8,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.6,
+        "avg_without_lands": 2.5,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 160
+      },
+      "symbols": {
+        "W": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 66,
+          "land_symbols": 100
+        },
+        "U": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 2,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono W list is mostly white plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Plains",
+          "Darksteel Ingot",
+          "Calamity's Wake",
+          "Otherworldly Journey",
+          "Terashi's Verdict"
+        ],
+        "draws": [
+          "Your Temple Is Under Attack",
+          "Candles' Glow",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Purify the Grave",
+          "Quiet Purity",
+          "Kami of Ancient Law",
+          "Keening Apparition",
+          "Remorseful Cleric",
+          "Hanged Executioner",
+          "Commander's Sphere",
+          "Inherited Envelope",
+          "Rootborn Defenses",
+          "Unbreakable Formation"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Plains",
+          "Mana Geode",
+          "Fragmentize",
+          "Purify the Grave",
+          "Quiet Purity"
+        ],
+        "draws": [
+          "Rootborn Defenses",
+          "Unbreakable Formation",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Hanged Executioner",
+          "Nikko-Onna",
+          "Touch the Spirit Realm",
+          "Blessed Breath",
+          "Ethereal Haze",
+          "Pacifism",
+          "Darksteel Ingot",
+          "Honored Heirloom",
+          "Kami of Ancient Law",
+          "Keening Apparition"
+        ]
+      }
+    }
+  },
+  "to-the-drawing-board": {
+    "name": "To the Drawing Board",
+    "commander": "Sram, Senior Edificer",
+    "faction": "Mono W",
+    "archetype": "Aggro",
+    "curve_probability": 80.4,
+    "curve_note": "Estimated from a 35-land base plus 14 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 6,
+        "1": 23,
+        "2": 18,
+        "3": 11,
+        "4": 2,
+        "5": 0,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.14,
+        "avg_without_lands": 1.75,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 114
+      },
+      "symbols": {
+        "W": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 57,
+          "land_symbols": 97
+        },
+        "U": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 3
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono W list is mostly white plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Foundry Inspector",
+          "Eidolon of Countless Battles",
+          "Angelic Gift",
+          "Blackblade Reforged",
+          "Cloak of the Bat"
+        ],
+        "draws": [
+          "Ossification",
+          "Pacifism",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Battle Mastery",
+          "Empyrial Armor",
+          "Flaming Fist",
+          "Haunted Cloak",
+          "Unquestioned Authority",
+          "Black Scarab",
+          "Goldvein Pick",
+          "Prying Blade",
+          "Rogue's Passage",
+          "Reprobation"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Fellwar Stone",
+          "Thran Power Suit",
+          "Trapped in the Tower",
+          "Battle Mastery",
+          "Empyrial Armor"
+        ],
+        "draws": [
+          "Pacifism",
+          "Reprobation",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Black Scarab",
+          "Blue Scarab",
+          "Candletrap",
+          "Cowed by Wisdom",
+          "Darksteel Axe",
+          "Demotion",
+          "Mind Stone",
+          "Prismatic Lens",
+          "Rogue's Passage",
+          "Flaming Fist"
+        ]
+      }
+    }
+  },
+  "weird-cat-lady": {
+    "name": "Weird Cat Lady",
+    "commander": "Kemba, Kha Regent",
+    "faction": "Mono W",
+    "archetype": "Midrange",
+    "curve_probability": 78.0,
+    "curve_note": "Estimated from a 36-land base plus 8 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 12,
+        "2": 10,
+        "3": 10,
+        "4": 8,
+        "5": 4,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 2,
+        "2": 6,
+        "3": 4,
+        "4": 0,
+        "5": 3,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.83,
+        "avg_without_lands": 2.86,
+        "median_with_lands": 1,
+        "median_without_lands": 3,
+        "total_mana_value": 183
+      },
+      "symbols": {
+        "W": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 65,
+          "land_symbols": 100
+        },
+        "U": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono W list is mostly white plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Plains",
+          "Honored Heirloom",
+          "Touch the Spirit Realm",
+          "Hero's Blade",
+          "Intangible Virtue"
+        ],
+        "draws": [
+          "Grafted Wargear",
+          "Inspiring Leader",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Prava of the Steel Legion",
+          "Palace Jailer",
+          "Rebbec, Architect of Ascension",
+          "Calamity's Wake",
+          "Disenchant",
+          "Spare from Evil",
+          "Goldvein Pick",
+          "Marble Diamond",
+          "Windbrisk Heights",
+          "Mace of the Valiant"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Plains",
+          "Mind Stone",
+          "Mimic Vat",
+          "Prava of the Steel Legion",
+          "Palace Jailer"
+        ],
+        "draws": [
+          "Mace of the Valiant",
+          "Mentor of the Meek",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Spare from Evil",
+          "Valorous Stance",
+          "Your Temple Is Under Attack",
+          "Dauntless Bodyguard",
+          "Soul Snare",
+          "Brass Knuckles",
+          "Honored Heirloom",
+          "Fellwar Stone",
+          "Windbrisk Heights",
+          "Rebbec, Architect of Ascension"
+        ]
+      }
+    }
+  },
+  "id-tap-that": {
+    "name": "Id Tap That",
+    "commander": "Unctus, Grand Metatect",
+    "faction": "Mono U",
+    "archetype": "Aggro",
+    "curve_probability": 79.6,
+    "curve_note": "Estimated from a 36-land base plus 10 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 12,
+        "2": 16,
+        "3": 13,
+        "4": 3,
+        "5": 3,
+        "6": 1
+      },
+      "spells": {
+        "0": 0,
+        "1": 8,
+        "2": 2,
+        "3": 4,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.51,
+        "avg_without_lands": 2.36,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 151
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 75,
+          "land_symbols": 100
+        },
+        "B": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 11,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Emrakul's Messenger",
+          "Armguard Familiar",
+          "Containment Construct",
+          "Merfolk Looter",
+          "Thought Courier"
+        ],
+        "draws": [
+          "Kelpie Guide",
+          "Tribute Mage",
+          "Island"
+        ],
+        "extra_pool": [
+          "Martyr of Frost",
+          "Mistcaller",
+          "Nephalia Smuggler",
+          "Network Disruptor",
+          "Rishadan Dockhand",
+          "Silver Raven",
+          "Millikin",
+          "Myr Convert",
+          "Vizier of Tumbling Sands",
+          "Cursecatcher"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Pili-Pala",
+          "Cursecatcher",
+          "Enclave Cryptologist",
+          "Martyr of Frost",
+          "Mistcaller"
+        ],
+        "draws": [
+          "Tribute Mage",
+          "Vizier of Tumbling Sands",
+          "Island"
+        ],
+        "extra_pool": [
+          "Silver Raven",
+          "Tide Shaper",
+          "Drowned Secrets",
+          "Jace's Erasure",
+          "Intruder Alarm",
+          "Mystic Redaction",
+          "Volshe Tideturner",
+          "Grand Architect",
+          "Nephalia Smuggler",
+          "Network Disruptor"
+        ]
+      }
+    }
+  },
+  "nopeville": {
+    "name": "Nopeville",
+    "commander": "Talrand, Sky Summoner",
+    "faction": "Mono U",
+    "archetype": "Midrange",
+    "curve_probability": 74.0,
+    "curve_note": "Estimated from a 35-land base plus 6 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 2,
+        "2": 5,
+        "3": 5,
+        "4": 6,
+        "5": 0,
+        "6": 2
+      },
+      "spells": {
+        "0": 0,
+        "1": 32,
+        "2": 5,
+        "3": 5,
+        "4": 2,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.39,
+        "avg_without_lands": 2.14,
+        "median_with_lands": 1,
+        "median_without_lands": 1,
+        "total_mana_value": 139
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 78,
+          "land_symbols": 100
+        },
+        "B": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 6,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Fellwar Stone",
+          "Fall from Favor",
+          "Gale, Waterdeep Prodigy",
+          "Grazilaxx, Illithid Scholar"
+        ],
+        "draws": [
+          "Resculpt",
+          "Exclude",
+          "Island"
+        ],
+        "extra_pool": [
+          "Azure Fleet Admiral",
+          "Coastal Piracy",
+          "Murmuring Mystic",
+          "Whispering Wizard",
+          "Run Away Together",
+          "Scour All Possibilities",
+          "Prismatic Lens",
+          "Sky Diamond",
+          "Unwind",
+          "You Find the Villains' Lair"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Winged Words",
+          "Soul-Guide Lantern",
+          "Azure Fleet Admiral",
+          "Coastal Piracy"
+        ],
+        "draws": [
+          "Unwind",
+          "You Find the Villains' Lair",
+          "Island"
+        ],
+        "extra_pool": [
+          "Scour All Possibilities",
+          "Think Twice",
+          "Frantic Search",
+          "Betrayal",
+          "Alchemist's Retrieval",
+          "Annul",
+          "Fellwar Stone",
+          "Fractured Powerstone",
+          "Murmuring Mystic",
+          "Whispering Wizard"
+        ]
+      }
+    }
+  },
+  "turning-this-to-that": {
+    "name": "Turning This to That",
+    "commander": "Arcum Dagsson",
+    "faction": "Mono U",
+    "archetype": "Combo",
+    "curve_probability": 74.0,
+    "curve_note": "Estimated from a 31-land base plus 19 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 6,
+        "2": 22,
+        "3": 14,
+        "4": 9,
+        "5": 2,
+        "6": 7
+      },
+      "spells": {
+        "0": 0,
+        "1": 3,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 2.05,
+        "avg_without_lands": 2.97,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 205
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 56,
+          "land_symbols": 100
+        },
+        "B": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 15,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Midnight Clock",
+          "Mimic Vat",
+          "Trading Post",
+          "Combat Courier",
+          "Armguard Familiar"
+        ],
+        "draws": [
+          "Neurok Replica",
+          "Rings of Brighthearth",
+          "Island"
+        ],
+        "extra_pool": [
+          "Kraken's Eye",
+          "Reito Lantern",
+          "Voltaic Servant",
+          "Sculpting Steel",
+          "Transplant Theorist",
+          "Hidden Strings",
+          "Moonsilver Key",
+          "Myr Convert",
+          "Archway of Innovation",
+          "Tormod's Cryptkeeper"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Basalt Monolith",
+          "Soul-Guide Lantern",
+          "Corridor Monitor",
+          "Kraken's Eye",
+          "Reito Lantern"
+        ],
+        "draws": [
+          "Rings of Brighthearth",
+          "Tormod's Cryptkeeper",
+          "Island"
+        ],
+        "extra_pool": [
+          "Hidden Strings",
+          "Heap Doll",
+          "Crashing Drawbridge",
+          "Sorcerous Spyglass",
+          "Toymaker",
+          "Boarded Window",
+          "Unstable Obelisk",
+          "Vessel of Endless Rest",
+          "Archway of Innovation",
+          "Voltaic Servant"
+        ]
+      }
+    }
+  },
+  "wizball": {
+    "name": "Wizball",
+    "commander": "Azami, Lady of Scrolls",
+    "faction": "Mono U",
+    "archetype": "Control",
+    "curve_probability": 82.0,
+    "curve_note": "Estimated from a 38-land base plus 7 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 10,
+        "2": 12,
+        "3": 3,
+        "4": 5,
+        "5": 3,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 7,
+        "2": 9,
+        "3": 6,
+        "4": 2,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.55,
+        "avg_without_lands": 2.5,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 155
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 74,
+          "land_symbols": 100
+        },
+        "B": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono U list is mostly blue plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Wizard's Retort",
+          "Peel from Reality",
+          "Reality Shift",
+          "Resculpt"
+        ],
+        "draws": [
+          "Gainsay",
+          "Mana Leak",
+          "Island"
+        ],
+        "extra_pool": [
+          "Unsummon",
+          "Harbinger of the Tides",
+          "Vedalken Aethermage",
+          "Temporal Adept",
+          "Annul",
+          "Condescend",
+          "Fractured Powerstone",
+          "Pillar of Origins",
+          "Negate",
+          "Remove Soul"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Prismatic Lens",
+          "Stern Dismissal",
+          "Unsummon",
+          "Harbinger of the Tides"
+        ],
+        "draws": [
+          "Negate",
+          "Remove Soul",
+          "Island"
+        ],
+        "extra_pool": [
+          "Condescend",
+          "Dispel",
+          "Spell Pierce",
+          "Wash Away",
+          "Voidmage Prodigy",
+          "Foil",
+          "Wizard's Retort",
+          "Mind Stone",
+          "Vedalken Aethermage",
+          "Temporal Adept"
+        ]
+      }
+    }
+  },
+  "120-deaths": {
+    "name": "120 Deaths",
+    "commander": "Mikaeus, the Unhallowed",
+    "faction": "Mono B",
+    "archetype": "Combo",
+    "curve_probability": 77.2,
+    "curve_note": "Estimated from a 35-land base plus 10 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 5,
+        "2": 12,
+        "3": 11,
+        "4": 7,
+        "5": 5,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 8,
+        "2": 9,
+        "3": 2,
+        "4": 1,
+        "5": 2,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.79,
+        "avg_without_lands": 2.75,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 179
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 80,
+          "land_symbols": 100
+        },
+        "R": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 6,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Mind Stone",
+          "Yahenni, Undying Partisan",
+          "Crypt Creeper",
+          "Lesser Masticore",
+          "Putrid Goblin"
+        ],
+        "draws": [
+          "Wingrattle Scarecrow",
+          "Soul-Guide Lantern",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Demon's Disciple",
+          "Fleshbag Marauder",
+          "Merciless Executioner",
+          "Phyrexian Ghoul",
+          "Tatterkite",
+          "Cemetery Recruitment",
+          "Charcoal Diamond",
+          "Fellwar Stone",
+          "Blood Artist",
+          "Bloodthrone Vampire"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Fractured Powerstone",
+          "Bloodthrone Vampire",
+          "Zulaport Cutthroat",
+          "Demon's Disciple",
+          "Fleshbag Marauder"
+        ],
+        "draws": [
+          "Soul-Guide Lantern",
+          "Blood Artist",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Cemetery Recruitment",
+          "Heap Doll",
+          "Diabolic Servitude",
+          "Flesh-Eater Imp",
+          "Oriq Loremage",
+          "Aid the Fallen",
+          "Songs of the Damned",
+          "Dark Ritual",
+          "Merciless Executioner",
+          "Phyrexian Ghoul"
+        ]
+      }
+    }
+  },
+  "choices-choices": {
+    "name": "Choices Choices",
+    "commander": "Rankle, Master of Pranks",
+    "faction": "Mono B",
+    "archetype": "Control",
+    "curve_probability": 74.0,
+    "curve_note": "Estimated from a 34-land base plus 9 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 7,
+        "2": 15,
+        "3": 13,
+        "4": 8,
+        "5": 4,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 6,
+        "2": 8,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.78,
+        "avg_without_lands": 2.7,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 178
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 79,
+          "land_symbols": 100
+        },
+        "R": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 6,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Swamp",
+          "Mind Stone",
+          "Cast Down",
+          "Go for the Throat",
+          "Heartless Act"
+        ],
+        "draws": [
+          "Big Game Hunter",
+          "Bone Shredder",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Agent of Erebos",
+          "Ravenous Chupacabra",
+          "Abnormal Endurance",
+          "Demonic Gifts",
+          "Mind Swords",
+          "Return to Action",
+          "Charcoal Diamond",
+          "Fellwar Stone",
+          "Callous Bloodmage",
+          "Agent of the Fates"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Swamp",
+          "Fractured Powerstone",
+          "Soul-Guide Lantern",
+          "Agent of Erebos",
+          "Ravenous Chupacabra"
+        ],
+        "draws": [
+          "Callous Bloodmage",
+          "Agent of the Fates",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Return to Action",
+          "Phyrexian Delver",
+          "Diabolic Edict",
+          "Ashnod's Intervention",
+          "Feign Death",
+          "Supernatural Stamina",
+          "Blood Pet",
+          "Mind Stone",
+          "Abnormal Endurance",
+          "Demonic Gifts"
+        ]
+      }
+    }
+  },
+  "eternally-triggered": {
+    "name": "Eternally Triggered",
+    "commander": "Shirei, Shizo's Caretaker",
+    "faction": "Mono B",
+    "archetype": "Midrange",
+    "curve_probability": 79.6,
+    "curve_note": "Estimated from a 36-land base plus 10 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 8,
+        "2": 16,
+        "3": 10,
+        "4": 3,
+        "5": 3,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 7,
+        "2": 9,
+        "3": 4,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.6,
+        "avg_without_lands": 2.5,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 160
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 78,
+          "land_symbols": 100
+        },
+        "R": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 7,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Swamp",
+          "Basal Thrull",
+          "Apprentice Necromancer",
+          "Clattering Augur",
+          "Crypt Creeper"
+        ],
+        "draws": [
+          "Abyssal Gatekeeper",
+          "Bloodthrone Vampire",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Thrull Surgeon",
+          "Crypt Rats",
+          "Dreamstealer",
+          "Grim Haruspex",
+          "Midnight Reaper",
+          "Mind Slash",
+          "Fractured Powerstone",
+          "Mind Stone",
+          "Dusk Legion Zealot",
+          "Lazotep Reaver"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Swamp",
+          "Prismatic Lens",
+          "Novice Occultist",
+          "Thrull Surgeon",
+          "Crypt Rats"
+        ],
+        "draws": [
+          "Dusk Legion Zealot",
+          "Lazotep Reaver",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Mind Slash",
+          "Nantuko Husk",
+          "Eliminate",
+          "Heartless Act",
+          "Heap Doll",
+          "Stirge",
+          "Blood Pet",
+          "Dark Ritual",
+          "Dreamstealer",
+          "Grim Haruspex"
+        ]
+      }
+    }
+  },
+  "herpagonasyphiaids": {
+    "name": "Herpagonasyphiaids",
+    "commander": "Gollum, Obsessed Stalker",
+    "faction": "Mono B",
+    "archetype": "Aggro",
+    "curve_probability": 79.6,
+    "curve_note": "Estimated from a 36-land base plus 10 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 3,
+        "1": 9,
+        "2": 15,
+        "3": 11,
+        "4": 3,
+        "5": 4,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 5,
+        "2": 5,
+        "3": 2,
+        "4": 2,
+        "5": 0,
+        "6": 2
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.66,
+        "avg_without_lands": 2.59,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 166
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 74,
+          "land_symbols": 100
+        },
+        "R": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono B list is mostly black plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Blood Pet",
+          "Tymaret, Chosen from Death",
+          "Nighthowler",
+          "Hateful Eidolon",
+          "Gifted Aetherborn"
+        ],
+        "draws": [
+          "Dreamstealer",
+          "Nighthawk Scavenger",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Indulgent Aristocrat",
+          "Blackblade Reforged",
+          "Hero's Blade",
+          "Mask of Memory",
+          "Necrosynthesis",
+          "Transmogrant's Crown",
+          "Prying Blade",
+          "Charcoal Diamond",
+          "Taborax, Hope's Demise",
+          "Vampire Nighthawk"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Swamp",
+          "Swamp",
+          "Fractured Powerstone",
+          "Vampire Nighthawk",
+          "Banehound",
+          "Indulgent Aristocrat",
+          "Blackblade Reforged"
+        ],
+        "draws": [
+          "Nighthawk Scavenger",
+          "Taborax, Hope's Demise",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Transmogrant's Crown",
+          "Loxodon Warhammer",
+          "Mask of Griselbrand",
+          "Quietus Spike",
+          "Underworld Connections",
+          "Unholy Strength",
+          "Dark Ritual",
+          "March of Wretched Sorrow",
+          "Hero's Blade",
+          "Mask of Memory"
+        ]
+      }
+    }
+  },
+  "antisocial-behavior": {
+    "name": "Antisocial Behavior",
+    "commander": "Ashling the Pilgrim",
+    "faction": "Mono R",
+    "archetype": "Aggro",
+    "curve_probability": 93.4,
+    "curve_note": "Estimated from a 81-land base plus 8 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 2,
+        "2": 9,
+        "3": 5,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 0.45,
+        "avg_without_lands": 2.37,
+        "median_with_lands": 0,
+        "median_without_lands": 2,
+        "total_mana_value": 45
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 81,
+          "land_symbols": 100
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 4,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Fire Diamond",
+          "Batterbone",
+          "Ring of Valkas",
+          "Swiftfoot Boots",
+          "Loxodon Warhammer"
+        ],
+        "draws": [
+          "Oblivion Stone",
+          "Brash Taunter",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Cliffhaven Kitesail",
+          "Footfall Crater",
+          "Mimic Vat",
+          "Rousing Refrain",
+          "Mind Stone",
+          "Prismatic Lens",
+          "Fractured Powerstone",
+          "Lotus Blossom",
+          "Commander's Sphere",
+          "Glittering Stockpile"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Commander's Sphere",
+          "Batterbone",
+          "Ring of Valkas",
+          "Swiftfoot Boots",
+          "Loxodon Warhammer"
+        ],
+        "draws": [
+          "Cliffhaven Kitesail",
+          "Footfall Crater",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Mimic Vat",
+          "Oblivion Stone",
+          "Brash Taunter",
+          "Rousing Refrain",
+          "Fire Diamond",
+          "Fractured Powerstone",
+          "Lotus Blossom",
+          "Mind Stone",
+          "Prismatic Lens",
+          "Glittering Stockpile"
+        ]
+      }
+    }
+  },
+  "go-wide-or-go-home": {
+    "name": "Go Wide or Go Home",
+    "commander": "Krenko, Tin Street Kingpin",
+    "faction": "Mono R",
+    "archetype": "Midrange",
+    "curve_probability": 71.6,
+    "curve_note": "Estimated from a 27-land base plus 12 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 13,
+        "2": 16,
+        "3": 6,
+        "4": 2,
+        "5": 0,
+        "6": 0
+      },
+      "spells": {
+        "0": 1,
+        "1": 13,
+        "2": 15,
+        "3": 2,
+        "4": 2,
+        "5": 0,
+        "6": 3
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.5,
+        "avg_without_lands": 2.05,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 150
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 60,
+          "land_symbols": 100
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 7,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mountain",
+          "Fire Diamond",
+          "Goblin Cratermaker",
+          "Yavimaya Steelcrusher",
+          "Battle Cry Goblin"
+        ],
+        "draws": [
+          "Goblin Lookout",
+          "Goblin War Paint",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Volcanic Strength",
+          "Curse of Hospitality",
+          "Gempalm Incinerator",
+          "Subira, Tulzidi Caravanner",
+          "Abrade",
+          "You Find Some Prisoners",
+          "Prismatic Lens",
+          "Commander's Sphere",
+          "Madcap Skills",
+          "Moria Marauder"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mountain",
+          "Strixhaven Stadium",
+          "Tilonalli's Crown",
+          "Volcanic Strength",
+          "Curse of Hospitality"
+        ],
+        "draws": [
+          "Madcap Skills",
+          "Moria Marauder",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "You Find Some Prisoners",
+          "Intimidator Initiate",
+          "Hellrider",
+          "Torbran, Thane of Red Fell",
+          "Antagonize",
+          "Blazing Crescendo",
+          "Skirk Prospector",
+          "Sticky Fingers",
+          "Gempalm Incinerator",
+          "Subira, Tulzidi Caravanner"
+        ]
+      }
+    }
+  },
+  "one-mans-trash": {
+    "name": "One Mans Trash",
+    "commander": "Feldon of the Third Path",
+    "faction": "Mono R",
+    "archetype": "Control",
+    "curve_probability": 66.4,
+    "curve_note": "Estimated from a 32-land base plus 13 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 5,
+        "2": 9,
+        "3": 10,
+        "4": 4,
+        "5": 3,
+        "6": 16
+      },
+      "spells": {
+        "0": 0,
+        "1": 3,
+        "2": 9,
+        "3": 6,
+        "4": 1,
+        "5": 0,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 2.55,
+        "avg_without_lands": 3.75,
+        "median_with_lands": 2,
+        "median_without_lands": 3,
+        "total_mana_value": 255
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 65,
+          "land_symbols": 100
+        },
+        "G": {
+          "share": 7,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 8,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mountain",
+          "Strike It Rich",
+          "Shenanigans",
+          "Calibrated Blast",
+          "Fling"
+        ],
+        "draws": [
+          "Swiftfoot Boots",
+          "Audacious Reshapers",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Cathartic Reunion",
+          "Highway Robbery",
+          "Thrill of Possibility",
+          "Tormenting Voice",
+          "Wild Guess",
+          "Electric Revelation",
+          "Hematite Talisman",
+          "Liquimetal Torque",
+          "Gorilla Shaman",
+          "Trading Post"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mountain",
+          "Prismatic Lens",
+          "Ingot Chewer",
+          "Combustible Gearhulk",
+          "Meteor Golem"
+        ],
+        "draws": [
+          "Gorilla Shaman",
+          "Trading Post",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Thrill of Possibility",
+          "Tormenting Voice",
+          "Wild Guess",
+          "Electric Revelation",
+          "Shattered Perception",
+          "Reckless Handling",
+          "Slobad, Iron Goblin",
+          "Goldhound",
+          "Highway Robbery",
+          "Breath Weapon"
+        ]
+      }
+    }
+  },
+  "tricks-and-treats": {
+    "name": "Tricks and Treats",
+    "commander": "Zada, Hedron Grinder",
+    "faction": "Mono R",
+    "archetype": "Combo",
+    "curve_probability": 72.4,
+    "curve_note": "Estimated from a 29-land base plus 13 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 5,
+        "1": 5,
+        "2": 12,
+        "3": 3,
+        "4": 2,
+        "5": 0,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 16,
+        "2": 17,
+        "3": 6,
+        "4": 1,
+        "5": 1,
+        "6": 3
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.43,
+        "avg_without_lands": 2.01,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 143
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 62,
+          "land_symbols": 100
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 6,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono R list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mind Stone",
+          "Krenko, Tin Street Kingpin",
+          "Bitter Reunion",
+          "Mogg War Marshal",
+          "Subira, Tulzidi Caravanner"
+        ],
+        "draws": [
+          "Torch Fiend",
+          "Yavimaya Steelcrusher",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Ruinous Gremlin",
+          "Cathartic Pyre",
+          "Cathartic Reunion",
+          "Dragon Fodder",
+          "Fists of Flame",
+          "Forbidden Friendship",
+          "Reckless Barbarian",
+          "Flick a Coin",
+          "Witch's Mark",
+          "Rosnakht, Heir of Rohgahh"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Fire Diamond",
+          "Rosnakht, Heir of Rohgahh",
+          "Electric Revelation",
+          "Ruinous Gremlin",
+          "Cathartic Pyre"
+        ],
+        "draws": [
+          "Yavimaya Steelcrusher",
+          "Witch's Mark",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Forbidden Friendship",
+          "Grapeshot",
+          "Haze of Rage",
+          "Krenko's Command",
+          "Thrill of Possibility",
+          "Tormenting Voice",
+          "Goldhound",
+          "Skirk Prospector",
+          "Cathartic Reunion",
+          "Dragon Fodder"
+        ]
+      }
+    }
+  },
+  "be-in-control": {
+    "name": "Be In Control",
+    "commander": "Legolas, Master Archer",
+    "faction": "Mono G",
+    "archetype": "Control",
+    "curve_probability": 77.2,
+    "curve_note": "Estimated from a 35-land base plus 10 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 8,
+        "2": 8,
+        "3": 14,
+        "4": 1,
+        "5": 0,
+        "6": 2
+      },
+      "spells": {
+        "0": 1,
+        "1": 16,
+        "2": 10,
+        "3": 1,
+        "4": 0,
+        "5": 2,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.37,
+        "avg_without_lands": 2.11,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 137
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 69,
+          "land_symbols": 100
+        },
+        "C": {
+          "share": 0,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Prizefight",
+          "Atraxa's Fall",
+          "Naturalize",
+          "Regrowth"
+        ],
+        "draws": [
+          "Bombadil's Song",
+          "Infectious Bite",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Natural State",
+          "Tamiyo's Safekeeping",
+          "Hunter's Talent",
+          "Scavenging Ooze",
+          "Snakeskin Veil",
+          "Wild Shape",
+          "Ordeal of Nylea",
+          "Kami of Whispered Hopes",
+          "Rabid Bite",
+          "Crumble"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Marwyn, the Nurturer",
+          "Emerald Charm",
+          "Natural State",
+          "Tamiyo's Safekeeping"
+        ],
+        "draws": [
+          "Rabid Bite",
+          "Crumble",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Wild Shape",
+          "Swiftfoot Boots",
+          "Champion of Lambholt",
+          "Keen Sense",
+          "Hunter's Insight",
+          "Season of Growth",
+          "Elvish Mystic",
+          "Llanowar Elves",
+          "Hunter's Talent",
+          "Scavenging Ooze"
+        ]
+      }
+    }
+  },
+  "go-big-or-go-home": {
+    "name": "Go Big or Go Home",
+    "commander": "Titania, Protector of Argoth",
+    "faction": "Mono G",
+    "archetype": "Midrange",
+    "curve_probability": 96.8,
+    "curve_note": "Estimated from a 57-land base plus 13 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 3,
+        "1": 0,
+        "2": 5,
+        "3": 9,
+        "4": 4,
+        "5": 2,
+        "6": 1
+      },
+      "spells": {
+        "0": 0,
+        "1": 3,
+        "2": 7,
+        "3": 7,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.16,
+        "avg_without_lands": 2.7,
+        "median_with_lands": 0,
+        "median_without_lands": 3,
+        "total_mana_value": 116
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 3,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 3,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 3,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 3,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 62,
+          "land_symbols": 73
+        },
+        "C": {
+          "share": 26,
+          "land_symbols": 27
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Fractured Powerstone",
+          "Erinis, Gloom Stalker",
+          "Eternal Witness",
+          "Druid Class"
+        ],
+        "draws": [
+          "Rites of Flourishing",
+          "Triumph of Ferocity",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Regrowth",
+          "Return to Nature",
+          "Pulse of Murasa",
+          "Abundance",
+          "Seer's Sundial",
+          "Explore",
+          "Find the Path",
+          "Springbloom Druid",
+          "Blast Zone",
+          "Blighted Woodland"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Tireless Provisioner",
+          "Nature's Spiral",
+          "Regrowth",
+          "Return to Nature"
+        ],
+        "draws": [
+          "Temur Sabertooth",
+          "Timeless Witness",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Explore",
+          "Summer Bloom",
+          "Field Trip",
+          "Hunter's Insight",
+          "Crumble",
+          "Natural State",
+          "Sylvan Scrying",
+          "Entish Restoration",
+          "Emergence Zone",
+          "Evolving Wilds"
+        ]
+      }
+    }
+  },
+  "poison-the-well": {
+    "name": "Poison the Well",
+    "commander": "Fynn, the Fangbearer",
+    "faction": "Mono G",
+    "archetype": "Aggro",
+    "curve_probability": 74.0,
+    "curve_note": "Estimated from a 30-land base plus 16 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 15,
+        "2": 15,
+        "3": 11,
+        "4": 4,
+        "5": 2,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 6,
+        "2": 10,
+        "3": 4,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.58,
+        "avg_without_lands": 2.26,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 158
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 55,
+          "land_symbols": 93
+        },
+        "C": {
+          "share": 9,
+          "land_symbols": 7
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Armored Scrapgorger",
+          "Fang of Shigeki",
+          "Cankerbloom",
+          "Copper Longlegs",
+          "Nightshade Peddler"
+        ],
+        "draws": [
+          "Bloated Contaminator",
+          "Evolution Sage",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Gnarlwood Dryad",
+          "Mirkwood Spider",
+          "Moss Viper",
+          "Narnam Renegade",
+          "Sedge Scorpion",
+          "Tajuru Blightblade",
+          "Plague Myr",
+          "Find the Path",
+          "Rogue's Passage",
+          "Access Tunnel"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Wild Growth",
+          "Viridian Corrupter",
+          "Glistener Elf",
+          "Gnarlwood Dryad",
+          "Mirkwood Spider"
+        ],
+        "draws": [
+          "Evolution Sage",
+          "Skullwinder",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Tajuru Blightblade",
+          "Virulent Sliver",
+          "Wasteland Viper",
+          "Livewire Lash",
+          "Fireshrieker",
+          "Cliffhaven Kitesail",
+          "Commander's Sphere",
+          "Harrow",
+          "Access Tunnel",
+          "Rogue's Passage"
+        ]
+      }
+    }
+  },
+  "wax-on-wax-off": {
+    "name": "Wax On, Wax Off",
+    "commander": "Marwyn, the Nurturer",
+    "faction": "Mono G",
+    "archetype": "Combo",
+    "curve_probability": 74.0,
+    "curve_note": "Estimated from a 34-land base plus 9 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 7,
+        "2": 6,
+        "3": 6,
+        "4": 3,
+        "5": 1,
+        "6": 1
+      },
+      "spells": {
+        "0": 1,
+        "1": 18,
+        "2": 12,
+        "3": 6,
+        "4": 0,
+        "5": 3,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.41,
+        "avg_without_lands": 2.14,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 141
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 100,
+          "all_symbols": 100
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 77,
+          "land_symbols": 100
+        },
+        "C": {
+          "share": 2,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Mono G list is mostly green plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Armored Scrapgorger",
+          "Season of Growth",
+          "Staff of Domination",
+          "Timeless Witness",
+          "Seeker of Skybreak"
+        ],
+        "draws": [
+          "Timberwatch Elf",
+          "Nature's Spiral",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Pulse of Murasa",
+          "Recollect",
+          "Arbor Elf",
+          "Martyr of Spores",
+          "Seal of Strength",
+          "Temur Sabertooth",
+          "Nightshade Dryad",
+          "Viridian Joiner",
+          "Regrowth",
+          "Revive"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Wild Growth",
+          "Revive",
+          "Hunter's Insight",
+          "Pulse of Murasa",
+          "Recollect"
+        ],
+        "draws": [
+          "Nature's Spiral",
+          "Regrowth",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Temur Sabertooth",
+          "Bull's Strength",
+          "Return to Nature",
+          "Savage Surge",
+          "Sprout Swarm",
+          "Witch's Web",
+          "Llanowar Elves",
+          "Armored Scrapgorger",
+          "Arbor Elf",
+          "Martyr of Spores"
+        ]
+      }
+    }
+  },
+  "the-silver-lining": {
+    "name": "The Silver Lining",
+    "commander": "Wyleth, Soul of Steel",
+    "faction": "Boros",
+    "archetype": "Aggro",
+    "curve_probability": 73.2,
+    "curve_note": "Estimated from a 30-land base, 14 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 19,
+        "2": 28,
+        "3": 15,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.39,
+        "avg_without_lands": 1.99,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 139
+      },
+      "symbols": {
+        "W": {
+          "share": 59,
+          "all_symbols": 59
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 41,
+          "all_symbols": 41
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 32,
+          "land_symbols": 50
+        },
+        "U": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 32,
+          "land_symbols": 50
+        },
+        "G": {
+          "share": 9,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 8,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Generator Servant",
+          "Alseid of Life's Bounty",
+          "Hopeful Eidolon",
+          "Burning Prophet",
+          "Crashing Drawbridge"
+        ],
+        "draws": [
+          "Batterbone",
+          "Bitter Reunion",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Hero's Blade",
+          "Madcap Skills",
+          "Mask of Memory",
+          "Pacifism",
+          "Relic Axe",
+          "Ring of Valkas",
+          "Shiny Impetus",
+          "Diamond Pick-Axe",
+          "Plains",
+          "Plains"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Sticky Fingers",
+          "Empyrial Plate",
+          "Fiendlash",
+          "Hero's Blade",
+          "Madcap Skills"
+        ],
+        "draws": [
+          "Bitter Reunion",
+          "Cloak of the Bat",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Ring of Valkas",
+          "Seal Away",
+          "Seal of Cleansing",
+          "Volcanic Strength",
+          "Battle Mastery",
+          "Duelist's Heritage",
+          "Fellwar Stone",
+          "Liquimetal Torque",
+          "Plains",
+          "Plains"
+        ]
+      }
+    }
+  },
+  "bros-before-hosed": {
+    "name": "Bros Before Hosed",
+    "commander": "Winota, Joiner of Forces",
+    "faction": "Boros",
+    "archetype": "Midrange",
+    "curve_probability": 79.6,
+    "curve_note": "Estimated from a 35-land base, 13 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 3,
+        "1": 6,
+        "2": 20,
+        "3": 15,
+        "4": 6,
+        "5": 3,
+        "6": 1
+      },
+      "spells": {
+        "0": 0,
+        "1": 2,
+        "2": 5,
+        "3": 3,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.62,
+        "avg_without_lands": 2.49,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 162
+      },
+      "symbols": {
+        "W": {
+          "share": 61,
+          "all_symbols": 61
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 39,
+          "all_symbols": 39
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 37,
+          "land_symbols": 57
+        },
+        "U": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 33,
+          "land_symbols": 43
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mountain",
+          "Arcane Signet",
+          "Cathar Commando",
+          "Cliffside Rescuer",
+          "Goblin Cratermaker"
+        ],
+        "draws": [
+          "Gibbering Fiend",
+          "Loyal Apprentice",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Anointed Peacekeeper",
+          "Eidolon of Rhetoric",
+          "Elite Spellbinder",
+          "Fiend Hunter",
+          "Gavony Dawnguard",
+          "Goblin Rabblemaster",
+          "Gold Myr",
+          "Iron Myr",
+          "Plains",
+          "Plains"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mountain",
+          "Mind Stone",
+          "Viashino Pyromancer",
+          "Anointed Peacekeeper",
+          "Eidolon of Rhetoric"
+        ],
+        "draws": [
+          "Phyrexian Revoker",
+          "Thalia, Guardian of Thraben",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Goblin Rabblemaster",
+          "Legion Warboss",
+          "Mirror Entity",
+          "Rule of Law",
+          "Sanctum Prelate",
+          "Thalia, Heretic Cathar",
+          "Prismatic Lens",
+          "Reckless Barbarian",
+          "Plains",
+          "Plains"
+        ]
+      }
+    }
+  },
+  "youre-just-paranoid": {
+    "name": "Youre Just Paranoid",
+    "commander": "Stenn, Paranoid Partisan",
+    "faction": "Azorius",
+    "archetype": "Combo",
+    "curve_probability": 74.0,
+    "curve_note": "Estimated from a 32-land base, 23 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 2,
+        "1": 17,
+        "2": 22,
+        "3": 6,
+        "4": 6,
+        "5": 0,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 0,
+        "2": 3,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 3
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.76,
+        "avg_without_lands": 2.59,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 176
+      },
+      "symbols": {
+        "W": {
+          "share": 18,
+          "all_symbols": 18
+        },
+        "U": {
+          "share": 82,
+          "all_symbols": 82
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 28,
+          "land_symbols": 44
+        },
+        "U": {
+          "share": 32,
+          "land_symbols": 56
+        },
+        "B": {
+          "share": 12,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 12,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 12,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 4,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Prized Statue",
+          "Lembas",
+          "Sleeper Dart",
+          "Scrap Trawler",
+          "Trading Post"
+        ],
+        "draws": [
+          "Riddlesmith",
+          "Spare Supplies",
+          "Island"
+        ],
+        "extra_pool": [
+          "Conjurer's Bauble",
+          "Implement of Improvement",
+          "Scrabbling Claws",
+          "Soul-Guide Lantern",
+          "Surgical Skullbomb",
+          "Eye of Vecna",
+          "Mind Stone",
+          "Commander's Sphere",
+          "Plains",
+          "Plains"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Chromatic Star",
+          "Aether Spellbomb",
+          "Codex Shredder",
+          "Conjurer's Bauble",
+          "Implement of Improvement"
+        ],
+        "draws": [
+          "Spare Supplies",
+          "Wedding Invitation",
+          "Island"
+        ],
+        "extra_pool": [
+          "Eye of Vecna",
+          "Repurposing Bay",
+          "Sculpting Steel",
+          "Basilica Skullbomb",
+          "Sunbeam Spellbomb",
+          "All That Glitters",
+          "Barbed Sextant",
+          "Chromatic Sphere",
+          "Plains",
+          "Plains"
+        ]
+      }
+    }
+  },
+  "30-minutes-or-i-scoop": {
+    "name": "30 Minutes or I Scoop",
+    "commander": "Abdel Adrian, Gorion's Ward",
+    "faction": "Azorius",
+    "archetype": "Control",
+    "curve_probability": 72.4,
+    "curve_note": "Estimated from a 32-land base, 13 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 1,
+        "2": 15,
+        "3": 19,
+        "4": 9,
+        "5": 8,
+        "6": 4
+      },
+      "spells": {
+        "0": 0,
+        "1": 9,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 2.04,
+        "avg_without_lands": 3.0,
+        "median_with_lands": 2,
+        "median_without_lands": 3,
+        "total_mana_value": 204
+      },
+      "symbols": {
+        "W": {
+          "share": 48,
+          "all_symbols": 48
+        },
+        "U": {
+          "share": 52,
+          "all_symbols": 52
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 31,
+          "land_symbols": 41
+        },
+        "U": {
+          "share": 41,
+          "land_symbols": 59
+        },
+        "B": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Mind Stone",
+          "Momentary Blink",
+          "Peel from Reality",
+          "Fading Hope"
+        ],
+        "draws": [
+          "String of Disappearances",
+          "Unsummon",
+          "Island"
+        ],
+        "extra_pool": [
+          "Reflector Mage",
+          "Touch the Spirit Realm",
+          "Wash Away",
+          "Cloudform",
+          "Rishadan Cutpurse",
+          "Soul-Guide Lantern",
+          "Fractured Powerstone",
+          "Gold Pan",
+          "Plains",
+          "Plains"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Marble Diamond",
+          "Detention Sphere",
+          "Reflector Mage",
+          "Touch the Spirit Realm"
+        ],
+        "draws": [
+          "Alchemist's Vial",
+          "Dawnbringer Cleric",
+          "Island"
+        ],
+        "extra_pool": [
+          "Soul-Guide Lantern",
+          "Archaeomancer",
+          "Run Away Together",
+          "Karmic Guide",
+          "Mnemonic Wall",
+          "Salvager of Secrets",
+          "Prized Statue",
+          "Sky Diamond",
+          "Plains",
+          "Plains"
+        ]
+      }
+    }
+  },
+  "smoke-bomb": {
+    "name": "Smoke Bomb",
+    "commander": "Yuriko, the Tiger's Shadow",
+    "faction": "Dimir",
+    "archetype": "Midrange",
+    "curve_probability": 68.4,
+    "curve_note": "Estimated from a 31-land base plus 8 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 3,
+        "1": 12,
+        "2": 15,
+        "3": 4,
+        "4": 3,
+        "5": 1,
+        "6": 4
+      },
+      "spells": {
+        "0": 0,
+        "1": 10,
+        "2": 4,
+        "3": 0,
+        "4": 3,
+        "5": 5,
+        "6": 5
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.94,
+        "avg_without_lands": 2.81,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 194
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 67,
+          "all_symbols": 67
+        },
+        "B": {
+          "share": 33,
+          "all_symbols": 33
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 10,
+          "land_symbols": 5
+        },
+        "U": {
+          "share": 35,
+          "land_symbols": 44
+        },
+        "B": {
+          "share": 35,
+          "land_symbols": 41
+        },
+        "R": {
+          "share": 10,
+          "land_symbols": 5
+        },
+        "G": {
+          "share": 10,
+          "land_symbols": 5
+        },
+        "C": {
+          "share": 1,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Dimir list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Arcane Signet",
+          "Cerulean Drake",
+          "Diversion Unit",
+          "Spiketail Hatchling"
+        ],
+        "draws": [
+          "Mercurial Spelldancer",
+          "Moon-Circuit Hacker",
+          "Island"
+        ],
+        "extra_pool": [
+          "Covert Technician",
+          "Azra Smokeshaper",
+          "Feed the Swarm",
+          "Heartless Act",
+          "Mana Leak",
+          "Snapback",
+          "Silver-Fur Master",
+          "Talisman of Dominance",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Prosperous Thief",
+          "Tetsuko Umezawa, Fugitive",
+          "Covert Technician",
+          "Azra Smokeshaper"
+        ],
+        "draws": [
+          "Nezumi Prowler",
+          "Skullsnatcher",
+          "Island"
+        ],
+        "extra_pool": [
+          "Snapback",
+          "Siren Stormtamer",
+          "Ingenious Infiltrator",
+          "Ninja of the Deep Hours",
+          "Foil",
+          "Brainstone",
+          "Arcane Signet",
+          "Fellwar Stone",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "doomsfae": {
+    "name": "Doomsfae",
+    "commander": "Nymris, Oona's Trickster",
+    "faction": "Dimir",
+    "archetype": "Control",
+    "curve_probability": 78.8,
+    "curve_note": "Estimated from a 35-land base plus 12 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 1,
+        "2": 16,
+        "3": 6,
+        "4": 2,
+        "5": 3,
+        "6": 1
+      },
+      "spells": {
+        "0": 0,
+        "1": 7,
+        "2": 9,
+        "3": 7,
+        "4": 7,
+        "5": 3,
+        "6": 2
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.84,
+        "avg_without_lands": 2.83,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 184
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 81,
+          "all_symbols": 81
+        },
+        "B": {
+          "share": 19,
+          "all_symbols": 19
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 8,
+          "land_symbols": 4
+        },
+        "U": {
+          "share": 37,
+          "land_symbols": 46
+        },
+        "B": {
+          "share": 34,
+          "land_symbols": 39
+        },
+        "R": {
+          "share": 8,
+          "land_symbols": 4
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 4
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 2
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Dimir list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Mind Stone",
+          "Blink of an Eye",
+          "Into the Roil",
+          "Repulse"
+        ],
+        "draws": [
+          "Lobelia Sackville-Baggins",
+          "Nimble Obstructionist",
+          "Island"
+        ],
+        "extra_pool": [
+          "Soul-Guide Lantern",
+          "Murderous Cut",
+          "Mystic Confluence",
+          "Predict",
+          "Siphon Insight",
+          "Think Twice",
+          "Charcoal Diamond",
+          "Coldsteel Heart",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Dimir Signet",
+          "Rewind",
+          "Soul-Guide Lantern",
+          "Murderous Cut"
+        ],
+        "draws": [
+          "Dispel",
+          "Portal Mage",
+          "Island"
+        ],
+        "extra_pool": [
+          "Think Twice",
+          "Doomsday",
+          "Filter Out",
+          "Frantic Search",
+          "Ghostly Flicker",
+          "Leadership Vacuum",
+          "Star Compass",
+          "Talisman of Dominance",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "death-and-taxes": {
+    "name": "Death & Taxes",
+    "commander": "Eriette of the Charmed Apple",
+    "faction": "Orzhov",
+    "archetype": "Midrange",
+    "curve_probability": 73.2,
+    "curve_note": "Estimated from a 35-land base plus 5 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 15,
+        "2": 22,
+        "3": 17,
+        "4": 2,
+        "5": 2,
+        "6": 2
+      },
+      "spells": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.5,
+        "avg_without_lands": 2.31,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 150
+      },
+      "symbols": {
+        "W": {
+          "share": 44,
+          "all_symbols": 44
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 56,
+          "all_symbols": 56
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 38,
+          "land_symbols": 43
+        },
+        "U": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 50,
+          "land_symbols": 57
+        },
+        "R": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Orzhov list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Plains",
+          "Arcane Signet",
+          "Amalia Benavides Aguirre",
+          "Spirit Loop",
+          "Pentarch Ward"
+        ],
+        "draws": [
+          "Chosen by Heliod",
+          "Clinging Darkness",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Hushbringer",
+          "Light-Paws, Emperor's Voice",
+          "Lord Skitter's Blessing",
+          "Mire's Grasp",
+          "Necrogen Communion",
+          "Necrosynthesis",
+          "Pearl-Ear, Imperial Advisor",
+          "Dark Ritual",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Plains",
+          "Arcane Signet",
+          "Gollum, Obsessed Stalker",
+          "Hushbringer",
+          "Light-Paws, Emperor's Voice"
+        ],
+        "draws": [
+          "Debilitating Injury",
+          "Feebleness",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Necrosynthesis",
+          "Rune of Mortality",
+          "Rune of Sustenance",
+          "Scourgemark",
+          "Sram, Senior Edificer",
+          "Vizkopa Guildmage",
+          "Fellwar Stone",
+          "Orzhov Signet",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "x-rated": {
+    "name": "X-Rated",
+    "commander": "Felisa, Fang of Silverquill",
+    "faction": "Orzhov",
+    "archetype": "Aggro",
+    "curve_probability": 70.0,
+    "curve_note": "Estimated from a 34-land base plus 4 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 8,
+        "1": 12,
+        "2": 13,
+        "3": 8,
+        "4": 1,
+        "5": 3,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 9,
+        "2": 6,
+        "3": 5,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.21,
+        "avg_without_lands": 1.83,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 121
+      },
+      "symbols": {
+        "W": {
+          "share": 57,
+          "all_symbols": 57
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 43,
+          "all_symbols": 43
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 42,
+          "land_symbols": 47
+        },
+        "U": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 53,
+          "land_symbols": 53
+        },
+        "R": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 5,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Orzhov list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Cryptic Trilobite",
+          "Anafenza, Kin-Tree Spirit",
+          "Arcbound Stinger",
+          "Bartolom\u00e9 del Presidio",
+          "Festercreep"
+        ],
+        "draws": [
+          "Shinewend",
+          "Steel Overseer",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Mirror Entity",
+          "Scrapyard Recombiner",
+          "Skittering Cicada",
+          "Yahenni, Undying Partisan",
+          "Arcbound Javelineer",
+          "Arcbound Mouser",
+          "Sol Ring",
+          "Dark Ritual",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Plains",
+          "Cryptic Trilobite",
+          "Envoy of the Ancestors",
+          "Midnight Reaper",
+          "Mirror Entity",
+          "Scrapyard Recombiner"
+        ],
+        "draws": [
+          "Steel Overseer",
+          "Bloodflow Connoisseur",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Arcbound Mouser",
+          "Arcbound Worker",
+          "Carrion Feeder",
+          "Enduring Bondwarden",
+          "Hopeful Initiate",
+          "Iron Apprentice",
+          "Dark Ritual",
+          "Sacrifice",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "manipulating-madness": {
+    "name": "Manipulating Madness",
+    "commander": "Anje Falkenrath",
+    "faction": "Rakdos",
+    "archetype": "Combo",
+    "curve_probability": 71.8,
+    "curve_note": "Estimated from a 34-land base plus 7 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 2,
+        "1": 4,
+        "2": 8,
+        "3": 8,
+        "4": 6,
+        "5": 8,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 5,
+        "2": 8,
+        "3": 5,
+        "4": 6,
+        "5": 2,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 2.03,
+        "avg_without_lands": 3.08,
+        "median_with_lands": 2,
+        "median_without_lands": 3,
+        "total_mana_value": 203
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 61,
+          "all_symbols": 61
+        },
+        "R": {
+          "share": 39,
+          "all_symbols": 39
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 8,
+          "land_symbols": 5
+        },
+        "U": {
+          "share": 8,
+          "land_symbols": 5
+        },
+        "B": {
+          "share": 39,
+          "land_symbols": 45
+        },
+        "R": {
+          "share": 34,
+          "land_symbols": 38
+        },
+        "G": {
+          "share": 8,
+          "land_symbols": 5
+        },
+        "C": {
+          "share": 3,
+          "land_symbols": 2
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Rakdos list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Mind Stone",
+          "Animate Dead",
+          "Anje's Ravager",
+          "Bloodmad Vampire",
+          "Asylum Visitor"
+        ],
+        "draws": [
+          "Strength of Lunacy",
+          "Big Game Hunter",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Bloodhall Priest",
+          "Grave Scrabbler",
+          "Shadow of the Grave",
+          "Ichor Slick",
+          "Blazing Rootwalla",
+          "Hell Mongrel",
+          "Rakdos Signet",
+          "Blood Pet",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Goldhound",
+          "Skophos Reaver",
+          "Starving Revenant",
+          "Bloodhall Priest",
+          "Grave Scrabbler"
+        ],
+        "draws": [
+          "Big Game Hunter",
+          "Grisly Survivor",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Hell Mongrel",
+          "Kitchen Imp",
+          "Nightshade Assassin",
+          "Avacyn's Judgment",
+          "Distemper of the Blood",
+          "Molten Collapse",
+          "Mind Stone",
+          "Arcane Signet",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "thriller": {
+    "name": "Thriller",
+    "commander": "Meren of Clan Nel Toth",
+    "faction": "Golgari",
+    "archetype": "Control",
+    "curve_probability": 90.0,
+    "curve_note": "Estimated from a 40-land base, 11 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 8,
+        "2": 12,
+        "3": 14,
+        "4": 7,
+        "5": 2,
+        "6": 5
+      },
+      "spells": {
+        "0": 0,
+        "1": 4,
+        "2": 2,
+        "3": 3,
+        "4": 2,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.69,
+        "avg_without_lands": 2.82,
+        "median_with_lands": 1,
+        "median_without_lands": 3,
+        "total_mana_value": 169
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 46,
+          "all_symbols": 46
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 54,
+          "all_symbols": 54
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 2,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 2,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 49,
+          "land_symbols": 54
+        },
+        "R": {
+          "share": 2,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 40,
+          "land_symbols": 46
+        },
+        "C": {
+          "share": 4,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Insidious Fungus",
+          "Putrefy",
+          "Unearth",
+          "Cankerbloom"
+        ],
+        "draws": [
+          "Reclamation Sage",
+          "Caustic Caterpillar",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Timeless Witness",
+          "Spore Frog",
+          "Deadly Brew",
+          "Say Its Name",
+          "Victimize",
+          "Shriekmaw",
+          "Dawntreader Elk",
+          "Fractured Powerstone",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Prismatic Lens",
+          "Foundation Breaker",
+          "Timeless Witness",
+          "Spore Frog"
+        ],
+        "draws": [
+          "Heap Doll",
+          "Elvish Regrower",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Shriekmaw",
+          "Life/Death",
+          "Corrupted Conviction",
+          "Village Rites",
+          "Putrid Goblin",
+          "Transmogrant's Crown",
+          "Wood Elves",
+          "Blood Pet",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "is-it-combo": {
+    "name": "Is It Combo",
+    "commander": "Vadrik, Astral Archmage",
+    "faction": "Izzet",
+    "archetype": "Control",
+    "curve_probability": 72.2,
+    "curve_note": "Estimated from a 34-land base, 14 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 0,
+        "2": 8,
+        "3": 4,
+        "4": 1,
+        "5": 1,
+        "6": 2
+      },
+      "spells": {
+        "0": 0,
+        "1": 4,
+        "2": 12,
+        "3": 8,
+        "4": 11,
+        "5": 3,
+        "6": 12
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 2.46,
+        "avg_without_lands": 3.73,
+        "median_with_lands": 2,
+        "median_without_lands": 3,
+        "total_mana_value": 246
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 30,
+          "all_symbols": 30
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 70,
+          "all_symbols": 70
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 26,
+          "land_symbols": 35
+        },
+        "B": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 43,
+          "land_symbols": 65
+        },
+        "G": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 2,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Sorceress's Schemes",
+          "Abrade",
+          "Grapeshot",
+          "Mizzix's Mastery"
+        ],
+        "draws": [
+          "Temporal Fissure",
+          "Volcanic Vision",
+          "Island"
+        ],
+        "extra_pool": [
+          "Galvanic Iteration",
+          "Haste Magic",
+          "Recoup",
+          "Frantic Search",
+          "Galvanic Relay",
+          "Introduction to Prophecy",
+          "Ancestors' Aid",
+          "Sudden Breakthrough",
+          "Mountain",
+          "Mountain"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Island",
+          "Pirate's Pillage",
+          "Fists of Flame",
+          "Galvanic Iteration",
+          "Haste Magic"
+        ],
+        "draws": [
+          "Blazing Crescendo",
+          "Epic Experiment",
+          "Island"
+        ],
+        "extra_pool": [
+          "Stroke of Genius",
+          "Haze of Rage",
+          "Twinferno",
+          "Display of Power",
+          "Expanded Anatomy",
+          "Howl of the Horde",
+          "Izzet Signet",
+          "Prismatic Lens",
+          "Mountain",
+          "Mountain"
+        ]
+      }
+    }
+  },
+  "short-bus-brain-trust": {
+    "name": "Short Bus Brain Trust",
+    "commander": "The Infamous Cruelclaw",
+    "faction": "Rakdos",
+    "archetype": "Aggro",
+    "curve_probability": 64.2,
+    "curve_note": "Estimated from a 35-land base plus 10 identified ramp, fixing, or cost-reduction pieces.",
+    "curve": {
+      "permanents": {
+        "0": 2,
+        "1": 2,
+        "2": 7,
+        "3": 4,
+        "4": 3,
+        "5": 6,
+        "6": 16
+      },
+      "spells": {
+        "0": 0,
+        "1": 2,
+        "2": 5,
+        "3": 0,
+        "4": 4,
+        "5": 3,
+        "6": 11
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 3.0,
+        "avg_without_lands": 4.62,
+        "median_with_lands": 2,
+        "median_without_lands": 5,
+        "total_mana_value": 300
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 36,
+          "all_symbols": 36
+        },
+        "R": {
+          "share": 64,
+          "all_symbols": 64
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 28,
+          "land_symbols": 29
+        },
+        "R": {
+          "share": 58,
+          "land_symbols": 71
+        },
+        "G": {
+          "share": 4,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 2,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. This Rakdos list is mostly red plus artifact/colorless support."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Basal Thrull",
+          "Enterprising Scallywag",
+          "Big Game Hunter",
+          "Death-Greeter's Champion",
+          "Bitter Reunion"
+        ],
+        "draws": [
+          "Spectacular Showdown",
+          "Terminate",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Pestilence",
+          "Galvanoth",
+          "Port Razer",
+          "Amethyst Dragon",
+          "Young Red Dragon",
+          "Ignite the Future",
+          "_____ Goblin",
+          "Blood Pet",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Mountain",
+          "Skirk Prospector",
+          "Call to the Netherworld",
+          "Blood Mist",
+          "Pestilence",
+          "Galvanoth"
+        ],
+        "draws": [
+          "Terminate",
+          "Chainer, Nightmare Adept",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Ignite the Future",
+          "Restart Sequence",
+          "Syphon Mind",
+          "Terminal Agony",
+          "Grim Reaper's Sprint",
+          "Possibility Storm",
+          "Strike It Rich",
+          "Myr Battlesphere",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "add-vantage": {
+    "name": "Add Vantage",
+    "commander": "Niv-Mizzet, Parun",
+    "faction": "Izzet",
+    "archetype": "Aggro",
+    "curve_probability": 90.8,
+    "curve_note": "Estimated from a 39-land base, 18 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 4,
+        "2": 9,
+        "3": 11,
+        "4": 0,
+        "5": 2,
+        "6": 1
+      },
+      "spells": {
+        "0": 0,
+        "1": 8,
+        "2": 14,
+        "3": 7,
+        "4": 3,
+        "5": 0,
+        "6": 2
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.56,
+        "avg_without_lands": 2.56,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 156
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 55,
+          "all_symbols": 55
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 45,
+          "all_symbols": 45
+        },
+        "G": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 29,
+          "land_symbols": 38
+        },
+        "B": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 39,
+          "land_symbols": 62
+        },
+        "G": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "C": {
+          "share": 2,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Island",
+          "Island",
+          "Naiad of Hidden Coves",
+          "Stinging Lionfish",
+          "Wavebreak Hippocamp",
+          "Tandem Lookout",
+          "Fiery Inscription"
+        ],
+        "draws": [
+          "Cathartic Reunion",
+          "Demand Answers",
+          "Island"
+        ],
+        "extra_pool": [
+          "Izzet Charm",
+          "Mizzium Mortars",
+          "Run Away Together",
+          "Think Twice",
+          "Thrill of Possibility",
+          "Tormenting Voice",
+          "Goldhound",
+          "Skirk Prospector",
+          "Mountain",
+          "Mountain"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Island",
+          "Arcane Signet",
+          "Impulse",
+          "Into the Roil",
+          "Izzet Charm",
+          "Mizzium Mortars"
+        ],
+        "draws": [
+          "Demand Answers",
+          "Epic Experiment",
+          "Island"
+        ],
+        "extra_pool": [
+          "Tormenting Voice",
+          "Witch's Mark",
+          "Clear the Mind",
+          "Collective Defiance",
+          "Filter Out",
+          "Frantic Search",
+          "Izzet Signet",
+          "Prismatic Lens",
+          "Mountain",
+          "Mountain"
+        ]
+      }
+    }
+  },
+  "charmed-im-sure": {
+    "name": "Charmed, Im Sure",
+    "commander": "Sythis, Harvest's Hand",
+    "faction": "Selesnya",
+    "archetype": "Control",
+    "curve_probability": 76.4,
+    "curve_note": "Estimated from a 35-land base, 9 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 2,
+        "1": 12,
+        "2": 20,
+        "3": 18,
+        "4": 3,
+        "5": 0,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 1,
+        "2": 5,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.5,
+        "avg_without_lands": 2.31,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 150
+      },
+      "symbols": {
+        "W": {
+          "share": 61,
+          "all_symbols": 61
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 1,
+          "all_symbols": 1
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 38,
+          "all_symbols": 38
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 35,
+          "land_symbols": 43
+        },
+        "U": {
+          "share": 6,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 6,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 6,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 48,
+          "land_symbols": 57
+        },
+        "C": {
+          "share": 0,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Broken Bond",
+          "Aura Mutation",
+          "Calamity's Wake",
+          "Disenchant"
+        ],
+        "draws": [
+          "Seal Away",
+          "Seal of Cleansing",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Reclamation Sage",
+          "Touch the Spirit Realm",
+          "Benevolent Blessing",
+          "Bonds of Faith",
+          "Compulsory Rest",
+          "Pacifism",
+          "Jukai Naturalist",
+          "Sanctum Weaver",
+          "Plains",
+          "Plains"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Wolfwillow Haven",
+          "Cage of Hands",
+          "Reclamation Sage",
+          "Touch the Spirit Realm"
+        ],
+        "draws": [
+          "Seal of Primordium",
+          "Banishing Light",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Pacifism",
+          "Armadillo Cloak",
+          "Bound by Moonsilver",
+          "Bound in Gold",
+          "Bound in Silence",
+          "Candletrap",
+          "Wild Growth",
+          "Broken Bond",
+          "Plains",
+          "Plains"
+        ]
+      }
+    }
+  },
+  "elven-tutor": {
+    "name": "Elven Tutor",
+    "commander": "Momir Vig, Simic Visionary",
+    "faction": "Simic",
+    "archetype": "Combo",
+    "curve_probability": 88.4,
+    "curve_note": "Estimated from a 38-land base, 19 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 13,
+        "2": 16,
+        "3": 9,
+        "4": 4,
+        "5": 1,
+        "6": 2
+      },
+      "spells": {
+        "0": 0,
+        "1": 6,
+        "2": 5,
+        "3": 3,
+        "4": 0,
+        "5": 2,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.41,
+        "avg_without_lands": 2.27,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 141
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 39,
+          "all_symbols": 39
+        },
+        "B": {
+          "share": 1,
+          "all_symbols": 1
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 60,
+          "all_symbols": 60
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 6,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 31,
+          "land_symbols": 39
+        },
+        "B": {
+          "share": 6,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 6,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 51,
+          "land_symbols": 61
+        },
+        "C": {
+          "share": 1,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Lonis, Cryptozoologist",
+          "Cankerbloom",
+          "Cloud of Faeries",
+          "Scavenging Ooze",
+          "Scryb Ranger"
+        ],
+        "draws": [
+          "Kiora's Follower",
+          "Nantuko Tracer",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Quandrix Command",
+          "Nettle Sentinel",
+          "Quirion Ranger",
+          "Sidisi's Faithful",
+          "Wirewood Symbiote",
+          "Coiling Oracle",
+          "Springbloom Druid",
+          "Maraleaf Pixie",
+          "Island",
+          "Island"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Priest of Titania",
+          "Mirror Image",
+          "Cackling Counterpart",
+          "Quandrix Command",
+          "Nettle Sentinel"
+        ],
+        "draws": [
+          "Nantuko Tracer",
+          "Pond Prophet",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Coiling Oracle",
+          "Riftsweeper",
+          "Reclamation Sage",
+          "Shardless Agent",
+          "Auroral Procession",
+          "Regrowth",
+          "Elvish Archdruid",
+          "Gyre Engineer",
+          "Island",
+          "Island"
+        ]
+      }
+    }
+  },
+  "non-deterministic": {
+    "name": "Non-Deterministic",
+    "commander": "The Gitrog Monster",
+    "faction": "Golgari",
+    "archetype": "Combo",
+    "curve_probability": 76.4,
+    "curve_note": "Estimated from a 33-land base, 16 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 1,
+        "2": 16,
+        "3": 4,
+        "4": 1,
+        "5": 4,
+        "6": 3
+      },
+      "spells": {
+        "0": 0,
+        "1": 10,
+        "2": 13,
+        "3": 8,
+        "4": 4,
+        "5": 2,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.73,
+        "avg_without_lands": 2.58,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 173
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 44,
+          "all_symbols": 44
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 56,
+          "all_symbols": 56
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 7,
+          "land_symbols": 5
+        },
+        "U": {
+          "share": 7,
+          "land_symbols": 5
+        },
+        "B": {
+          "share": 35,
+          "land_symbols": 38
+        },
+        "R": {
+          "share": 7,
+          "land_symbols": 5
+        },
+        "G": {
+          "share": 34,
+          "land_symbols": 38
+        },
+        "C": {
+          "share": 9,
+          "land_symbols": 10
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Armored Scrapgorger",
+          "Stinkweed Imp",
+          "Golgari Thug",
+          "Scavenging Ooze",
+          "Skola Grovedancer"
+        ],
+        "draws": [
+          "Winter, Cynical Opportunist",
+          "Noose Constrictor",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Suspicious Bookcase",
+          "Wild Mongrel",
+          "Golgari Grave-Troll",
+          "Gaea's Blessing",
+          "Grapple with the Past",
+          "Lively Dirge",
+          "Burnished Hart",
+          "Arcane Signet",
+          "Swamp",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Golgari Signet",
+          "Olivia's Dragoon",
+          "Riftsweeper",
+          "Suspicious Bookcase",
+          "Wild Mongrel"
+        ],
+        "draws": [
+          "Noose Constrictor",
+          "Oblivion Crown",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Lively Dirge",
+          "Pulse of Murasa",
+          "Putrid Imp",
+          "Darkblast",
+          "Blessed Respite",
+          "Cathartic Parting",
+          "Sprouting Vines",
+          "Rampant Growth",
+          "Swamp",
+          "Swamp"
+        ]
+      }
+    }
+  },
+  "dinner-time": {
+    "name": "Dinner Time",
+    "commander": "Thrakkus the Butcher",
+    "faction": "Gruul",
+    "archetype": "Aggro",
+    "curve_probability": 72.8,
+    "curve_note": "Estimated from a 34-land base, 20 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 4,
+        "1": 9,
+        "2": 17,
+        "3": 4,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 7,
+        "2": 14,
+        "3": 6,
+        "4": 1,
+        "5": 1,
+        "6": 2
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.34,
+        "avg_without_lands": 2.03,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 134
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 54,
+          "all_symbols": 54
+        },
+        "G": {
+          "share": 46,
+          "all_symbols": 46
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 10,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 30,
+          "land_symbols": 41
+        },
+        "G": {
+          "share": 36,
+          "land_symbols": 53
+        },
+        "C": {
+          "share": 4,
+          "land_symbols": 6
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Generator Servant",
+          "Livaan, Cultist of Tiamat",
+          "Martyr of Spores",
+          "Bitter Reunion"
+        ],
+        "draws": [
+          "Tilonalli's Crown",
+          "Volcanic Strength",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Bulk Up",
+          "Cathartic Pyre",
+          "Collective Resistance",
+          "Colossal Might",
+          "Dragon's Fire",
+          "Phytoburst",
+          "Scaled Nurturer",
+          "Whisperer of the Wilds",
+          "Mountain",
+          "Mountain"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Goldhound",
+          "Abrade",
+          "Bulk Up",
+          "Cathartic Pyre"
+        ],
+        "draws": [
+          "Beamtown Beatstick",
+          "Footfall Crater",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Phytoburst",
+          "Ram Through",
+          "Spectacular Showdown",
+          "Temur Battle Rage",
+          "Titanic Growth",
+          "Twinferno",
+          "Fertile Ground",
+          "Goldvein Pick",
+          "Mountain",
+          "Mountain"
+        ]
+      }
+    }
+  },
+  "shared-adventures": {
+    "name": "Shared Adventures",
+    "commander": "Selvala, Explorer Returned",
+    "faction": "Selesnya",
+    "archetype": "Combo",
+    "curve_probability": 71.6,
+    "curve_note": "Estimated from a 31-land base, 12 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 12,
+        "1": 7,
+        "2": 13,
+        "3": 4,
+        "4": 4,
+        "5": 0,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 17,
+        "2": 5,
+        "3": 4,
+        "4": 0,
+        "5": 1,
+        "6": 2
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.21,
+        "avg_without_lands": 1.75,
+        "median_with_lands": 1,
+        "median_without_lands": 1,
+        "total_mana_value": 121
+      },
+      "symbols": {
+        "W": {
+          "share": 33,
+          "all_symbols": 33
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 67,
+          "all_symbols": 67
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 34,
+          "land_symbols": 45
+        },
+        "U": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 5,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 43,
+          "land_symbols": 55
+        },
+        "C": {
+          "share": 7,
+          "land_symbols": 0
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Mind Stone",
+          "Dawn of Hope",
+          "Ajani's Pridemate",
+          "Scavenging Ooze",
+          "Scryb Ranger"
+        ],
+        "draws": [
+          "Sevinne's Reclamation",
+          "Wirewood Symbiote",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Revive",
+          "Recollect",
+          "Arbor Elf",
+          "Instill Energy",
+          "Abundance",
+          "Lathiel, the Bounteous Dawn",
+          "Marble Diamond",
+          "Moss Diamond",
+          "Plains",
+          "Plains"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Prismatic Lens",
+          "Well of Lost Dreams",
+          "Regrowth",
+          "Revive",
+          "Recollect"
+        ],
+        "draws": [
+          "Wirewood Symbiote",
+          "Mirror Entity",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Lathiel, the Bounteous Dawn",
+          "Saryth, the Viper's Fang",
+          "Light the Way",
+          "Aim High",
+          "Blessed Respite",
+          "Genesis Wave",
+          "Utopia Sprawl",
+          "Wild Growth",
+          "Plains",
+          "Plains"
+        ]
+      }
+    }
+  },
+  "eternal-garden": {
+    "name": "Eternal Garden",
+    "commander": "Zimone, Mystery Unraveler",
+    "faction": "Simic",
+    "archetype": "Midrange",
+    "curve_probability": 86.0,
+    "curve_note": "Estimated from a 37-land base, 18 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 5,
+        "1": 2,
+        "2": 13,
+        "3": 10,
+        "4": 6,
+        "5": 4,
+        "6": 5
+      },
+      "spells": {
+        "0": 0,
+        "1": 1,
+        "2": 7,
+        "3": 5,
+        "4": 3,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.87,
+        "avg_without_lands": 2.97,
+        "median_with_lands": 2,
+        "median_without_lands": 3,
+        "total_mana_value": 187
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 32,
+          "all_symbols": 32
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "G": {
+          "share": 68,
+          "all_symbols": 68
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 29,
+          "land_symbols": 31
+        },
+        "B": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 0,
+          "land_symbols": 0
+        },
+        "G": {
+          "share": 47,
+          "land_symbols": 43
+        },
+        "C": {
+          "share": 24,
+          "land_symbols": 26
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Khalni Heart Expedition",
+          "Den Protector",
+          "Scryb Ranger",
+          "Erinis, Gloom Stalker"
+        ],
+        "draws": [
+          "Secret Plans",
+          "Glacierwood Siege",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Scroll of Fate",
+          "Tilling Treefolk",
+          "Soratami Savant",
+          "Over the Edge",
+          "Peel from Reality",
+          "Break Down the Door",
+          "Scaled Herbalist",
+          "Shigeki, Jukai Visionary",
+          "Island",
+          "Island"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Trail of Mystery",
+          "Rites of Flourishing",
+          "Scroll of Fate",
+          "Tilling Treefolk"
+        ],
+        "draws": [
+          "Ioreth of the Healing House",
+          "Kelpie Guide",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Break Down the Door",
+          "Pulse of Murasa",
+          "Ghirapur Orrery",
+          "Into the Wilds",
+          "Explore",
+          "Run Away Together",
+          "Fertilid",
+          "Yavimaya Elder",
+          "Island",
+          "Island"
+        ]
+      }
+    }
+  },
+  "loan-shark": {
+    "name": "Loan Shark",
+    "commander": "Tahngarth, First Mate",
+    "faction": "Gruul",
+    "archetype": "Aggro",
+    "curve_probability": 68.0,
+    "curve_note": "Estimated from a 32-land base, 17 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 17,
+        "2": 21,
+        "3": 5,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 9,
+        "2": 10,
+        "3": 5,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.22,
+        "avg_without_lands": 1.79,
+        "median_with_lands": 1,
+        "median_without_lands": 2,
+        "total_mana_value": 122
+      },
+      "symbols": {
+        "W": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "U": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "B": {
+          "share": 0,
+          "all_symbols": 0
+        },
+        "R": {
+          "share": 46,
+          "all_symbols": 46
+        },
+        "G": {
+          "share": 54,
+          "all_symbols": 54
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 11,
+          "land_symbols": 0
+        },
+        "U": {
+          "share": 11,
+          "land_symbols": 0
+        },
+        "B": {
+          "share": 11,
+          "land_symbols": 0
+        },
+        "R": {
+          "share": 27,
+          "land_symbols": 34
+        },
+        "G": {
+          "share": 39,
+          "land_symbols": 62
+        },
+        "C": {
+          "share": 2,
+          "land_symbols": 3
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Generator Servant",
+          "Grenzo, Havoc Raiser",
+          "Arbor Elf",
+          "Martyr of Spores"
+        ],
+        "draws": [
+          "Frenzied Rage",
+          "Giant Spectacle",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Madcap Skills",
+          "Mask of Memory",
+          "Popular Entertainer",
+          "Thran Power Suit",
+          "Tilonalli's Crown",
+          "Acquired Mutation",
+          "Whisperer of the Wilds",
+          "Orcish Lumberjack",
+          "Mountain",
+          "Mountain"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Tinder Wall",
+          "Lion Umbra",
+          "Madcap Skills",
+          "Mask of Memory"
+        ],
+        "draws": [
+          "Goblin War Paint",
+          "Hero's Blade",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Acquired Mutation",
+          "Etali's Favor",
+          "Fireshrieker",
+          "Audacity",
+          "Beamtown Beatstick",
+          "Bloodforged Battle-Axe",
+          "Ordeal of Nylea",
+          "Nature's Embrace",
+          "Mountain",
+          "Mountain"
+        ]
+      }
+    }
+  },
+  "one-giant-tantrum": {
+    "name": "One Giant Tantrum",
+    "commander": "Child of Alara",
+    "faction": "WUBRG",
+    "archetype": "Control",
+    "curve_probability": 81.2,
+    "curve_note": "Estimated from a 41-land base, 12 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 9,
+        "4": 4,
+        "5": 4,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 6,
+        "2": 16,
+        "3": 9,
+        "4": 2,
+        "5": 0,
+        "6": 3
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.62,
+        "avg_without_lands": 2.75,
+        "median_with_lands": 1,
+        "median_without_lands": 3,
+        "total_mana_value": 162
+      },
+      "symbols": {
+        "W": {
+          "share": 17,
+          "all_symbols": 17
+        },
+        "U": {
+          "share": 17,
+          "all_symbols": 17
+        },
+        "B": {
+          "share": 23,
+          "all_symbols": 23
+        },
+        "R": {
+          "share": 6,
+          "all_symbols": 6
+        },
+        "G": {
+          "share": 36,
+          "all_symbols": 36
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 15,
+          "land_symbols": 16
+        },
+        "U": {
+          "share": 15,
+          "land_symbols": 15
+        },
+        "B": {
+          "share": 22,
+          "land_symbols": 22
+        },
+        "R": {
+          "share": 16,
+          "land_symbols": 15
+        },
+        "G": {
+          "share": 20,
+          "land_symbols": 20
+        },
+        "C": {
+          "share": 12,
+          "land_symbols": 12
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Broken Bond",
+          "Peel from Reality",
+          "Regrowth",
+          "Return to Nature"
+        ],
+        "draws": [
+          "Fling",
+          "Crawl from the Cellar",
+          "Island"
+        ],
+        "extra_pool": [
+          "Rise/Fall",
+          "Archaeomancer",
+          "Timeless Witness",
+          "Altar's Reap",
+          "Deadly Brew",
+          "Explore",
+          "Sylvan Scrying",
+          "Harrow",
+          "Plains",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Mountain",
+          "Plains",
+          "Swamp",
+          "Primal Growth",
+          "Clutch of the Undercity",
+          "Rise/Fall",
+          "Archaeomancer"
+        ],
+        "draws": [
+          "Urborg Repossession",
+          "Detention Sphere",
+          "Captivating Cave"
+        ],
+        "extra_pool": [
+          "Explore",
+          "Mind Swords",
+          "Nasty End",
+          "Reckoner's Bargain",
+          "Run Away Together",
+          "Morbid Curiosity",
+          "Cursed Mirror",
+          "Springbloom Druid",
+          "Cave of Temptation",
+          "Command Tower"
+        ]
+      }
+    }
+  },
+  "urrr-dergens": {
+    "name": "Urrr Dergens",
+    "commander": "Scion of the Ur-Dragon",
+    "faction": "WUBRG",
+    "archetype": "Aggro",
+    "curve_probability": 69.0,
+    "curve_note": "Estimated from a 35-land base, 18 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 1,
+        "1": 7,
+        "2": 7,
+        "3": 11,
+        "4": 7,
+        "5": 5,
+        "6": 9
+      },
+      "spells": {
+        "0": 0,
+        "1": 9,
+        "2": 6,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.96,
+        "avg_without_lands": 3.02,
+        "median_with_lands": 1,
+        "median_without_lands": 3,
+        "total_mana_value": 196
+      },
+      "symbols": {
+        "W": {
+          "share": 9,
+          "all_symbols": 9
+        },
+        "U": {
+          "share": 29,
+          "all_symbols": 29
+        },
+        "B": {
+          "share": 12,
+          "all_symbols": 12
+        },
+        "R": {
+          "share": 29,
+          "all_symbols": 29
+        },
+        "G": {
+          "share": 22,
+          "all_symbols": 22
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 18,
+          "land_symbols": 18
+        },
+        "U": {
+          "share": 17,
+          "land_symbols": 17
+        },
+        "B": {
+          "share": 18,
+          "land_symbols": 18
+        },
+        "R": {
+          "share": 19,
+          "land_symbols": 18
+        },
+        "G": {
+          "share": 19,
+          "land_symbols": 21
+        },
+        "C": {
+          "share": 8,
+          "land_symbols": 10
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Farhaven Elf",
+          "Barkform Harvester",
+          "Mirror Image",
+          "Nadaar, Selfless Paladin"
+        ],
+        "draws": [
+          "Footfall Crater",
+          "Racecourse Fury",
+          "Forest"
+        ],
+        "extra_pool": [
+          "Memory's Journey",
+          "Regrowth",
+          "You Find a Cursed Idol",
+          "Croaking Counterpart",
+          "Mirage Mockery",
+          "Quasiduplicate",
+          "Avacyn's Pilgrim",
+          "Elves of Deep Shadow",
+          "Mountain",
+          "Mountain"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Island",
+          "Mountain",
+          "Mountain",
+          "Wild Cantor",
+          "Gaea's Blessing",
+          "Memory's Journey",
+          "Regrowth"
+        ],
+        "draws": [
+          "Blessed Respite",
+          "Fates' Reversal",
+          "Swamp"
+        ],
+        "extra_pool": [
+          "Quasiduplicate",
+          "Clone",
+          "Coalition Honor Guard",
+          "Dack's Duplicate",
+          "Evil Twin",
+          "Undercover Operative",
+          "Azorius Signet",
+          "Boros Signet",
+          "Captivating Cave",
+          "Cave of Temptation"
+        ]
+      }
+    }
+  },
+  "legendary": {
+    "name": "Legendary",
+    "commander": "Sisay, Weatherlight Captain",
+    "faction": "WUBRG",
+    "archetype": "Combo",
+    "curve_probability": 71.6,
+    "curve_note": "Estimated from a 36-land base, 24 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 3,
+        "1": 8,
+        "2": 29,
+        "3": 9,
+        "4": 6,
+        "5": 2,
+        "6": 0
+      },
+      "spells": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 3,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.56,
+        "avg_without_lands": 2.44,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 156
+      },
+      "symbols": {
+        "W": {
+          "share": 16,
+          "all_symbols": 16
+        },
+        "U": {
+          "share": 19,
+          "all_symbols": 19
+        },
+        "B": {
+          "share": 15,
+          "all_symbols": 15
+        },
+        "R": {
+          "share": 19,
+          "all_symbols": 19
+        },
+        "G": {
+          "share": 30,
+          "all_symbols": 30
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 19,
+          "land_symbols": 19
+        },
+        "U": {
+          "share": 17,
+          "land_symbols": 16
+        },
+        "B": {
+          "share": 18,
+          "land_symbols": 18
+        },
+        "R": {
+          "share": 19,
+          "land_symbols": 18
+        },
+        "G": {
+          "share": 20,
+          "land_symbols": 19
+        },
+        "C": {
+          "share": 7,
+          "land_symbols": 10
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Mountain",
+          "Goldvein Pick",
+          "Adric, Mathematical Genius",
+          "Magda, Brazen Outlaw",
+          "Vohar, Vodalian Desecrator"
+        ],
+        "draws": [
+          "Derevi, Empyrial Tactician",
+          "Kutzil, Malamet Exemplar",
+          "Plains"
+        ],
+        "extra_pool": [
+          "Reyav, Master Smith",
+          "Lagrella, the Magpie",
+          "Emiel the Blessed",
+          "Beamtown Beatstick",
+          "Instrument of the Bards",
+          "Bag of Tricks",
+          "Sticky Fingers",
+          "Honest Rutstein",
+          "Captivating Cave",
+          "Cave of Temptation"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Swamp",
+          "Captivating Cave",
+          "Meria, Scholar of Antiquity",
+          "Nin, the Pain Artist",
+          "Reyav, Master Smith",
+          "Lagrella, the Magpie"
+        ],
+        "draws": [
+          "Oath of Liliana",
+          "Fblthp, the Lost",
+          "Command Tower"
+        ],
+        "extra_pool": [
+          "Bag of Tricks",
+          "Esior, Wardwing Familiar",
+          "Oath of Chandra",
+          "Rocco, Cabaretti Caterer",
+          "Alaundo the Seer",
+          "Bident of Thassa",
+          "Katilda, Dawnhart Prime",
+          "Radha, Heir to Keld",
+          "Crystal Grotto",
+          "Darkwater Catacombs"
+        ]
+      }
+    }
+  },
+  "poser": {
+    "name": "Poser",
+    "commander": "Reaper King",
+    "faction": "WUBRG",
+    "archetype": "Midrange",
+    "curve_probability": 62.8,
+    "curve_note": "Estimated from a 33-land base, 13 identified ramp/fixing pieces, and multicolor sequencing demands.",
+    "curve": {
+      "permanents": {
+        "0": 0,
+        "1": 4,
+        "2": 25,
+        "3": 18,
+        "4": 2,
+        "5": 2,
+        "6": 1
+      },
+      "spells": {
+        "0": 0,
+        "1": 0,
+        "2": 8,
+        "3": 3,
+        "4": 1,
+        "5": 1,
+        "6": 2
+      }
+    },
+    "mana_profile": {
+      "summary": {
+        "avg_with_lands": 1.87,
+        "avg_without_lands": 2.79,
+        "median_with_lands": 2,
+        "median_without_lands": 2,
+        "total_mana_value": 187
+      },
+      "symbols": {
+        "W": {
+          "share": 20,
+          "all_symbols": 20
+        },
+        "U": {
+          "share": 18,
+          "all_symbols": 18
+        },
+        "B": {
+          "share": 16,
+          "all_symbols": 16
+        },
+        "R": {
+          "share": 19,
+          "all_symbols": 19
+        },
+        "G": {
+          "share": 28,
+          "all_symbols": 28
+        },
+        "C": {
+          "share": 0,
+          "all_symbols": 0
+        }
+      },
+      "production": {
+        "W": {
+          "share": 18,
+          "land_symbols": 18
+        },
+        "U": {
+          "share": 19,
+          "land_symbols": 18
+        },
+        "B": {
+          "share": 19,
+          "land_symbols": 18
+        },
+        "R": {
+          "share": 19,
+          "land_symbols": 18
+        },
+        "G": {
+          "share": 20,
+          "land_symbols": 20
+        },
+        "C": {
+          "share": 4,
+          "land_symbols": 6
+        }
+      },
+      "note": "Percentages may not add to 100% in multicolor decks because one card can contribute to more than one color. Multicolor production is estimated from land and ramp color access."
+    },
+    "playtest": {
+      "hand_a": {
+        "opening": [
+          "Forest",
+          "Forest",
+          "Forest",
+          "Katilda, Dawnhart Prime",
+          "Masked Vandal",
+          "Vedalken Aethermage",
+          "Drift of Phantasms"
+        ],
+        "draws": [
+          "Ayula, Queen Among Bears",
+          "Blightspeaker",
+          "Mountain"
+        ],
+        "extra_pool": [
+          "Fire-Belly Changeling",
+          "Gallia of the Endless Dance",
+          "Guardian Gladewalker",
+          "Impostor of the Sixth Pride",
+          "Magda, Brazen Outlaw",
+          "Mindblade Render",
+          "Harabaz Druid",
+          "Izzet Signet",
+          "Plains",
+          "Swamp"
+        ]
+      },
+      "hand_b": {
+        "opening": [
+          "Plains",
+          "Swamp",
+          "Black Dragon Gate",
+          "Manaweft Sliver",
+          "Disciple of Deceit",
+          "Fire-Belly Changeling",
+          "Gallia of the Endless Dance"
+        ],
+        "draws": [
+          "Cateran Persuader",
+          "Defiant Falcon",
+          "Crystal Grotto"
+        ],
+        "extra_pool": [
+          "Mindblade Render",
+          "Ramosian Lieutenant",
+          "Woodland Changeling",
+          "Barkform Harvester",
+          "Depala, Pilot Exemplar",
+          "Dwarven Recruiter",
+          "Trailtracker Scout",
+          "Cursed Mirror",
+          "Exotic Orchard",
+          "Guildmages' Forum"
         ]
       }
     }
