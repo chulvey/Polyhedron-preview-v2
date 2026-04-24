@@ -5,24 +5,142 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Polyhedron Preconstructed</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .logo{
+      position:fixed;
+      top:8px;
+      left:8px;
+      width:64px;
+      z-index:30;
+    }
+
+    .page{
+      max-width:980px;
+      margin:0 auto;
+      padding:0 20px 0;
+    }
+
+    .hero{
+      position:relative;
+      margin-top:0;
+      margin-bottom:0;
+    }
+
+    .heroFrame{
+      border:1px solid rgba(255,255,255,.20);
+      border-radius:20px;
+      overflow:hidden;
+      background:#050505;
+      box-shadow:0 0 30px rgba(199,255,94,.08);
+    }
+
+    .heroImage{
+      display:block;
+      width:100%;
+      height:220px;
+      object-fit:cover;
+      object-position:center;
+    }
+
+    .menuButton{
+      position:fixed;
+      top:10px;
+      right:10px;
+      z-index:40;
+      width:52px;
+      height:52px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(5,5,5,.86);
+      color:#c7ff5e;
+      font-size:28px;
+      line-height:1;
+      cursor:pointer;
+    }
+
+    .menuPanel{
+      position:fixed;
+      top:0;
+      right:-360px;
+      width:min(340px,86vw);
+      height:100vh;
+      z-index:50;
+      background:#050505;
+      border-left:1px solid rgba(199,255,94,0.18);
+      box-shadow:-12px 0 36px rgba(0,0,0,.45);
+      transition:right .2s ease;
+      padding:22px 18px 90px;
+      overflow:auto;
+    }
+
+    .menuPanel.open{
+      right:0;
+    }
+
+    .menuPanel h2{
+      color:#c7ff5e;
+      margin:8px 0 18px;
+      font-size:24px;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+
+    .menuPanel a{
+      display:block;
+      color:#ffffff;
+      text-decoration:none;
+      padding:10px 0;
+      border-bottom:1px solid rgba(255,255,255,.06);
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+
+    .menuPanel a.active{
+      color:#c7ff5e;
+      font-weight:700;
+    }
+
+    .menuShade{
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.45);
+      z-index:45;
+      display:none;
+    }
+
+    .menuShade.open{
+      display:block;
+    }
+
+    .closeRow{
+      display:flex;
+      justify-content:flex-end;
+    }
+
+    .closeButton{
+      border:none;
+      background:transparent;
+      color:#c7ff5e;
+      font-size:30px;
+      line-height:1;
+      padding:0 0 8px;
+      cursor:pointer;
+    }
+
+    @media (max-width:700px){
+      .page{padding:0 16px 0;}
+      .heroImage{height:180px;}
+    }
+  </style>
 </head>
 <body>
-  <header class="top-header">
-    <div class="logo-slot">
-      <img class="site-logo" src="PolyhedronLogo_Main.png" alt="Polyhedron" />
-    </div>
-    <nav class="nav-shell" aria-label="Section navigation">
-      <a href="#" class="nav-link">Decks</a>
-      <a href="https://chulvey.github.io/Commander-battle-sim/" class="nav-link" target="_blank" rel="noopener noreferrer">Live Game</a>
-      <a href="framework/index.html" class="nav-link">Framework</a>
-    </nav>
-  </header>
+  <img class="logo" src="PolyhedronLogo_Main.png" alt="Polyhedron logo">
 
-  <section class="banner" aria-label="Promotions">
-    <div class="banner-placeholder">
-      <img class="hero-banner" src="PolyhedronPrecon_HeroBanner.jpg" alt="Hero Banner" />
+  <div class="page">
+    <div class="hero">
+      <div class="heroFrame">
+        <img class="heroImage" src="PolyhedronPrecon_HeroBanner.jpg" alt="Polyhedron precon decks banner">
+      </div>
     </div>
-  </section>
+  </div>
 
   <section class="rarity-columns" aria-label="Deck select">
     <div class="rarity-column">
@@ -49,6 +167,16 @@
     </div>
   </footer>
 
+  <button class="menuButton" aria-label="Open site menu" onclick="toggleFrameworkMenu(true)">☰</button>
+  <div id="frameworkShade" class="menuShade" onclick="toggleFrameworkMenu(false)"></div>
+  <aside id="frameworkMenu" class="menuPanel" aria-label="Site navigation">
+    <div class="closeRow"><button class="closeButton" aria-label="Close site menu" onclick="toggleFrameworkMenu(false)">×</button></div>
+    <h2>Polyhedron</h2>
+    <a href="index.html" class="active">Deck Select</a>
+    <a href="framework/index.html">Learning Framework</a>
+    <a href="https://chulvey.github.io/Commander-battle-sim/" target="_blank" rel="noopener noreferrer">Live Game</a>
+  </aside>
+
   <script>
     window.POLYHEDRON = {
       ART_ENABLED: true,
@@ -56,6 +184,7 @@
       HOLD_MS: 220
     };
   </script>
+  <script src="framework/menu.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
